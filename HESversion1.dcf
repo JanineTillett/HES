@@ -1,0 +1,301 @@
+﻿[Dictionary]
+Version=CSPro 6.3
+Label=HESversion1
+Name=HESVERSION1_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=HESversion1 questionnaire
+Name=HESVERSION1_QUEST
+
+[IdItems]
+
+[Item]
+Label=HESversion1 identification
+Name=HESVERSION1_ID
+Start=2
+Len=4
+
+[Record]
+Label=Individual Background
+Name=INDIVIDUAL_BACKGROUND
+RecordTypeValue='2'
+RecordLen=16
+
+[Item]
+Label=IB1Month
+Name=IB1MONTH
+Start=6
+Len=2
+
+[Item]
+Label=IB1Year
+Name=IB1YEAR
+Start=8
+Len=4
+
+[Item]
+Label=IB2
+Name=IB2
+Start=12
+Len=2
+
+[Item]
+Label=IB3
+Name=IB3
+Start=14
+Len=1
+
+[ValueSet]
+Label=IB3
+Name=IB3_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=IB4
+Name=IB4
+Start=15
+Len=2
+
+[ValueSet]
+Label=IB4
+Name=IB4_VS1
+Value=1;Infant I
+Value=2;Infant II
+Value=3;Standard I
+Value=4;Standard II
+Value=5;Standard III
+Value=6;Standard IV
+Value=7;Standard V
+Value=8;Standard VI
+Value=9;1st Form
+Value=10;2nd Form
+Value=11;3rd Form
+Value=12;4th Form
+Value=13;Associates/ 6th Form / Junior College
+Value=14;Bachelor's
+Value=15;Master's or higher
+
+[Record]
+Label=Clothing and Accessories
+Name=CLOTHING_ACCESSORIES
+RecordTypeValue='3'
+RecordLen=167
+
+[Item]
+Label=CA1
+Name=CA1
+Start=6
+Len=1
+
+[ValueSet]
+Label=CA1
+Name=CA1_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=CA2
+Name=CA2
+Start=7
+Len=1
+
+[ValueSet]
+Label=CA2
+Name=CA2_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=CA2Tbl
+Name=CA2TBL
+Start=8
+Len=10
+DataType=Alpha
+Occurrences=16
+
+[Item]
+Label=CA2A
+Name=CA2A
+Start=8
+Len=1
+ItemType=SubItem
+
+[ValueSet]
+Label=CA2A
+Name=CA2A_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=CA2B
+Name=CA2B
+Start=9
+Len=2
+ItemType=SubItem
+
+[Item]
+Label=CA2C
+Name=CA2C
+Start=11
+Len=1
+ItemType=SubItem
+
+[ValueSet]
+Label=CA2C
+Name=CA2C_VS1
+Value=1;Units
+Value=2;Pairs
+Value=3;Packs
+Value=4;Sets
+Value=5;Other
+
+[Item]
+Label=CA2D
+Name=CA2D
+Start=12
+Len=4
+ItemType=SubItem
+
+[Item]
+Label=CA2E
+Name=CA2E
+Start=16
+Len=1
+ItemType=SubItem
+
+[ValueSet]
+Label=CA2E
+Name=CA2E_VS1
+Value=1;New
+Value=2;Used
+Value=3;Both
+
+[Item]
+Label=CA2F
+Name=CA2F
+Start=17
+Len=1
+ItemType=SubItem
+
+[ValueSet]
+Label=CA2F
+Name=CA2F_VS1
+Value=1;Boutique
+Value=2;Department store
+Value=3;Supermarket
+Value=4;Market/stall
+Value=5;Mobile Vendor/Cart
+Value=6;Abroad
+Value=7;Other
+Value=9;DK/NS
+
+[Record]
+Label=Cover Page
+Name=COVER_PAGE
+RecordTypeValue='1'
+RecordLen=305
+
+[Item]
+Label=Interview
+Name=INTERVIEW
+Start=6
+Len=25
+DataType=Alpha
+Occurrences=4
+
+[Item]
+Label=Day
+Name=DAY
+Start=12
+Len=2
+ItemType=SubItem
+
+[Item]
+Label=Month
+Name=MONTH
+Start=14
+Len=2
+ItemType=SubItem
+
+[Item]
+Label=Year
+Name=YEAR
+Start=16
+Len=2
+ItemType=SubItem
+
+[Item]
+Label=Time Started
+Name=TIME_STARTED
+Start=18
+Len=5
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Time of Day
+Name=TIME_OF_DAY
+Start=23
+Len=1
+ItemType=SubItem
+
+[ValueSet]
+Label=Time of Day
+Name=TIME_OF_DAY_VS1
+Value=1;AM
+Value=2;PM
+
+[Item]
+Label=Time Ended
+Name=TIME2
+Start=24
+Len=4
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Time of Day
+Name=TIME_OF_DAY2
+Start=28
+Len=1
+ItemType=SubItem
+
+[ValueSet]
+Label=Time of Day
+Name=TIME_OF_DAY2_VS1
+Value=1;AM
+Value=2;PM
+
+[Item]
+Label=Result
+Name=RESULT
+Start=29
+Len=1
+ItemType=SubItem
+
+[Item]
+Label=Final Result Code
+Name=FINAL_RESULT_CODE
+Start=30
+Len=1
+ItemType=SubItem
+
+[Item]
+Label=Interviewer's Comments
+Name=INTERVIEWER_S_COMMENTS
+Start=106
+Len=100
+DataType=Alpha
+
+[Item]
+Label=Other Comments
+Name=OTHER_COMMENTS
+Start=206
+Len=100
+DataType=Alpha

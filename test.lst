@@ -1,0 +1,91 @@
+﻿Application     X:\HES\HESversion1.ent
+Type            ENTRY
+Input Data      X:\HES\test
+
+Date            Feb  1, 2017
+Start Time      10:44:31
+End Time        10:47:32
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     X:\HES\HESversion1.ent
+Type            ENTRY
+Input Data      X:\HES\test
+
+Date            Feb  1, 2017
+Start Time      10:53:20
+End Time        10:54:55
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     12       2    -   Not a valid month. Please reenter                       -
+     22       1    -   Not a valid year. Please reenter                        -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     X:\HES\HESversion1.ent
+Type            ENTRY
+Input Data      X:\HES\test
+
+Date            Feb  1, 2017
+Start Time      10:56:39
+End Time        10:57:03
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     12       1    -   Not a valid month. Please reenter                       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     X:\HESversion1.ent
+Type            ENTRY
+Input Data      X:\test
+
+Date            Feb  1, 2017
+Start Time      12:40:06
+End Time        12:40:49
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     X:\HESversion1.ent
+Type            ENTRY
+Input Data      X:\test
+
+Date            Feb  1, 2017
+Start Time      12:42:11
+End Time        12:42:47
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            1   Operator entered a value out of range            
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     X:\HESversion1.ent
+Type            ENTRY
+Input Data      X:\test
+
+Date            Feb  1, 2017
+Start Time      12:48:48
+End Time        12:49:26
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
