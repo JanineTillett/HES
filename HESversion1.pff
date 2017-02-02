@@ -1,0 +1,14 @@
+﻿[Run Information]
+Version=CSPro 6.3
+AppType=Entry
+
+[DataEntryInit]
+Interactive=Ask
+
+[Files]
+Application=.\HESversion1.ent
+InputData=.\test
+
+
+[Parameters]
+
