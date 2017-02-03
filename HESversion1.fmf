@@ -37,18 +37,6 @@ Form=1
 [EndForm]
   
 [Form]
-Name=FORM003
-Label=Cover Page
-Level=1
-Size=4276,648
-  
-Item=INTERVIEW000
-Item=INTERVIEWER_S_COMMENTS
-Item=OTHER_COMMENTS
-  
-[EndForm]
-  
-[Form]
 Name=FORM001
 Label=Individual Background
 Level=1
@@ -66,7 +54,7 @@ Box=232,276,878,616,Thick
 Name=TEXT1
 Position=395,219,656,248
 Text=Individual Background
-Form=3
+Form=2
 Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
 Color=10485760
  
@@ -74,7 +62,7 @@ Color=10485760
   
 [Form]
 Name=FORM002
-Label=Clothing And Accessories
+Label=Clothing And Accessories-male household member 14 years and older
 Level=1
 Size=1420,1003
   
@@ -92,6 +80,14 @@ Size=1469,822
   
 Item=CA3
 Item=CA3TBL000
+
+Label=Clothing And Accessories-Female household member 14 years and older
+Level=1
+Size=1389,820
+  
+Item=CA4
+Item=CA4TBL000
+
   
 [EndForm]
   
@@ -208,253 +204,9 @@ Text=CTV
   
 [Group]
 Required=Yes
-Name=COVERPAGE
-Label=Cover Page
-Form=2
-LogicControl=No
-Max=1
-  
-[Grid]
-Name=INTERVIEW000
-Label=Interview
-Form=2
-Required=Yes
-Type=Item
-TypeName=INTERVIEW
-Max=4
-DisplaySize=55,263,1297,456
-Orientation=Horizontal
-FieldRowHeight=0
-HeadingRowHeight=0
-FreeMovement=No
- 
-[Text]
-Position=0,4,15,28
-Text=1
- 
-  
-[Text]
-Position=0,4,15,28
-Text=2
- 
-  
-[Text]
-Position=0,4,15,28
-Text=3
- 
-  
-[Text]
-Position=0,4,15,28
-Text=4
- 
-  
-[Column]
-Width=10
-[EndColumn]
-  
-[Column]
-Width=81
-  
-[HeaderText]
-Position=49,0,81,24
-Text=Day
- 
-[Field]
-Name=DAY
-Position=0,0,29,20
-Item=DAY,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
-  
-[Text]
-Text=Day
- 
-[EndColumn]
-  
-[Column]
-Width=85
-  
-[HeaderText]
-Position=38,0,85,24
-Text=Month
- 
-[Field]
-Name=MONTH
-Position=10,0,39,20
-Item=MONTH,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
-  
-[Text]
-Text=Month
- 
-[EndColumn]
-  
-[Column]
-Width=108
-  
-[HeaderText]
-Position=72,0,108,24
-Text=Year
- 
-[Field]
-Name=YEAR
-Position=0,0,29,20
-Item=YEAR,HESVERSION1_DICT
-Protected=Yes
-FieldLabelType=DictionaryLabel
-  
-[Text]
-Position=0,0,31,16
-Text=Year
- 
-[EndColumn]
-  
-[Column]
-Width=90
-  
-[HeaderText]
-Position=0,0,90,24
-Text=Time Started
- 
-[Field]
-Name=TIME_STARTED
-Position=11,0,82,20
-Item=TIME_STARTED,HESVERSION1_DICT
-UseUnicodeTextBox=Yes
-FieldLabelType=DictionaryLabel
-  
-[Text]
-Text=Time Started
- 
-[EndColumn]
-  
-[Column]
-Width=151
-  
-[HeaderText]
-Position=67,0,151,24
-Text=Time of Day
- 
-[Field]
-Name=TIME_OF_DAY
-Position=61,0,76,20
-Item=TIME_OF_DAY,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
-DataCaptureType=RadioButton
-  
-[Text]
-Text=Time of Day
- 
-[EndColumn]
-  
-[Column]
-Width=174
-  
-[HeaderText]
-Position=90,0,174,24
-Text=Time Ended
- 
-[Field]
-Name=TIME2
-Position=0,0,57,20
-Item=TIME2,HESVERSION1_DICT
-UseUnicodeTextBox=Yes
-FieldLabelType=DictionaryLabel
-  
-[Text]
-Text=Time Ended
- 
-[EndColumn]
-  
-[Column]
-Width=180
-  
-[HeaderText]
-Position=96,0,180,24
-Text=Time of Day
- 
-[Field]
-Name=TIME_OF_DAY2
-Position=61,0,76,20
-Item=TIME_OF_DAY2,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
-DataCaptureType=RadioButton
-  
-[Text]
-Text=Time of Day
- 
-[EndColumn]
-  
-[Column]
-Width=81
-  
-[HeaderText]
-Position=34,0,81,24
-Text=Result
- 
-[Field]
-Name=RESULT
-Position=24,0,39,20
-Item=RESULT,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
-  
-[Text]
-Text=Result
- 
-[EndColumn]
-  
-[Column]
-Width=213
-  
-[HeaderText]
-Position=93,0,213,24
-Text=Final Result Code
- 
-[Field]
-Name=FINAL_RESULT_CODE
-Position=64,0,79,20
-Item=FINAL_RESULT_CODE,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
-  
-[Text]
-Text=Final Result Code
- 
-[EndColumn]
-  
-[EndGrid]
- 
-  
-[Field]
-Name=INTERVIEWER_S_COMMENTS
-Position=241,536,4251,556
-Item=INTERVIEWER_S_COMMENTS,HESVERSION1_DICT
-UseUnicodeTextBox=Yes
-FieldLabelType=DictionaryLabel
-Form=2
-  
-[Text]
-Position=58,534,210,550
-Text=Interviewer's Comments
- 
-  
-[Field]
-Name=OTHER_COMMENTS
-Position=237,603,4247,623
-Item=OTHER_COMMENTS,HESVERSION1_DICT
-UseUnicodeTextBox=Yes
-FieldLabelType=DictionaryLabel
-Form=2
-  
-[Text]
-Position=64,606,170,622
-Text=Other Comments
- 
-[EndGroup]
-  
-[Group]
-Required=Yes
 Name=INDIVIDUAL_BACKGROUND_FORM
 Label=Individual Background
-Form=3
+Form=2
 LogicControl=No
 Max=1
   
@@ -462,7 +214,7 @@ Max=1
 Name=IB1MONTH
 Position=748,342,777,362
 Item=IB1MONTH,HESVERSION1_DICT
-Form=3
+Form=2
   
 [Text]
 Position=263,339,486,355
@@ -473,7 +225,7 @@ Text=IB1. In what month were you born?
 Name=IB1YEAR
 Position=748,372,805,392
 Item=IB1YEAR,HESVERSION1_DICT
-Form=3
+Form=2
   
 [Text]
 Position=265,373,476,389
@@ -484,7 +236,7 @@ Text=IB1. In what year were you born?
 Name=IB2
 Position=748,402,777,422
 Item=IB2,HESVERSION1_DICT
-Form=3
+Form=2
   
 [Text]
 Position=265,408,546,424
@@ -496,7 +248,7 @@ Name=IB3
 Position=748,432,763,452
 Item=IB3,HESVERSION1_DICT
 DataCaptureType=RadioButton
-Form=3
+Form=2
   
 [Text]
 Position=269,439,501,455
@@ -508,7 +260,7 @@ Name=IB4
 Position=748,462,777,482
 Item=IB4,HESVERSION1_DICT
 DataCaptureType=RadioButton
-Form=3
+Form=2
   
 [Text]
 Position=269,469,659,485
@@ -518,9 +270,9 @@ Text=IB4. What is the last class, form or level you have completed?
   
 [Group]
 Required=Yes
-Name=CLOTHING_ACCESSORIES_FORM
-Label=Clothing And Accessories
-Form=4
+Name=CLOTHING_O14MALEFORM
+Label=Clothing And Accessories-male household member 14 years and older
+Form=3
 LogicControl=No
 Max=1
   
@@ -528,7 +280,7 @@ Max=1
 Name=CA1
 Position=1169,138,1184,158
 Item=CA1,HESVERSION1_DICT
-Form=4
+Form=3
   
 [Text]
 Position=34,139,1156,155
@@ -539,7 +291,7 @@ Text=CA1.     During the past 12 months, did you buy any new or used ready-made 
 Name=CA2
 Position=1330,175,1345,195
 Item=CA2,HESVERSION1_DICT
-Form=4
+Form=3
   
 [Text]
 Position=35,176,1318,192
@@ -549,104 +301,104 @@ Text=CA2.     During the past 12 months, did you buy any new or used ready-made 
 [Grid]
 Name=CA2TBL000
 Label=CA2Tbl
-Form=4
+Form=3
 Required=Yes
 Type=Item
 TypeName=CA2TBL
 Max=26
 DisplaySize=39,231,1395,978
 Orientation=Horizontal
-FieldRowHeight=39
+FieldRowHeight=51
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.1	  Complete suits
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.2  	  Dress pants
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.3	  Jeans
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.4	  Other casual pants
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.5	  Shorts
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.6	  Sweaters/jackets
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.7	  Dress shirts
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.8	  Guayaberas
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.9	  Polo shirts
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.10	  T-shirts
  
   
 [Text]
-Position=0,0,201,40
+Position=0,0,201,51
 Text=CA2.11	  Sportswear such as tights or
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.12	  School uniforms
  
   
 [Text]
-Position=0,0,201,40
+Position=0,0,201,51
 Text=CA2.13	  Other uniforms such as work
  
   
 [Text]
-Position=0,0,201,40
+Position=0,0,201,51
 Text=CA2.14	  Other men's outerwear
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.15      Briefs
  
   
 [Text]
-Position=0,0,201,40
+Position=0,0,201,51
 Text=CA2.16	  Boxer shorts or boxer briefs
  
   
 [Text]
-Position=122,0,201,40
+Position=122,0,201,51
 Text=CA2.17	  Undershirts
  
   
 [Text]
-Position=105,0,201,39
+Position=105,0,201,51
 Text=CA2.18	  Socks
  
   
@@ -656,38 +408,38 @@ Text=CA2.19	  Other men's underwear
  
   
 [Text]
-Position=116,15,201,39
+Position=116,0,201,51
 Text=CA2.20	  Ties
  
   
 [Text]
-Position=111,15,201,39
+Position=111,0,201,51
 Text=CA2.21	  Belts
  
   
 [Text]
-Position=139,0,201,40
+Position=139,0,201,51
 Text=CA2.22	  Pyjamas
  
   
 [Text]
-Position=179,0,201,39
-Text=23
+Position=129,11,201,51
+Text=CA2.23	  Bathrobes
  
   
 [Text]
-Position=179,0,201,39
-Text=24
+Position=131,11,201,51
+Text=CA2.24	  Raincoats
  
   
 [Text]
-Position=179,0,201,39
-Text=25
+Position=111,11,201,51
+Text=CA2.25	  Hats or caps
  
   
 [Text]
-Position=179,0,201,39
-Text=26
+Position=71,0,201,56
+Text=CA2.26	  Other men’s clothing (specify)__________
  
   
 [Column]
@@ -807,9 +559,10 @@ Text=At what type of business did you buy the …?
   
 [Group]
 Required=Yes
-Name=CLOTHING_ACCESSORIES_3
-Label=Clothing and Accessories 3
-Form=5
+Name=CLOTHING_O14FEMALEFORM
+Label=Clothing And Accessories-Female household member 14 years and older
+Form=4
+
 LogicControl=No
 Max=1
   
@@ -964,7 +717,188 @@ HorizontalAlignment=Left
 Position=0,0,297,40
 Text=CA3.21	  Other boys’ clothing (specify)__________
 HorizontalAlignment=Left
+=======
+Name=CA4
+Position=551,184,566,204
+Item=CA4,HESVERSION1_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
+Form=4
+  
+[Text]
+Position=504,187,529,203
+Text=CA4
  
+  
+[Grid]
+Name=CA4TBL000
+Label=CA4Tbl
+Form=4
+Required=Yes
+Type=Item
+TypeName=CA4TBL
+Max=31
+DisplaySize=69,238,1364,795
+Orientation=Horizontal
+FieldRowHeight=45
+HeadingRowHeight=0
+FreeMovement=No
+ 
+[Text]
+Position=46,0,194,45
+Text=CA4.1	  Suits or jackets
+ 
+  
+[Text]
+Position=43,0,194,45
+Text=CA4.2	  Party or formal dresses
+ 
+  
+[Text]
+Position=44,0,194,45
+Text=CA4.3	  Casual dresses
+ 
+  
+[Text]
+Position=83,0,194,45
+Text=CA4.4        Skirts
+ 
+  
+[Text]
+Position=6,0,194,56
+Text=CA4.5	  Casual pants such as jeans pant or cargo
+Text=pants)
+ 
+  
+[Text]
+Position=70,0,194,45
+Text=CA4.6	  Dress pants
+ 
+  
+[Text]
+Position=93,0,194,45
+Text=CA4.7	  Blouses
+ 
+  
+[Text]
+Position=68,0,194,45
+Text=CA4.8	  Polo shirts
+ 
+  
+[Text]
+Position=98,0,194,45
+Text=CA4.9	  T-shirts
+ 
+  
+[Text]
+Position=4,0,194,45
+Text=CA4.10	  Sportswear such as tights or sweatpants
+ 
+  
+[Text]
+Position=12,0,194,45
+Text=CA4.11	  Sweaters or jackets
+ 
+  
+[Text]
+Position=0,0,194,45
+Text=CA4.12	  Bathing suits or other swimwear
+ 
+  
+[Text]
+Position=95,0,194,45
+Text=CA4.13	  Shorts
+ 
+  
+[Text]
+Position=27,0,194,45
+Text=CA4.14	   School Uniforms
+ 
+  
+[Text]
+Position=41,0,194,45
+Text=CA4.15	  Other uniforms
+ 
+  
+[Text]
+Position=35,0,194,45
+Text=CA4.16	  Other women’s outerwear
+ 
+  
+[Text]
+Position=88,0,194,45
+Text=CA4.17	  Panties
+ 
+  
+[Text]
+Position=70,0,194,45
+Text=CA4.18	  Brassieres
+ 
+  
+[Text]
+Position=70,0,194,45
+Text=CA4.19     Lingerie
+ 
+  
+[Text]
+Position=100,0,194,45
+Text=CA4.20	  Slips
+ 
+  
+[Text]
+Position=90,0,194,45
+Text=CA4.21	  Girdles
+ 
+  
+[Text]
+Position=12,0,194,45
+Text=CA4.22	  Vests or undershirts
+ 
+  
+[Text]
+Position=37,0,194,45
+Text=CA4.23	  Nylon stockings
+ 
+  
+[Text]
+Position=39,0,194,45
+Text=CA4.24      Short Tights
+ 
+  
+[Text]
+Position=98,0,194,45
+Text=CA4.25	  Socks
+ 
+  
+[Text]
+Position=35,0,194,45
+Text=CA4.26	  Other women’s underwear
+ 
+  
+[Text]
+Position=11,0,194,56
+Text=CA4.27	  Sleepwear such as nightgowns, pyjamas or
+Text=dusters
+ 
+  
+[Text]
+Position=58,21,194,45
+Text=CA4.28	  Hats or caps
+ 
+  
+[Text]
+Position=71,21,194,45
+Text=CA4.29	  Bathrobes
+ 
+  
+[Text]
+Position=73,21,194,45
+Text=CA4.30	  Raincoats
+ 
+  
+[Text]
+Position=23,5,194,45
+Text=CA4.31	  Other women's clothing (specify)________
   
 [Column]
 Width=10
@@ -985,6 +919,21 @@ DataCaptureType=RadioButton
   
 [Text]
 Text=During the past 12 months, did you buy any … for any     male household member 3 to13 years?
+
+Width=227
+  
+[HeaderText]
+Position=0,0,227,72
+Text=During the past 12 months, did you buy any … for any female household member 14 years or older (including yourself)?
+ 
+[Field]
+Name=CA4A
+Position=19,0,34,20
+Item=CA4A,HESVERSION1_DICT
+DataCaptureType=RadioButton
+  
+[Text]
+Text=During the past 12 months, did you buy any … for any female household member 14 years or older (including yourself)?
  
 [EndColumn]
   
@@ -999,6 +948,17 @@ Text=How many… did you buy? Quantity
 Name=CA3B
 Position=5,0,34,20
 Item=CA3B,HESVERSION1_DICT
+
+Width=163
+  
+[HeaderText]
+Position=20,32,163,72
+Text=How many… did you buy? Quantity
+ 
+[Field]
+Name=CA4B
+Position=5,0,34,20
+Item=CA4B,HESVERSION1_DICT
   
 [Text]
 Text=How many… did you buy? Quantity
@@ -1021,6 +981,22 @@ DataCaptureType=RadioButton
   
 [Text]
 Text=How many… did you buy? Unit
+
+Width=154
+  
+[HeaderText]
+Position=11,32,154,72
+Text=How many… did you buy?  Unit
+ 
+[Field]
+Name=CA4C
+Position=19,0,34,20
+Item=CA4C,HESVERSION1_DICT
+DataCaptureType=RadioButton
+  
+[Text]
+Text=How many… did you buy?  Unit
+
  
 [EndColumn]
   
@@ -1040,7 +1016,20 @@ Item=CA3D,HESVERSION1_DICT
 [Text]
 Text=How much did you spend on the …?
 Text=BZ($)
+Width=185
+  
+[HeaderText]
+Position=13,32,185,72
+Text=How much did you spend on the …?
  
+[Field]
+Name=CA4D
+Position=0,0,57,20
+Item=CA4D,HESVERSION1_DICT
+  
+[Text]
+Text=How much did you spend on the …?
+
 [EndColumn]
   
 [Column]
@@ -1054,6 +1043,18 @@ Text=Was it new or used?
 Name=CA3E
 Position=18,0,33,20
 Item=CA3E,HESVERSION1_DICT
+
+Width=184
+  
+[HeaderText]
+Position=47,48,184,72
+Text=Was it new or used?
+ 
+[Field]
+Name=CA4E
+Position=18,0,33,20
+Item=CA4E,HESVERSION1_DICT
+
 DataCaptureType=RadioButton
   
 [Text]
@@ -1072,6 +1073,16 @@ Text=At what type of business did you buy the …?
 Name=CA3F
 Position=18,0,33,20
 Item=CA3F,HESVERSION1_DICT
+Width=180
+  
+[HeaderText]
+Position=15,32,180,72
+Text=At what type of business did you buy the …?
+ 
+[Field]
+Name=CA4F
+Position=18,0,33,20
+Item=CA4F,HESVERSION1_DICT
 DataCaptureType=RadioButton
   
 [Text]
