@@ -140,7 +140,7 @@ Value=14;Bachelor's
 Value=15;Master's or higher
 
 [Record]
-Label=Clothing and Accessories
+Label=Clothing and Accessories-male household member 14 years and older
 Name=CLOTHING_ACCESSORIES
 RecordTypeValue='3'
 RecordLen=284
@@ -254,106 +254,103 @@ Value=7;Other
 Value=9;DK/NS
 
 [Record]
-Label=Cover Page
-Name=COVER_PAGE
-RecordTypeValue='1'
-RecordLen=322
+Label=Clothing and Accessories-Female household member 14 years and older
+Name=CLOTHING_ACCESSORIES_FEM
+RecordTypeValue='4'
+RecordLen=333
 
 [Item]
-Label=Interview
-Name=INTERVIEW
+Label=CA4
+Name=CA4
 Start=23
-Len=25
+Len=1
+
+[ValueSet]
+Label=CA4
+Name=CA4_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=CA4Tbl
+Name=CA4TBL
+Start=24
+Len=10
 DataType=Alpha
-Occurrences=4
+Occurrences=31
 
 [Item]
-Label=Day
-Name=DAY
-Start=29
-Len=2
-ItemType=SubItem
-
-[Item]
-Label=Month
-Name=MONTH
-Start=31
-Len=2
-ItemType=SubItem
-
-[Item]
-Label=Year
-Name=YEAR
-Start=33
-Len=2
-ItemType=SubItem
-
-[Item]
-Label=Time Started
-Name=TIME_STARTED
-Start=35
-Len=5
-ItemType=SubItem
-DataType=Alpha
-
-[Item]
-Label=Time of Day
-Name=TIME_OF_DAY
-Start=40
+Label=CA4A
+Name=CA4A
+Start=24
 Len=1
 ItemType=SubItem
 
 [ValueSet]
-Label=Time of Day
-Name=TIME_OF_DAY_VS1
-Value=1;AM
-Value=2;PM
+Label=CA4A
+Name=CA4A_VS1
+Value=1;Yes
+Value=2;No
 
 [Item]
-Label=Time Ended
-Name=TIME2
-Start=41
+Label=CA4B
+Name=CA4B
+Start=25
+Len=2
+ItemType=SubItem
+
+[Item]
+Label=CA4C
+Name=CA4C
+Start=27
+Len=1
+ItemType=SubItem
+
+[ValueSet]
+Label=CA4C
+Name=CA4C_VS1
+Value=1;Units
+Value=2;Pairs
+Value=3;Packs
+Value=4;Sets
+Value=5;Other
+
+[Item]
+Label=CA4D
+Name=CA4D
+Start=28
 Len=4
 ItemType=SubItem
-DataType=Alpha
 
 [Item]
-Label=Time of Day
-Name=TIME_OF_DAY2
-Start=45
+Label=CA4E
+Name=CA4E
+Start=32
 Len=1
 ItemType=SubItem
 
 [ValueSet]
-Label=Time of Day
-Name=TIME_OF_DAY2_VS1
-Value=1;AM
-Value=2;PM
+Label=CA4E
+Name=CA4E_VS1
+Value=1;New
+Value=2;Used
+Value=3;Both
 
 [Item]
-Label=Result
-Name=RESULT
-Start=46
+Label=CA4F
+Name=CA4F
+Start=33
 Len=1
 ItemType=SubItem
 
-[Item]
-Label=Final Result Code
-Name=FINAL_RESULT_CODE
-Start=47
-Len=1
-ItemType=SubItem
-
-[Item]
-Label=Interviewer's Comments
-Name=INTERVIEWER_S_COMMENTS
-Start=123
-Len=100
-DataType=Alpha
-
-[Item]
-Label=Other Comments
-Name=OTHER_COMMENTS
-Start=223
-Len=100
-DataType=Alpha
+[ValueSet]
+Label=CA4F
+Name=CA4F_VS1
+Value=1;Boutique
+Value=2;Department store
+Value=3;Supermarket
+Value=4;Market/stall
+Value=5;Mobile Vendor/Cart
+Value=6;Abroad
+Value=7;Other
+Value=9;DK/NS
