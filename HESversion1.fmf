@@ -13,10 +13,27 @@ File=.\HESversion1.dcf
 Name=FORM000
 Label=HESversion1 questionnaire
 Level=1
-Size=579,145
+Size=649,552
   
 Item=HESVERSION1_ID
+Item=PERSON_NUMBER
+Item=DISTRICT
+Item=URBAN_RURAL
+Item=CLUSTER
+Item=HOUSEHOLD
+Item=ED_NUMBER
+Item=CTV
   
+Box=165,98,624,527,Raised
+Box=206,118,558,237,Thin
+Box=217,252,557,459,Thin
+  
+[Text]
+Name=TEXT2
+Position=273,57,299,73
+Text=HES
+Form=1
+ 
 [EndForm]
   
 [Form]
@@ -67,6 +84,15 @@ Item=CA2TBL000
   
 [EndForm]
   
+[Form]
+Name=FORM004
+Label=New Form
+Level=1
+Size=25,25
+  
+  
+[EndForm]
+  
 [Level]
 Name=HESVERSION1_QUEST
 Label=HESversion1 questionnaire
@@ -81,14 +107,100 @@ Max=1
   
 [Field]
 Name=HESVERSION1_ID
-Position=512,98,569,118
+Position=371,132,428,152
 Item=HESVERSION1_ID,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
 Form=1
   
 [Text]
-Position=315,101,481,117
-Text=HESversion1 identification
+Position=271,130,324,146
+Text=Barcode
+ 
+  
+[Field]
+Name=PERSON_NUMBER
+Position=397,169,426,189
+Item=PERSON_NUMBER,HESVERSION1_DICT
+FieldLabelType=DictionaryLabel
+Form=1
+  
+[Text]
+Position=261,169,359,185
+Text=Person Number
+ 
+  
+[Field]
+Name=DISTRICT
+Position=386,256,401,276
+Item=DISTRICT,HESVERSION1_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
+Form=1
+  
+[Text]
+Position=265,259,308,275
+Text=District
+ 
+  
+[Field]
+Name=URBAN_RURAL
+Position=386,286,401,306
+Item=URBAN_RURAL,HESVERSION1_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
+Form=1
+  
+[Text]
+Position=266,289,346,305
+Text=Urban /Rural
+ 
+  
+[Field]
+Name=CLUSTER
+Position=386,316,429,336
+Item=CLUSTER,HESVERSION1_DICT
+FieldLabelType=DictionaryLabel
+Form=1
+  
+[Text]
+Position=266,319,310,335
+Text=Cluster
+ 
+  
+[Field]
+Name=HOUSEHOLD
+Position=386,346,429,366
+Item=HOUSEHOLD,HESVERSION1_DICT
+FieldLabelType=DictionaryLabel
+Form=1
+  
+[Text]
+Position=266,349,333,365
+Text=Household
+ 
+  
+[Field]
+Name=ED_NUMBER
+Position=386,376,457,396
+Item=ED_NUMBER,HESVERSION1_DICT
+FieldLabelType=DictionaryLabel
+Form=1
+  
+[Text]
+Position=266,379,337,395
+Text=ED Number
+ 
+  
+[Field]
+Name=CTV
+Position=386,406,415,426
+Item=CTV,HESVERSION1_DICT
+FieldLabelType=DictionaryLabel
+Form=1
+  
+[Text]
+Position=266,409,292,425
+Text=CTV
  
 [EndGroup]
   
@@ -439,60 +551,60 @@ Form=4
 Required=Yes
 Type=Item
 TypeName=CA2TBL
-Max=16
+Max=26
 DisplaySize=39,231,1395,978
 Orientation=Horizontal
-FieldRowHeight=31
+FieldRowHeight=39
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Position=0,0,201,31
+Position=0,0,201,39
 Text=CA2.1	  Complete suits
  
   
 [Text]
-Position=0,0,201,31
+Position=0,0,201,39
 Text=CA2.2  	  Dress pants
  
   
 [Text]
-Position=0,0,201,31
+Position=0,0,201,39
 Text=CA2.3	  Jeans
  
   
 [Text]
-Position=0,0,201,31
+Position=0,0,201,39
 Text=CA2.4	  Other casual pants
  
   
 [Text]
-Position=0,0,201,31
+Position=0,0,201,39
 Text=CA2.5	  Shorts
  
   
 [Text]
-Position=0,0,201,31
+Position=0,0,201,39
 Text=CA2.6	  Sweaters/jackets
  
   
 [Text]
-Position=0,0,201,31
+Position=0,0,201,39
 Text=CA2.7	  Dress shirts
  
   
 [Text]
-Position=0,0,201,31
+Position=0,0,201,39
 Text=CA2.8	  Guayaberas
  
   
 [Text]
-Position=0,0,201,31
+Position=0,0,201,39
 Text=CA2.9	  Polo shirts
  
   
 [Text]
-Position=0,0,201,31
+Position=0,0,201,39
 Text=CA2.10	  T-shirts
  
   
@@ -502,7 +614,7 @@ Text=CA2.11	  Sportswear such as tights or
  
   
 [Text]
-Position=0,0,201,31
+Position=0,0,201,39
 Text=CA2.12	  School uniforms
  
   
@@ -517,13 +629,63 @@ Text=CA2.14	  Other men's outerwear
  
   
 [Text]
-Position=0,0,201,31
+Position=0,0,201,39
 Text=CA2.15      Briefs
  
   
 [Text]
 Position=0,0,201,40
 Text=CA2.16	  Boxer shorts or boxer briefs
+ 
+  
+[Text]
+Position=122,0,201,40
+Text=CA2.17	  Undershirts
+ 
+  
+[Text]
+Position=105,0,201,39
+Text=CA2.18	  Socks
+ 
+  
+[Text]
+Position=103,0,201,56
+Text=CA2.19	  Other men's underwear
+ 
+  
+[Text]
+Position=116,15,201,39
+Text=CA2.20	  Ties
+ 
+  
+[Text]
+Position=111,15,201,39
+Text=CA2.21	  Belts
+ 
+  
+[Text]
+Position=139,0,201,40
+Text=CA2.22	  Pyjamas
+ 
+  
+[Text]
+Position=179,0,201,39
+Text=23
+ 
+  
+[Text]
+Position=179,0,201,39
+Text=24
+ 
+  
+[Text]
+Position=179,0,201,39
+Text=25
+ 
+  
+[Text]
+Position=179,0,201,39
+Text=26
  
   
 [Column]
@@ -639,5 +801,14 @@ Text=At what type of business did you buy the …?
   
 [EndGrid]
  
+[EndGroup]
+  
+[Group]
+Required=Yes
+Name=GROUP000
+Label=New Form
+Form=5
+LogicControl=No
+Max=1
 [EndGroup]
   
