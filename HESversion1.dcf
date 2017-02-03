@@ -15,39 +15,97 @@ Name=HESVERSION1_QUEST
 [IdItems]
 
 [Item]
-Label=HESversion1 identification
+Label=Barcode
 Name=HESVERSION1_ID
 Start=2
 Len=4
+
+[Item]
+Label=Person Number
+Name=PERSON_NUMBER
+Start=6
+Len=2
+
+[Item]
+Label=District
+Name=DISTRICT
+Start=8
+Len=1
+
+[ValueSet]
+Label=District
+Name=DISTRICT_VS1
+Value=1;Corozal
+Value=2;Orange Walk
+Value=3;Belize
+Value=4;Cayo
+Value=5;Stann Creek
+Value=6;Toledo
+
+[Item]
+Label=Urban /Rural
+Name=URBAN_RURAL
+Start=9
+Len=1
+
+[ValueSet]
+Label=Urban /Rural
+Name=URBAN_RURAL_VS1
+Value=1;Urban
+Value=2;Rural
+
+[Item]
+Label=Cluster
+Name=CLUSTER
+Start=10
+Len=3
+
+[Item]
+Label=Household
+Name=HOUSEHOLD
+Start=13
+Len=3
+
+[Item]
+Label=ED Number
+Name=ED_NUMBER
+Start=16
+Len=5
+
+[Item]
+Label=CTV
+Name=CTV
+Start=21
+Len=2
 
 [Record]
 Label=Individual Background
 Name=INDIVIDUAL_BACKGROUND
 RecordTypeValue='2'
-RecordLen=16
+RecordLen=33
 
 [Item]
 Label=IB1Month
 Name=IB1MONTH
-Start=6
+Start=23
 Len=2
 
 [Item]
 Label=IB1Year
 Name=IB1YEAR
-Start=8
+Start=25
 Len=4
 
 [Item]
 Label=IB2
 Name=IB2
-Start=12
+Start=29
 Len=2
 
 [Item]
 Label=IB3
 Name=IB3
-Start=14
+Start=31
 Len=1
 
 [ValueSet]
@@ -59,7 +117,7 @@ Value=2;No
 [Item]
 Label=IB4
 Name=IB4
-Start=15
+Start=32
 Len=2
 
 [ValueSet]
@@ -85,12 +143,12 @@ Value=15;Master's or higher
 Label=Clothing and Accessories
 Name=CLOTHING_ACCESSORIES
 RecordTypeValue='3'
-RecordLen=167
+RecordLen=284
 
 [Item]
 Label=CA1
 Name=CA1
-Start=6
+Start=23
 Len=1
 
 [ValueSet]
@@ -102,7 +160,7 @@ Value=2;No
 [Item]
 Label=CA2
 Name=CA2
-Start=7
+Start=24
 Len=1
 
 [ValueSet]
@@ -114,15 +172,15 @@ Value=2;No
 [Item]
 Label=CA2Tbl
 Name=CA2TBL
-Start=8
+Start=25
 Len=10
 DataType=Alpha
-Occurrences=16
+Occurrences=26
 
 [Item]
 Label=CA2A
 Name=CA2A
-Start=8
+Start=25
 Len=1
 ItemType=SubItem
 
@@ -135,14 +193,14 @@ Value=2;No
 [Item]
 Label=CA2B
 Name=CA2B
-Start=9
+Start=26
 Len=2
 ItemType=SubItem
 
 [Item]
 Label=CA2C
 Name=CA2C
-Start=11
+Start=28
 Len=1
 ItemType=SubItem
 
@@ -158,14 +216,14 @@ Value=5;Other
 [Item]
 Label=CA2D
 Name=CA2D
-Start=12
+Start=29
 Len=4
 ItemType=SubItem
 
 [Item]
 Label=CA2E
 Name=CA2E
-Start=16
+Start=33
 Len=1
 ItemType=SubItem
 
@@ -179,7 +237,7 @@ Value=3;Both
 [Item]
 Label=CA2F
 Name=CA2F
-Start=17
+Start=34
 Len=1
 ItemType=SubItem
 
@@ -199,12 +257,12 @@ Value=9;DK/NS
 Label=Cover Page
 Name=COVER_PAGE
 RecordTypeValue='1'
-RecordLen=305
+RecordLen=322
 
 [Item]
 Label=Interview
 Name=INTERVIEW
-Start=6
+Start=23
 Len=25
 DataType=Alpha
 Occurrences=4
@@ -212,28 +270,28 @@ Occurrences=4
 [Item]
 Label=Day
 Name=DAY
-Start=12
+Start=29
 Len=2
 ItemType=SubItem
 
 [Item]
 Label=Month
 Name=MONTH
-Start=14
+Start=31
 Len=2
 ItemType=SubItem
 
 [Item]
 Label=Year
 Name=YEAR
-Start=16
+Start=33
 Len=2
 ItemType=SubItem
 
 [Item]
 Label=Time Started
 Name=TIME_STARTED
-Start=18
+Start=35
 Len=5
 ItemType=SubItem
 DataType=Alpha
@@ -241,7 +299,7 @@ DataType=Alpha
 [Item]
 Label=Time of Day
 Name=TIME_OF_DAY
-Start=23
+Start=40
 Len=1
 ItemType=SubItem
 
@@ -254,7 +312,7 @@ Value=2;PM
 [Item]
 Label=Time Ended
 Name=TIME2
-Start=24
+Start=41
 Len=4
 ItemType=SubItem
 DataType=Alpha
@@ -262,7 +320,7 @@ DataType=Alpha
 [Item]
 Label=Time of Day
 Name=TIME_OF_DAY2
-Start=28
+Start=45
 Len=1
 ItemType=SubItem
 
@@ -275,27 +333,27 @@ Value=2;PM
 [Item]
 Label=Result
 Name=RESULT
-Start=29
+Start=46
 Len=1
 ItemType=SubItem
 
 [Item]
 Label=Final Result Code
 Name=FINAL_RESULT_CODE
-Start=30
+Start=47
 Len=1
 ItemType=SubItem
 
 [Item]
 Label=Interviewer's Comments
 Name=INTERVIEWER_S_COMMENTS
-Start=106
+Start=123
 Len=100
 DataType=Alpha
 
 [Item]
 Label=Other Comments
 Name=OTHER_COMMENTS
-Start=206
+Start=223
 Len=100
 DataType=Alpha

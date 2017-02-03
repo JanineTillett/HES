@@ -89,3 +89,58 @@ CSPRO Process Summary
 
 CSPRO Executor Normal End
 --------------------------------------------------------------------------------
+Application     C:\Users\jtillett\Desktop\HES\HES\HESversion1.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\HES\test
+
+Date            Feb  2, 2017
+Start Time      16:14:08
+End Time        16:14:08
+
+CSPRO Process Summary
+Application     C:\Users\jtillett\Desktop\HES\HES\HESversion1.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\HES\test
+
+Date            Feb  2, 2017
+Start Time      16:26:52
+End Time        16:26:52
+
+CSPRO Process Summary
+Application     C:\Users\jtillett\Desktop\HES\HES\HESversion1.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\HES\test
+
+Date            Feb  2, 2017
+Start Time      16:28:43
+End Time        16:29:16
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\jtillett\Desktop\HES\HES\HESversion1.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\HES\test
+
+Date            Feb  2, 2017
+Start Time      16:30:41
+End Time        16:38:58
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            1   Operator entered a value out of range            
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     65       1    -   Not a valid Day. Please reenter                         -
+     74       1    -   Not a valid month. Please reenter                       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
