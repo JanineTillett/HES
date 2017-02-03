@@ -144,3 +144,76 @@ User unnumbered messages:
 
 CSPRO Executor Normal End
 --------------------------------------------------------------------------------
+Application     C:\Users\jtillett\Desktop\HES-master\HESversion1.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES-master\test
+
+Date            Feb  3, 2017
+Start Time      13:39:03
+End Time        13:39:37
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1008            1   Invalid subscript: %n(%d) -- %p                  
+  99990            1   Operator entered a value out of range            
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     75       1    -   Not a valid year. Please reenter                        -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\jtillett\Desktop\HES-master\HESversion1.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES-master\test
+
+Date            Feb  3, 2017
+Start Time      13:39:46
+End Time        13:42:09
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            7   Operator entered a value out of range            
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\jtillett\Desktop\HES-master\HESversion1.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES-master\test
+
+Date            Feb  3, 2017
+Start Time      13:42:18
+End Time        13:42:24
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            7   Operator entered a value out of range            
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\jtillett\Desktop\HES-master\HESversion1.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES-master\test
+
+Date            Feb  3, 2017
+Start Time      13:42:31
+End Time        13:42:47
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
