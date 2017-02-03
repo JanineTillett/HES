@@ -74,7 +74,7 @@ Color=10485760
   
 [Form]
 Name=FORM002
-Label=Clothing And Accessories
+Label=Clothing And Accessories-male household member 14 years and older 
 Level=1
 Size=1420,1003
   
@@ -86,10 +86,12 @@ Item=CA2TBL000
   
 [Form]
 Name=FORM004
-Label=New Form
+Label=Clothing And Accessories-Female household member 14 years and older 
 Level=1
-Size=25,25
+Size=1389,820
   
+Item=CA4
+Item=CA4TBL000
   
 [EndForm]
   
@@ -517,7 +519,7 @@ Text=IB4. What is the last class, form or level you have completed?
 [Group]
 Required=Yes
 Name=CLOTHING_ACCESSORIES_FORM
-Label=Clothing And Accessories
+Label=Clothing And Accessories-male household member 14 years and older 
 Form=4
 LogicControl=No
 Max=1
@@ -554,97 +556,97 @@ TypeName=CA2TBL
 Max=26
 DisplaySize=39,231,1395,978
 Orientation=Horizontal
-FieldRowHeight=39
+FieldRowHeight=51
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.1	  Complete suits
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.2  	  Dress pants
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.3	  Jeans
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.4	  Other casual pants
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.5	  Shorts
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.6	  Sweaters/jackets
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.7	  Dress shirts
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.8	  Guayaberas
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.9	  Polo shirts
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.10	  T-shirts
  
   
 [Text]
-Position=0,0,201,40
+Position=0,0,201,51
 Text=CA2.11	  Sportswear such as tights or
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.12	  School uniforms
  
   
 [Text]
-Position=0,0,201,40
+Position=0,0,201,51
 Text=CA2.13	  Other uniforms such as work
  
   
 [Text]
-Position=0,0,201,40
+Position=0,0,201,51
 Text=CA2.14	  Other men's outerwear
  
   
 [Text]
-Position=0,0,201,39
+Position=0,0,201,51
 Text=CA2.15      Briefs
  
   
 [Text]
-Position=0,0,201,40
+Position=0,0,201,51
 Text=CA2.16	  Boxer shorts or boxer briefs
  
   
 [Text]
-Position=122,0,201,40
+Position=122,0,201,51
 Text=CA2.17	  Undershirts
  
   
 [Text]
-Position=105,0,201,39
+Position=105,0,201,51
 Text=CA2.18	  Socks
  
   
@@ -654,38 +656,38 @@ Text=CA2.19	  Other men's underwear
  
   
 [Text]
-Position=116,15,201,39
+Position=116,0,201,51
 Text=CA2.20	  Ties
  
   
 [Text]
-Position=111,15,201,39
+Position=111,0,201,51
 Text=CA2.21	  Belts
  
   
 [Text]
-Position=139,0,201,40
+Position=139,0,201,51
 Text=CA2.22	  Pyjamas
  
   
 [Text]
-Position=179,0,201,39
-Text=23
+Position=129,11,201,51
+Text=CA2.23	  Bathrobes
  
   
 [Text]
-Position=179,0,201,39
-Text=24
+Position=131,11,201,51
+Text=CA2.24	  Raincoats
  
   
 [Text]
-Position=179,0,201,39
-Text=25
+Position=111,11,201,51
+Text=CA2.25	  Hats or caps
  
   
 [Text]
-Position=179,0,201,39
-Text=26
+Position=71,0,201,56
+Text=CA2.26	  Other men’s clothing (specify)__________
  
   
 [Column]
@@ -806,9 +808,306 @@ Text=At what type of business did you buy the …?
 [Group]
 Required=Yes
 Name=GROUP000
-Label=New Form
+Label=Clothing And Accessories-Female household member 14 years and older 
 Form=5
 LogicControl=No
 Max=1
+  
+[Field]
+Name=CA4
+Position=551,184,566,204
+Item=CA4,HESVERSION1_DICT
+FieldLabelType=DictionaryLabel
+DataCaptureType=RadioButton
+Form=5
+  
+[Text]
+Position=504,187,529,203
+Text=CA4
+ 
+  
+[Grid]
+Name=CA4TBL000
+Label=CA4Tbl
+Form=5
+Required=Yes
+Type=Item
+TypeName=CA4TBL
+Max=31
+DisplaySize=69,238,1364,795
+Orientation=Horizontal
+FieldRowHeight=45
+HeadingRowHeight=0
+FreeMovement=No
+ 
+[Text]
+Position=46,0,194,45
+Text=CA4.1	  Suits or jackets
+ 
+  
+[Text]
+Position=43,0,194,45
+Text=CA4.2	  Party or formal dresses
+ 
+  
+[Text]
+Position=44,0,194,45
+Text= CA4.3	  Casual dresses
+ 
+  
+[Text]
+Position=83,0,194,45
+Text=CA4.4        Skirts
+ 
+  
+[Text]
+Position=6,0,194,56
+Text=CA4.5	  Casual pants such as jeans pant or cargo  
+Text=                    pants) 
+ 
+  
+[Text]
+Position=70,0,194,45
+Text=CA4.6	  Dress pants
+ 
+  
+[Text]
+Position=93,0,194,45
+Text=CA4.7	  Blouses
+ 
+  
+[Text]
+Position=68,0,194,45
+Text= CA4.8	  Polo shirts 
+ 
+  
+[Text]
+Position=98,0,194,45
+Text=CA4.9	  T-shirts
+ 
+  
+[Text]
+Position=4,0,194,45
+Text= CA4.10	  Sportswear such as tights or sweatpants
+ 
+  
+[Text]
+Position=12,0,194,45
+Text=CA4.11	  Sweaters or jackets
+ 
+  
+[Text]
+Position=0,0,194,45
+Text=CA4.12	  Bathing suits or other swimwear
+ 
+  
+[Text]
+Position=95,0,194,45
+Text=CA4.13	  Shorts
+ 
+  
+[Text]
+Position=27,0,194,45
+Text=CA4.14	   School Uniforms
+ 
+  
+[Text]
+Position=41,0,194,45
+Text=CA4.15	  Other uniforms
+ 
+  
+[Text]
+Position=35,0,194,45
+Text=CA4.16	  Other women’s outerwear
+ 
+  
+[Text]
+Position=88,0,194,45
+Text=CA4.17	  Panties
+ 
+  
+[Text]
+Position=70,0,194,45
+Text=CA4.18	  Brassieres
+ 
+  
+[Text]
+Position=70,0,194,45
+Text=CA4.19     Lingerie
+ 
+  
+[Text]
+Position=100,0,194,45
+Text= CA4.20	  Slips
+ 
+  
+[Text]
+Position=90,0,194,45
+Text=CA4.21	  Girdles
+ 
+  
+[Text]
+Position=12,0,194,45
+Text=CA4.22	  Vests or undershirts
+ 
+  
+[Text]
+Position=37,0,194,45
+Text=CA4.23	  Nylon stockings
+ 
+  
+[Text]
+Position=39,0,194,45
+Text=CA4.24      Short Tights 
+ 
+  
+[Text]
+Position=98,0,194,45
+Text=CA4.25	  Socks
+ 
+  
+[Text]
+Position=35,0,194,45
+Text=CA4.26	  Other women’s underwear
+ 
+  
+[Text]
+Position=11,0,194,56
+Text=CA4.27	  Sleepwear such as nightgowns, pyjamas or   
+Text=                    dusters
+ 
+  
+[Text]
+Position=58,21,194,45
+Text=CA4.28	  Hats or caps
+ 
+  
+[Text]
+Position=71,21,194,45
+Text=CA4.29	  Bathrobes
+ 
+  
+[Text]
+Position=73,21,194,45
+Text=CA4.30	  Raincoats
+ 
+  
+[Text]
+Position=23,5,194,45
+Text=CA4.31	  Other women's clothing (specify)________
+ 
+  
+[Column]
+Width=10
+[EndColumn]
+  
+[Column]
+Width=227
+  
+[HeaderText]
+Position=0,0,227,72
+Text=During the past 12 months, did you buy any … for any female household member 14 years or older (including yourself)?
+ 
+[Field]
+Name=CA4A
+Position=19,0,34,20
+Item=CA4A,HESVERSION1_DICT
+DataCaptureType=RadioButton
+  
+[Text]
+Text=During the past 12 months, did you buy any … for any female household member 14 years or older (including yourself)?
+ 
+[EndColumn]
+  
+[Column]
+Width=163
+  
+[HeaderText]
+Position=20,32,163,72
+Text=How many… did you buy? Quantity
+ 
+[Field]
+Name=CA4B
+Position=5,0,34,20
+Item=CA4B,HESVERSION1_DICT
+  
+[Text]
+Text=How many… did you buy? Quantity
+ 
+[EndColumn]
+  
+[Column]
+Width=154
+  
+[HeaderText]
+Position=11,32,154,72
+Text=How many… did you buy?  Unit
+ 
+[Field]
+Name=CA4C
+Position=19,0,34,20
+Item=CA4C,HESVERSION1_DICT
+DataCaptureType=RadioButton
+  
+[Text]
+Text=How many… did you buy?  Unit
+ 
+[EndColumn]
+  
+[Column]
+Width=185
+  
+[HeaderText]
+Position=13,32,185,72
+Text=How much did you spend on the …?
+ 
+[Field]
+Name=CA4D
+Position=0,0,57,20
+Item=CA4D,HESVERSION1_DICT
+  
+[Text]
+Text=How much did you spend on the …?
+ 
+[EndColumn]
+  
+[Column]
+Width=184
+  
+[HeaderText]
+Position=47,48,184,72
+Text=Was it new or used?
+ 
+[Field]
+Name=CA4E
+Position=18,0,33,20
+Item=CA4E,HESVERSION1_DICT
+DataCaptureType=RadioButton
+  
+[Text]
+Text=Was it new or used?
+ 
+[EndColumn]
+  
+[Column]
+Width=180
+  
+[HeaderText]
+Position=15,32,180,72
+Text=At what type of business did you buy the …?
+ 
+[Field]
+Name=CA4F
+Position=18,0,33,20
+Item=CA4F,HESVERSION1_DICT
+DataCaptureType=RadioButton
+  
+[Text]
+Text=At what type of business did you buy the …?
+ 
+[EndColumn]
+  
+[EndGrid]
+ 
 [EndGroup]
   
