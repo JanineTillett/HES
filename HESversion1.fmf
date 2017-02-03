@@ -262,7 +262,7 @@ Text=IB4. What is the last class, form or level you have completed?
   
 [Group]
 Required=Yes
-Name=CLOTHING_ACCESSORIES_FORM
+Name=CLOTHING_O14MALEFORM
 Label=Clothing And Accessories-male household member 14 years and older
 Form=3
 LogicControl=No
@@ -551,7 +551,7 @@ Text=At what type of business did you buy the …?
   
 [Group]
 Required=Yes
-Name=GROUP000
+Name=CLOTHING_O14FEMALEFORM
 Label=Clothing And Accessories-Female household member 14 years and older
 Form=4
 LogicControl=No
