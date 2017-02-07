@@ -158,18 +158,3 @@ postproc
 		errmsg("Not a valid amount spent. Please reenter");
 		reenter CA4C;
 	endif;
-PROC CA3A
-
-PROC CA3B
-//Determine if value entered is correct i.e. Quantity is between 1 and 99.
-postproc
-	if not $ in 1:99 then
-		errmsg("Not a valid quantity. Please reenter");
-		reenter CA3B;
-	endif;
-PROC CA3D
-//Determine if value entered is correct i.e. Amount spent is between 1 and 9999.
-postproc
-	if not $ in 1:9999 then
-		errmsg("Not a valid amount spent. Please reenter");
-		reenter CA3D;
