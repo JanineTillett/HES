@@ -355,29 +355,17 @@ Value=6;Abroad
 Value=7;Other
 Value=9;DK/NS
 
-<<<<<<< HEAD
 [Item]
 Label=Interviewer's Comments
 Name=INTERVIEWER_S_COMMENTS
 Start=334
-=======
-
-[Item]
-Label=Interviewer's Comments
-Name=INTERVIEWER_S_COMMENTS
-Start=123
->>>>>>> origin/master
 Len=100
 DataType=Alpha
 
 [Item]
 Label=Other Comments
 Name=OTHER_COMMENTS
-<<<<<<< HEAD
 Start=434
-=======
-Start=223
->>>>>>> origin/master
 Len=100
 DataType=Alpha
 
@@ -470,10 +458,3 @@ Name=CA3F
 Start=33
 Len=1
 ItemType=SubItem
-<<<<<<< HEAD
-=======
-
-[ValueSet]
-Label=CA3F
-Name=CA3F_VS1
->>>>>>> origin/master
