@@ -140,7 +140,7 @@ Value=14;Bachelor's
 Value=15;Master's or higher
 
 [Record]
-Label=Clothing and Accessories-male household member 14 years and older
+Label=Clothing and Accessories 2
 Name=CLOTHING_ACCESSORIES
 RecordTypeValue='3'
 RecordLen=284
@@ -254,10 +254,10 @@ Value=7;Other
 Value=9;DK/NS
 
 [Record]
-Label=Clothing and Accessories-Female household member 14 years and older
+Label=Clothing and Accessories 4
 Name=CLOTHING_ACCESSORIES_FEM
 RecordTypeValue='1'
-RecordLen=533
+RecordLen=333
 
 [Item]
 Label=CA4
@@ -354,20 +354,6 @@ Value=5;Mobile Vendor/Cart
 Value=6;Abroad
 Value=7;Other
 Value=9;DK/NS
-
-[Item]
-Label=Interviewer's Comments
-Name=INTERVIEWER_S_COMMENTS
-Start=334
-Len=100
-DataType=Alpha
-
-[Item]
-Label=Other Comments
-Name=OTHER_COMMENTS
-Start=434
-Len=100
-DataType=Alpha
 
 [Record]
 Label=Clothing and Accessories 3
