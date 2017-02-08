@@ -27,123 +27,6 @@ RecordTypeValue='1'
 RecordLen=2
 
 [Record]
-Label=Transportation Servicing and Repairs
-Name=TRANSPORTATION_SERVICING_AND_REP
-RecordTypeValue='2'
-RecordLen=8
-
-[Item]
-Label=TS1
-Name=TS1
-Start=3
-Len=1
-
-[Item]
-Label=TS2Tbl
-Name=TS2TBL
-Start=4
-Len=5
-DataType=Alpha
-
-[Item]
-Label=TS2A
-Name=TS2A
-Start=4
-Len=1
-ItemType=SubItem
-
-[ValueSet]
-Label=TS2A
-Name=TS2A_VS1
-Value=1;Yes
-Value=2;No
-
-[Item]
-Label=TS2B
-Name=TS2B
-Start=5
-Len=4
-ItemType=SubItem
-
-[Record]
-Label=Transportation-Parts and Supplies
-Name=TRANSPORTATION_PARTS_AND_SUPPLIE
-RecordTypeValue='3'
-RecordLen=8
-
-[Item]
-Label=TP1
-Name=TP1
-Start=3
-Len=1
-
-[Item]
-Label=TP2Tbl
-Name=TP2TBL
-Start=4
-Len=5
-DataType=Alpha
-
-[Item]
-Label=TP2A
-Name=TP2A
-Start=4
-Len=1
-ItemType=SubItem
-
-[ValueSet]
-Label=TP2A
-Name=TP2A_VS1
-Value=1;Yes
-Value=2;No
-
-[Item]
-Label=TP2B
-Name=TP2B
-Start=5
-Len=4
-ItemType=SubItem
-
-[Record]
-Label=Public Transportation
-Name=PUBLIC_TRANSPORTATION
-RecordTypeValue='4'
-RecordLen=8
-
-[Item]
-Label=PT1
-Name=PT1
-Start=3
-Len=1
-
-[Item]
-Label=PT1Tbl
-Name=PT1TBL
-Start=4
-Len=5
-DataType=Alpha
-
-[Item]
-Label=PT1A
-Name=PT1A
-Start=4
-Len=1
-ItemType=SubItem
-
-[ValueSet]
-Label=PT1A
-Name=PT1A_VS1
-Value=1;Yes
-Value=2;No
-
-[Item]
-Label=PT1B
-Name=PT1B
-Start=5
-Len=4
-ItemType=SubItem
-
-[Record]
 Label=Personal Care
 Name=PERSONAL_CARE
 RecordTypeValue='5'
@@ -799,9 +682,9 @@ ItemType=SubItem
 Label=LI3B
 Name=LI3B_VS1
 Value=1;A Term Life Insurance Policy, that is, life insurance coverage for a set period of time after which the policy end?
-Value=2;A Whole Life Insurance Policy, that is, life insurance coverage for the entire life of the policy owner? 
-Value=3;An Endowment Life Insurance Policy, that is, life insurance coverage for a set period of time, after which the policy owner collects part of the value of the policy?  
-Value=4;Another type of life insurance policy, such as accidental death or dismemberment?  
+Value=2;A Whole Life Insurance Policy, that is, life insurance coverage for the entire life of the policy owner?
+Value=3;An Endowment Life Insurance Policy, that is, life insurance coverage for a set period of time, after which the policy owner collects part of the value of the policy?
+Value=4;Another type of life insurance policy, such as accidental death or dismemberment?
 
 [Item]
 Label=LI3C
