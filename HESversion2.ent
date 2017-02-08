@@ -1,0 +1,15 @@
+﻿[CSPro Application]
+Version=CSPro 6.3
+Label=HESVERSION2
+Name=HESVERSION2
+AppType=DataEntry
+[AppCode]
+File=.\HESversion2.ent.apc
+[Message]
+File=.\HESversion2.ent.mgf
+[Help]
+File=.\HESversion2.ent.qsf
+[Forms]
+File=.\HESversion2.fmf
+[Dictionary Types]
+Dict-Type=.\HESversion1.dcf,Input,.\HESversion2.fmf
