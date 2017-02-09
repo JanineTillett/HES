@@ -232,7 +232,7 @@ Item=PT2TBL000
 Name=FORM016
 Label=Personal Care
 Level=1
-Size=1644,359
+Size=1342,908
   
 Item=PC1TBL000
   
@@ -242,7 +242,7 @@ Item=PC1TBL000
 Name=FORM017
 Label=Restaurants and Cafes
 Level=1
-Size=300,360
+Size=1275,810
   
 Item=RC1TBL000
   
@@ -252,7 +252,7 @@ Item=RC1TBL000
 Name=FORM018
 Label=Personal and Selected Services
 Level=1
-Size=1597,390
+Size=1033,702
   
 Item=PS1
 Item=PS2TBL000
@@ -263,7 +263,7 @@ Item=PS2TBL000
 Name=FORM019
 Label=Enterntainment, Recreation & Miscellaneous Expenditures
 Level=1
-Size=300,360
+Size=1195,833
   
 Item=RE1TBL000
   
@@ -273,7 +273,7 @@ Item=RE1TBL000
 Name=FORM020
 Label=Local Travel
 Level=1
-Size=1597,390
+Size=1000,781
   
 Item=LT1
 Item=LT2TBL000
@@ -284,7 +284,7 @@ Item=LT2TBL000
 Name=FORM021
 Label=Foreign Travel
 Level=1
-Size=1597,390
+Size=1085,740
   
 Item=FT1
 Item=FT2TBL000
@@ -295,13 +295,11 @@ Item=FT2TBL000
 Name=FORM022
 Label=Healthcare
 Level=1
-Size=1597,300
+Size=880,600
   
 Item=HC1
 Item=HC2
-Item=HC3A
-Item=HC3B
-Item=HC3C
+Item=HC3TBL000
   
 [EndForm]
   
@@ -2981,8 +2979,8 @@ DataCaptureType=RadioButton
 Form=11
   
 [Text]
-Position=85,41,783,57
-Text=FO1.     During the past 12 months, did you buy any footwear for any household member, including yourself?   
+Position=85,41,771,57
+Text=FO1.     During the past 12 months, did you buy any footwear for any household member, including yourself?
  
   
 [Field]
@@ -3505,7 +3503,7 @@ FreeMovement=No
  
 [Text]
 Position=13,4,152,28
-Text=FO5.1	Male footwear 
+Text=FO5.1	Male footwear
  
   
 [Text]
@@ -3661,17 +3659,17 @@ FreeMovement=No
  
 [Text]
 Position=0,0,232,40
-Text=TO2.1     	Vehicle license 
+Text=TO2.1     	Vehicle license
  
   
 [Text]
 Position=0,0,232,40
-Text=TO2.2     Private vehicle insurance  
+Text=TO2.2     Private vehicle insurance
  
   
 [Text]
 Position=0,0,232,40
-Text=TO2.3    	Driving permit 
+Text=TO2.3    	Driving permit
  
   
 [Text]
@@ -3686,7 +3684,7 @@ Text=TO2.5     Vehicle rental
   
 [Text]
 Position=0,0,232,40
-Text=TO2.6     Any other vehicle operations 
+Text=TO2.6     Any other vehicle operations
  
   
 [Column]
@@ -3748,8 +3746,8 @@ DataCaptureType=RadioButton
 Form=14
   
 [Text]
-Position=124,105,1043,121
-Text=TS1.     During the past 12 months, did you spend any money on vehicle servicing or repairs, either for other household members or for yourself? 
+Position=124,105,1039,121
+Text=TS1.     During the past 12 months, did you spend any money on vehicle servicing or repairs, either for other household members or for yourself?
  
   
 [Grid]
@@ -3915,7 +3913,7 @@ Text=TP2.8	Car care items such as wax, seat covers, sun shades, etc
   
 [Text]
 Position=0,0,316,40
-Text=TP2.9	Any other vehicle parts and supplies 
+Text=TP2.9	Any other vehicle parts and supplies
  
   
 [Column]
@@ -4079,260 +4077,265 @@ Required=Yes
 Type=Item
 TypeName=PC1TBL
 Max=50
-DisplaySize=42,30,1619,334
+DisplaySize=51,199,1317,883
 Orientation=Horizontal
-FieldRowHeight=28
-HeadingRowHeight=92
+FieldRowHeight=33
+HeadingRowHeight=88
 FreeMovement=No
  
 [Text]
-Position=291,0,467,28
+Position=0,0,197,33
 Text=PC1.1     Disposable razors
  
   
 [Text]
-Position=313,0,467,28
-Text=PC1.2     Hair trimmers 
+Position=0,0,197,33
+Text=PC1.2     Hair trimmers
  
   
 [Text]
-Position=314,4,467,28
+Position=0,0,197,33
 Text=PC1.3     Hair removers
  
   
 [Text]
-Position=0,0,467,28
-Text=4
+Position=0,0,197,33
+Text=PC1.4     Scissors
  
   
 [Text]
-Position=0,0,467,28
-Text=5
+Position=0,0,197,33
+Text=PC1.5     Shaving brushes
  
   
 [Text]
-Position=0,0,467,28
-Text=6
+Position=0,0,197,40
+Text=PC1.6     Shaving creams/foams
  
   
 [Text]
-Position=0,0,467,28
-Text=7
+Position=0,0,197,33
+Text=PC1.7     After shave lotions
  
   
 [Text]
-Position=0,0,467,28
-Text=8
+Position=0,0,197,33
+Text=PC1.8     Combs
  
   
 [Text]
-Position=0,0,467,28
-Text=9
+Position=0,0,197,33
+Text=PC1.9     Hairbrushes
  
   
 [Text]
-Position=0,0,467,28
-Text=10
+Position=0,0,197,33
+Text=PC1.10   Hairpins
  
   
 [Text]
-Position=0,0,467,28
-Text=11
+Position=0,0,197,33
+Text=PC1.11   Curlers
  
   
 [Text]
-Position=0,0,467,28
-Text=12
+Position=0,0,197,40
+Text=PC1.12   Weaves, wigs or braids
  
   
 [Text]
-Position=0,0,467,28
-Text=13
+Position=0,0,197,33
+Text=PC1.13   Hair lotions
  
   
 [Text]
-Position=0,0,467,28
-Text=14
+Position=78,0,197,33
+Text=PC1.14   Hair gels
  
   
 [Text]
-Position=0,0,467,28
-Text=15
+Position=67,0,197,33
+Text=PC1.15   Shampoos
  
   
 [Text]
-Position=0,0,467,28
-Text=16
+Position=26,0,197,33
+Text=PC1.16   Hair conditioners
  
   
 [Text]
-Position=0,0,467,28
-Text=17
+Position=52,0,197,33
+Text=PC1.17   Hair relaxers
  
   
 [Text]
-Position=0,0,467,28
-Text=18
+Position=75,0,197,33
+Text=PC1.18   Hair dyes
  
   
 [Text]
-Position=0,0,467,28
-Text=19
+Position=35,0,197,33
+Text=PC1.19   Hair grease/oils
  
   
 [Text]
-Position=0,0,467,28
-Text=20
+Position=59,0,197,33
+Text=PC1.20   Toothpastes
  
   
 [Text]
-Position=0,0,467,28
-Text=21
+Position=50,0,197,33
+Text=PC1.21   Toothbrushes
  
   
 [Text]
-Position=0,0,467,28
-Text=22
+Position=54,0,197,33
+Text=PC1.22   Mouth wash 
  
   
 [Text]
-Position=0,0,467,28
-Text=23
+Position=65,0,197,33
+Text=PC1.23   Bath soaps
  
   
 [Text]
-Position=0,0,467,28
-Text=24
+Position=32,0,197,33
+Text=PC1.24   Medicinal soaps
  
   
 [Text]
-Position=0,0,467,28
-Text=25
+Position=16,0,197,40
+Text=PC1.25   Shower gels/body wash
  
   
 [Text]
-Position=0,0,467,28
-Text=26
+Position=18,0,197,33
+Text=PC1.26   Liquid hand soaps
  
   
 [Text]
-Position=0,0,467,28
-Text=27
+Position=79,0,197,33
+Text=PC1.27   Nail files
  
   
 [Text]
-Position=0,0,467,28
-Text=28
+Position=9,0,197,33
+Text=PC1.28   Nail polish (varnish)
  
   
 [Text]
-Position=0,0,467,28
-Text=29
+Position=10,0,197,33
+Text=PC1.29   Nail polish remover
  
   
 [Text]
-Position=0,0,467,28
-Text=30
+Position=80,0,197,33
+Text=PC1.30   Make-up
  
   
 [Text]
-Position=0,0,467,28
-Text=31
+Position=80,0,197,33
+Text=PC1.31   Lipsticks
  
   
 [Text]
-Position=0,0,467,28
-Text=32
+Position=16,0,197,40
+Text=PC1.32   Make-up removal  
+Text=               products
  
   
 [Text]
-Position=0,0,467,28
-Text=33
+Position=82,0,197,33
+Text=PC1.33   Baby oil
  
   
 [Text]
-Position=0,0,467,28
-Text=34
+Position=44,0,197,33
+Text=PC1.34   Baby powders
  
   
 [Text]
-Position=0,0,467,28
-Text=35
+Position=48,0,197,33
+Text=PC1.35   Foot powders
  
   
 [Text]
-Position=0,0,467,28
-Text=36
+Position=36,0,197,33
+Text=PC1.36   Vicks vapor rub
  
   
 [Text]
-Position=0,0,467,28
-Text=37
+Position=72,9,197,33
+Text=PC1.37   Eye drops
  
   
 [Text]
-Position=0,0,467,28
-Text=38
+Position=17,9,197,33
+Text=PC1.38   Sun screen lotions
  
   
 [Text]
-Position=0,0,467,28
-Text=39
+Position=13,9,197,33
+Text=PC1.39   Perfumes/colognes
  
   
 [Text]
-Position=0,0,467,28
-Text=40
+Position=62,9,197,33
+Text=PC1.40   Deodorants
  
   
 [Text]
-Position=0,0,467,28
-Text=41
+Position=3,9,197,33
+Text=PC1.41   Hand or body lotions
  
   
 [Text]
-Position=0,0,467,28
-Text=42
+Position=58,9,197,33
+Text=PC1.42   Toilet paper
  
   
 [Text]
-Position=0,0,467,28
-Text=43
+Position=51,9,197,33
+Text=PC1.43   Paper towels
  
   
 [Text]
-Position=0,0,467,28
-Text=44
+Position=55,9,197,33
+Text=PC1.44   Facial tissue
  
   
 [Text]
-Position=0,0,467,28
-Text=45
+Position=93,9,197,33
+Text=PC1.45   Cotton
  
   
 [Text]
-Position=0,0,467,28
-Text=46
+Position=100,9,197,33
+Text=PC1.46   Q-Tip
  
   
 [Text]
-Position=0,0,467,28
-Text=47
+Position=12,0,197,72
+Text=PC1.47   Sanitary pads or  
+Text=               tampons,  such as 
+Text=               Always, Stayfree, etc.
  
   
 [Text]
-Position=0,0,467,28
-Text=48
+Position=13,0,197,72
+Text=PC1.48   Wet wipes such as baby 
+Text=               Wipes or sanitary wipes 
  
   
 [Text]
-Position=0,0,467,28
-Text=49
+Position=52,9,197,33
+Text=PC1.49   Spray Starch
  
   
 [Text]
-Position=0,0,467,28
-Text=50
+Position=4,0,197,40
+Text=PC1.50   Other personal care 
+Text=               products 
  
   
 [Column]
@@ -4340,10 +4343,10 @@ Width=10
 [EndColumn]
   
 [Column]
-Width=89
+Width=190
   
 [HeaderText]
-Position=0,20,89,92
+Position=7,48,190,88
 Text=During the past 30 days did you buy any …?
  
 [Field]
@@ -4358,10 +4361,10 @@ Text=During the past 30 days did you buy any …?
 [EndColumn]
   
 [Column]
-Width=86
+Width=151
   
 [HeaderText]
-Position=0,20,86,92
+Position=3,48,151,88
 Text=During the past 7 days did you buy any…?
  
 [Field]
@@ -4376,10 +4379,10 @@ Text=During the past 7 days did you buy any…?
 [EndColumn]
   
 [Column]
-Width=569
+Width=567
   
 [HeaderText]
-Position=368,68,569,92
+Position=366,64,567,88
 Text=What brand of … did you buy?
  
 [Field]
@@ -4397,7 +4400,7 @@ Text=What brand of … did you buy?
 Width=237
   
 [HeaderText]
-Position=23,52,237,92
+Position=23,48,237,88
 Text=How many … did you buy in the past 7 days? --Quantity
  
 [Field]
@@ -4414,7 +4417,7 @@ Text=How many … did you buy in the past 7 days? --Quantity
 Width=98
   
 [HeaderText]
-Position=0,20,98,92
+Position=0,16,98,88
 Text=How many … did you buy in the past 7 days?  --Unit
  
 [Field]
@@ -4432,7 +4435,7 @@ Text=How many … did you buy in the past 7 days?  --Unit
 Width=99
   
 [HeaderText]
-Position=0,20,99,92
+Position=0,16,99,88
 Text=How much did you spend on … in the past 7 days?
  
 [Field]
@@ -4449,7 +4452,7 @@ Text=How much did you spend on … in the past 7 days?
 Width=569
   
 [HeaderText]
-Position=368,68,569,92
+Position=368,64,569,88
 Text=What brand of … did you buy?
  
 [Field]
@@ -4467,7 +4470,7 @@ Text=What brand of … did you buy?
 Width=98
   
 [HeaderText]
-Position=0,4,98,92
+Position=0,0,98,88
 Text=How many … did you buy in the past 30 days? --Quantity
  
 [Field]
@@ -4484,7 +4487,7 @@ Text=How many … did you buy in the past 30 days? --Quantity
 Width=98
   
 [HeaderText]
-Position=0,20,98,92
+Position=0,16,98,88
 Text=How many … did you buy in the past 30 days?--Unit
  
 [Field]
@@ -4502,7 +4505,7 @@ Text=How many … did you buy in the past 30 days?--Unit
 Width=99
   
 [HeaderText]
-Position=0,20,99,92
+Position=0,16,99,88
 Text=How much did you spend on … in the past 30 days?
  
 [Field]
@@ -4519,7 +4522,7 @@ Text=How much did you spend on … in the past 30 days?
 Width=91
   
 [HeaderText]
-Position=0,20,91,92
+Position=0,16,91,88
 Text=At what type of business did you buy the …?
  
 [Field]
@@ -4553,178 +4556,220 @@ Required=Yes
 Type=Item
 TypeName=RC1TBL
 Max=42
-DisplaySize=40,30,0,0
+DisplaySize=109,198,1250,785
 Orientation=Horizontal
-FieldRowHeight=0
+FieldRowHeight=32
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Text=1
+Position=0,0,163,32
+Text=RC1.1     Fried chicken
  
   
 [Text]
-Text=2
+Position=0,0,163,32
+Text=RC1.2     Rice & beans
  
   
 [Text]
-Text=3
+Position=0,0,163,32
+Text=RC1.3     Bar-B-Que
  
   
 [Text]
-Text=4
+Position=0,0,163,32
+Text=RC1.4     Panades
  
   
 [Text]
-Text=5
+Position=0,0,163,32
+Text=RC1.5     Tamales
  
   
 [Text]
-Text=6
+Position=0,0,163,32
+Text=RC1.6     Garnaches
  
   
 [Text]
-Text=7
+Position=0,0,163,32
+Text=RC1.7     Tostadas
  
   
 [Text]
-Text=8
+Position=0,0,163,32
+Text=RC1.8     Tacos
  
   
 [Text]
-Text=9
+Position=0,0,163,32
+Text=RC1.9     Escabeche
  
   
 [Text]
-Text=10
+Position=0,0,163,32
+Text=RC1.10   Ceviche
  
   
 [Text]
-Text=11
+Position=0,0,163,40
+Text=RC1.11   Chimole or relleno
  
   
 [Text]
-Text=12
+Position=0,0,163,32
+Text=RC1.12   Salbutes
  
   
 [Text]
-Text=13
+Position=0,0,163,32
+Text=RC1.13   Meat pies
  
   
 [Text]
-Text=14
+Position=0,0,163,32
+Text=RC1.14   Johnny cakes
  
   
 [Text]
-Text=15
+Position=0,0,163,32
+Text=RC1.15   Burritos
  
   
 [Text]
-Text=16
+Position=0,0,163,32
+Text=RC1.16   Ducunu
  
   
 [Text]
-Text=17
+Position=0,0,163,32
+Text=RC1.17   Pupusas
  
   
 [Text]
-Text=18
+Position=0,0,163,32
+Text=RC1.18   Conch fritters
  
   
 [Text]
-Text=19
+Position=0,0,163,32
+Text=RC1.19   Fry jacks
  
   
 [Text]
-Text=20
+Position=0,0,163,32
+Text=RC1.20   Nachos
  
   
 [Text]
-Text=21
+Position=0,0,163,32
+Text=RC1.21   Patties
  
   
 [Text]
-Text=22
+Position=0,0,163,32
+Text=RC1.22   Sandwiches
  
   
 [Text]
-Text=23
+Position=0,0,163,32
+Text=RC1.23   Pizzas
  
   
 [Text]
-Text=24
+Position=0,0,163,32
+Text=RC1.24   Hot dogs
  
   
 [Text]
-Text=25
+Position=0,0,163,40
+Text=RC1.25   Vegetable burgers
  
   
 [Text]
-Text=26
+Position=0,0,163,40
+Text=RC1.26   Chicken burgers
  
   
 [Text]
-Text=27
+Position=0,0,163,32
+Text=RC1.27   Fish burgers
  
   
 [Text]
-Text=28
+Position=0,0,163,32
+Text=RC1.28   Beef burgers
  
   
 [Text]
-Text=29
+Position=0,0,163,32
+Text=RC1.29   Chop suey
  
   
 [Text]
-Text=30
+Position=0,0,163,56
+Text=RC1.30   Chow mein (chicken and/or vegetables)
  
   
 [Text]
-Text=31
+Position=0,0,163,56
+Text=RC1.31   Chow mein (beef and/or pork)
  
   
 [Text]
-Text=32
+Position=0,0,163,40
+Text=RC1.32   Chow mein (sea food)
  
   
 [Text]
-Text=33
+Position=0,0,163,72
+Text=RC1.33   Fried rice (chicken  and/or vegetable)
  
   
 [Text]
-Text=34
+Position=0,0,163,56
+Text=RC1.34   Fried rice (beef and/or  pork)
  
   
 [Text]
-Text=35
+Position=0,0,163,40
+Text=RC1.35   Fried rice (sea food)
  
   
 [Text]
-Text=36
+Position=0,0,163,56
+Text=RC1.36   Curry (chicken and/or vegetable)
  
   
 [Text]
-Text=37
+Position=0,0,163,40
+Text=RC1.37   Curry (beef and/or pork)
  
   
 [Text]
-Text=38
+Position=0,0,163,32
+Text=RC1.38   Curry (sea food)
  
   
 [Text]
-Text=39
+Position=0,0,163,40
+Text=RC1.39   Sweet and sour chicken 
  
   
 [Text]
-Text=40
+Position=0,0,163,56
+Text=RC1.40   Sweet and Sour (beef and/or pork)
  
   
 [Text]
-Text=41
+Position=0,0,163,32
+Text=RC1.41   Curry (sea food)
  
   
 [Text]
-Text=42
+Position=0,0,163,40
+Text=RC1.42   Other  prepared meals
  
   
 [Column]
@@ -4732,142 +4777,160 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=176
   
 [HeaderText]
-Text=RC1A
+Position=17,32,176,72
+Text=During the past 30 days did you buy any …?
  
 [Field]
 Name=RC1A
+Position=19,0,34,20
 Item=RC1A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=RC1A
+Text=During the past 30 days did you buy any …?
  
 [EndColumn]
   
 [Column]
+Width=126
   
 [HeaderText]
-Text=RC1B
+Position=7,16,126,72
+Text=During the past 7 days did you buy any…?
  
 [Field]
 Name=RC1B
+Position=19,0,34,20
 Item=RC1B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=RC1B
+Text=During the past 7 days did you buy any…?
  
 [EndColumn]
   
 [Column]
+Width=146
   
 [HeaderText]
-Text=RC1C
+Position=3,16,146,72
+Text=How many … did you buy in the past 7 days? -- Quanitity
  
 [Field]
 Name=RC1C
+Position=0,0,43,20
 Item=RC1C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=RC1C
+Text=How many … did you buy in the past 7 days? -- Quanitity
  
 [EndColumn]
   
 [Column]
+Width=168
   
 [HeaderText]
-Text=RC1D
+Position=7,16,168,72
+Text=How many … did you buy in the past 7 days?  -- Unit
  
 [Field]
 Name=RC1D
+Position=19,0,34,20
 Item=RC1D,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=RC1D
+Text=How many … did you buy in the past 7 days?  -- Unit
  
 [EndColumn]
   
 [Column]
+Width=171
   
 [HeaderText]
-Text=RC1E
+Position=3,32,171,72
+Text=How much did you spend on … in the past 7 days?
  
 [Field]
 Name=RC1E
+Position=4,0,33,20
 Item=RC1E,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=RC1E
+Text=How much did you spend on … in the past 7 days?
  
 [EndColumn]
   
 [Column]
+Width=166
   
 [HeaderText]
-Text=RC1F
+Position=2,16,166,72
+Text=How many … did you buy in the past 30 days? -- Quantity
  
 [Field]
 Name=RC1F
+Position=0,0,43,20
 Item=RC1F,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=RC1F
+Text=How many … did you buy in the past 30 days? -- Quantity
  
 [EndColumn]
   
 [Column]
+Width=98
   
 [HeaderText]
-Text=RC1G
+Position=0,0,98,72
+Text=How many … did you buy in the past 30 days? -- Unit
  
 [Field]
 Name=RC1G
+Position=20,0,35,20
 Item=RC1G,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=RC1G
+Text=How many … did you buy in the past 30 days? -- Unit
  
 [EndColumn]
   
 [Column]
+Width=99
   
 [HeaderText]
-Text=RC1H
+Position=0,0,99,72
+Text=How much did you spend on … in the past 30 days?
  
 [Field]
 Name=RC1H
+Position=0,0,43,20
 Item=RC1H,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=RC1H
+Text=How much did you spend on … in the past 30 days?
  
 [EndColumn]
   
 [Column]
+Width=142
   
 [HeaderText]
-Text=RC1I
+Position=2,16,142,72
+Text=At what type of business did you buy the …?
  
 [Field]
 Name=RC1I
+Position=14,0,29,20
 Item=RC1I,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=RC1I
+Text=At what type of business did you buy the …?
  
 [EndColumn]
   
@@ -4885,15 +4948,14 @@ Max=1
   
 [Field]
 Name=PS1
-Position=97,27,112,47
+Position=918,126,933,146
 Item=PS1,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=19
   
 [Text]
-Position=50,30,75,46
-Text=PS1
+Position=222,118,892,150
+Text=PS1.     During the past month, did you spend any money on \nhair, nail care, or other personal grooming services, either for other household members or for yourself?  \n
  
   
 [Grid]
@@ -4904,74 +4966,90 @@ Required=Yes
 Type=Item
 TypeName=PS2TBL
 Max=16
-DisplaySize=40,60,0,0
+DisplaySize=123,217,1008,677
 Orientation=Horizontal
-FieldRowHeight=0
+FieldRowHeight=28
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Text=1
+Position=0,0,330,28
+Text=PS2.1	      Male haircuts or shaves
  
   
 [Text]
-Text=2
+Position=0,0,330,28
+Text=PS2.2	      Shoe shine
  
   
 [Text]
-Text=3
+Position=0,0,330,28
+Text=PS2.3	      Female haircuts
  
   
 [Text]
-Text=4
+Position=0,4,330,28
+Text=PS2.4	      Hair washing
  
   
 [Text]
-Text=5
+Position=0,4,330,28
+Text=PS2.5	      Hair styling
  
   
 [Text]
-Text=6
+Position=0,4,330,28
+Text=PS2.6	      Perms or relaxers
  
   
 [Text]
-Text=7
+Position=0,4,330,28
+Text=PS2.7	      Hair braiding
  
   
 [Text]
-Text=8
+Position=0,0,330,40
+Text=PS2.8	      Manicures, including acrylic and nail polishing, etc.
  
   
 [Text]
-Text=9
+Position=0,0,330,40
+Text=PS2.9	      Pedicures including acrylic and nail polishing, etc.
  
   
 [Text]
-Text=10
+Position=0,4,330,28
+Text=PS2.10	      Face and body waxing
  
   
 [Text]
-Text=11
+Position=0,0,330,40
+Text=PS2.11	      Laundry service including self service 
  
   
 [Text]
-Text=12
+Position=55,0,330,40
+Text=PS2.12	      Dry cleaning service, including laundering, steam press, ironing, etc
  
   
 [Text]
-Text=13
+Position=9,0,330,40
+Text=PS2.13	      Spa services including massage, body scrubs, facial, etc.
  
   
 [Text]
-Text=14
+Position=165,4,330,28
+Text=PS2.14       Music lessons
  
   
 [Text]
-Text=15
+Position=162,4,330,28
+Text=PS2.15	      Fitness classes
  
   
 [Text]
-Text=16
+Position=80,4,330,28
+Text=PS2.16	      Any other personal services
  
   
 [Column]
@@ -4979,32 +5057,36 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=242
   
 [HeaderText]
-Text=PS2A
+Position=35,0,242,40
+Text=During the past month, did you spend any money on…?
  
 [Field]
 Name=PS2A
+Position=19,0,34,20
 Item=PS2A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=PS2A
+Text=During the past month, did you spend any money on…?
  
 [EndColumn]
   
 [Column]
+Width=287
   
 [HeaderText]
-Text=PS2B
+Position=50,16,287,40
+Text=How much did you spend on the …?
  
 [Field]
 Name=PS2B
+Position=5,0,34,20
 Item=PS2B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=PS2B
+Text=How much did you spend on the …?
  
 [EndColumn]
   
@@ -5028,138 +5110,173 @@ Required=Yes
 Type=Item
 TypeName=RE1TBL
 Max=32
-DisplaySize=40,30,0,0
+DisplaySize=109,166,1170,808
 Orientation=Horizontal
-FieldRowHeight=0
+FieldRowHeight=33
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Text=1
+Position=111,0,227,33
+Text=RE1.1      Cinema
  
   
 [Text]
-Text=2
+Position=43,0,227,40
+Text=RE1.2      Concerts, plays or pageants
  
   
 [Text]
-Text=3
+Position=14,0,227,72
+Text=RE1.3      Entrance fees or treats for spectator sports such as basketball,
+Text=                football, volleyball
  
   
 [Text]
-Text=4
+Position=6,0,227,72
+Text=RE1.4     Equipment and supplies for participating in sports such as cycling, 
+Text=               football, basketball
  
   
 [Text]
-Text=5
+Position=3,0,227,88
+Text=RE1.5     Dues, membership or subscription fees for participating in sports 
+Text=               such as cycling, football,  basketball
  
   
 [Text]
-Text=6
+Position=2,0,227,40
+Text=RE1.6      Night club entrance fees, drinks, etc.
  
   
 [Text]
-Text=7
+Position=117,0,227,33
+Text=RE1.7      Casino
  
   
 [Text]
-Text=8
+Position=83,0,227,33
+Text=RE1.8      Newspapers
  
   
 [Text]
-Text=9
+Position=4,0,227,40
+Text=RE1.9      Books other than school books
  
   
 [Text]
-Text=10
+Position=93,0,227,33
+Text=RE1.10    Magazines
  
   
 [Text]
-Text=11
+Position=8,0,227,40
+Text=RE1.11     Video games or consoles such as XBOX, WII, PSP
  
   
 [Text]
-Text=12
+Position=126,0,227,33
+Text=RE1.12    Fairs 
  
   
 [Text]
-Text=13
+Position=3,0,227,40
+Text=RE1.13    Any other recreation and sports
  
   
 [Text]
-Text=14
+Position=55,0,227,33
+Text=RE1.14    Wedding venues
  
   
 [Text]
-Text=15
+Position=6,0,227,33
+Text=RE1.15    Any other wedding costs
  
   
 [Text]
-Text=16
+Position=8,0,227,33
+Text=RE1.16    Funeral, coffin or casket
  
   
 [Text]
-Text=17
+Position=73,0,227,33
+Text=RE1.17    Baby showers
  
   
 [Text]
-Text=18
+Position=21,0,227,33
+Text=RE1.18    Gifts or greeting cards
  
   
 [Text]
-Text=19
+Position=23,0,227,40
+Text=RE1.19      Party supplies other than food
  
   
 [Text]
-Text=20
+Position=103,0,227,33
+Text=RE1.20      Flowers
  
   
 [Text]
-Text=21
+Position=18,0,227,33
+Text=RE1.21      Vet expenses for pets
  
   
 [Text]
-Text=22
+Position=96,0,227,33
+Text=RE1.22       Pet food
  
   
 [Text]
-Text=23
+Position=0,0,227,33
+Text=RE1.23       Any other pet expenses
  
   
 [Text]
-Text=24
+Position=3,0,227,40
+Text=RE1.24       Boledo, lottery or lotto tickets
  
   
 [Text]
-Text=25
+Position=50,9,227,33
+Text=RE1.25       Postage stamps
  
   
 [Text]
-Text=26
+Position=10,0,227,40
+Text=RE1.26       Stationary, excluding school-related items
  
   
 [Text]
-Text=27
+Position=53,9,227,33
+Text=RE1.27       Courier service
  
   
 [Text]
-Text=28
+Position=7,9,227,33
+Text=RE1.28       Top-up or phone cards
  
   
 [Text]
-Text=29
+Position=69,9,227,33
+Text=RE1.29       Internet café
  
   
 [Text]
-Text=30
+Position=18,9,227,33
+Text=RE1.30       Church contributions
  
   
 [Text]
-Text=31
+Position=16,0,227,40
+Text=RE1.31       Any other charitable contributions
  
   
 [Text]
-Text=32
+Position=15,0,227,40
+Text=RE1.32       Any other recreation and entertainment activities
  
   
 [Column]
@@ -5167,64 +5284,72 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=167
   
 [HeaderText]
-Text=RE1A
+Position=11,0,167,56
+Text=During the past month, did you spend any money on…?
  
 [Field]
 Name=RE1A
+Position=18,0,33,20
 Item=RE1A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=RE1A
+Text=During the past month, did you spend any money on…?
  
 [EndColumn]
   
 [Column]
+Width=180
   
 [HeaderText]
-Text=RE1B
+Position=8,0,180,56
+Text=How much did you spend on the … during the past month?
  
 [Field]
 Name=RE1B
+Position=0,0,43,20
 Item=RE1B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=RE1B
+Text=How much did you spend on the … during the past month?
  
 [EndColumn]
   
 [Column]
+Width=194
   
 [HeaderText]
-Text=RE1C
+Position=14,0,194,56
+Text=During the past 12 months, did you spend any money on…?
  
 [Field]
 Name=RE1C
+Position=18,0,33,20
 Item=RE1C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=RE1C
+Text=During the past 12 months, did you spend any money on…?
  
 [EndColumn]
   
 [Column]
+Width=273
   
 [HeaderText]
-Text=RE1D
+Position=40,16,273,56
+Text=How much did you spend on the … during the past 12 months?
  
 [Field]
 Name=RE1D
+Position=0,0,57,20
 Item=RE1D,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=RE1D
+Text=How much did you spend on the … during the past 12 months?
  
 [EndColumn]
   
@@ -5242,15 +5367,14 @@ Max=1
   
 [Field]
 Name=LT1
-Position=95,27,110,47
+Position=894,193,909,213
 Item=LT1,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=21
   
 [Text]
-Position=50,30,73,46
-Text=LT1
+Position=120,184,843,216
+Text=LT1.  During the past 12 months, did you spend any money on vacation travel\n within the country either for other household members or yourself?   Please exclude spending on business travel.
  
   
 [Grid]
@@ -5261,54 +5385,65 @@ Required=Yes
 Type=Item
 TypeName=LT2TBL
 Max=11
-DisplaySize=40,60,0,0
+DisplaySize=121,267,975,756
 Orientation=Horizontal
-FieldRowHeight=0
+FieldRowHeight=28
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Text=1
+Position=0,0,260,28
+Text=LT2.1	Air fare
  
   
 [Text]
-Text=2
+Position=0,0,260,28
+Text=LT2.2	Sea/boat fare
  
   
 [Text]
-Text=3
+Position=0,0,260,28
+Text=LT2.3	Bus fare
  
   
 [Text]
-Text=4
+Position=0,0,260,28
+Text=LT2.4	Taxi fare
  
   
 [Text]
-Text=5
+Position=0,0,260,56
+Text=LT2.5      Travel in rental vehicle, including rental cost, fuel & tolls
  
   
 [Text]
-Text=6
+Position=0,0,260,72
+Text=LT2.6      Travel in personal vehicle,  including rental cost, fuel & tolls
  
   
 [Text]
-Text=7
+Position=0,0,260,56
+Text=LT2.7	Hotel or any other paid overnight accommodation
  
   
 [Text]
-Text=8
+Position=0,0,260,28
+Text=LT2.8	Meals
  
   
 [Text]
-Text=9
+Position=0,0,260,28
+Text=LT2.9	Tips
  
   
 [Text]
-Text=10
+Position=0,0,260,40
+Text=LT2.10	Package tours and excursions
  
   
 [Text]
-Text=11
+Position=0,0,260,56
+Text=LT2.11	Any other local vacation travel such as souvenirs, etc.
  
   
 [Column]
@@ -5316,64 +5451,72 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=181
   
 [HeaderText]
-Text=LT2A
+Position=1,16,181,72
+Text=During the past month, did you spend any money on…?
  
 [Field]
 Name=LT2A
+Position=16,0,31,20
 Item=LT2A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=LT2A
+Text=During the past month, did you spend any money on…?
  
 [EndColumn]
   
 [Column]
+Width=126
   
 [HeaderText]
-Text=LT2B
+Position=0,0,126,72
+Text=How much did you spend on the … during the past month?
  
 [Field]
 Name=LT2B
+Position=0,0,43,20
 Item=LT2B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=LT2B
+Text=How much did you spend on the … during the past month?
  
 [EndColumn]
   
 [Column]
+Width=131
   
 [HeaderText]
-Text=LT2C
+Position=5,0,131,72
+Text=During the past 12 months, did you spend any money on…?
  
 [Field]
 Name=LT2C
+Position=16,0,31,20
 Item=LT2C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=LT2C
+Text=During the past 12 months, did you spend any money on…?
  
 [EndColumn]
   
 [Column]
+Width=137
   
 [HeaderText]
-Text=LT2D
+Position=7,0,137,72
+Text=How much did you spend on the … during the past 12 months?
  
 [Field]
 Name=LT2D
+Position=0,0,57,20
 Item=LT2D,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=LT2D
+Text=How much did you spend on the … during the past 12 months?
  
 [EndColumn]
   
@@ -5391,15 +5534,14 @@ Max=1
   
 [Field]
 Name=FT1
-Position=95,27,110,47
+Position=1006,176,1021,196
 Item=FT1,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=22
   
 [Text]
-Position=50,30,73,46
-Text=FT1
+Position=248,167,965,199
+Text=FT1.  During the past 12 months, did you spend any money on vacation travel \nin another country either for other household members or yourself?  Please exclude spending on business travel.\n
  
   
 [Grid]
@@ -5410,58 +5552,71 @@ Required=Yes
 Type=Item
 TypeName=FT2TBL
 Max=12
-DisplaySize=40,60,0,0
+DisplaySize=261,275,1060,715
 Orientation=Horizontal
-FieldRowHeight=0
+FieldRowHeight=28
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Text=1
+Position=0,0,406,28
+Text=FT2.1     Air fare
  
   
 [Text]
-Text=2
+Position=0,4,406,28
+Text=FT2.2     Sea fare
  
   
 [Text]
-Text=3
+Position=0,4,406,28
+Text=FT2.3     Bus fare
  
   
 [Text]
-Text=4
+Position=0,4,406,28
+Text=FT2.4     Taxi
  
   
 [Text]
-Text=5
+Position=0,0,406,40
+Text=FT2.5     Travel in rental vehicle,  including rental cost, fuel & tolls
  
   
 [Text]
-Text=6
+Position=0,0,406,40
+Text=FT2.6      Travel in personal vehicle,  including rental cost, fuel & tolls
  
   
 [Text]
-Text=7
+Position=0,0,406,40
+Text=FT2.7      Hotel or any other paid overnight accommodation
  
   
 [Text]
-Text=8
+Position=0,4,406,28
+Text=FT2.8      Meals
  
   
 [Text]
-Text=9
+Position=0,4,406,28
+Text=FT2.9      Tips
  
   
 [Text]
-Text=10
+Position=0,0,406,56
+Text=FT2.10    Entertainment such as tours, nightclubs, museums, sports 
+Text=                 events, etc.
  
   
 [Text]
-Text=11
+Position=0,4,406,28
+Text=FT2.11   Package tours and excursions
  
   
 [Text]
-Text=12
+Position=0,0,406,40
+Text=FT2.12   Any other foreign vacation travel such as rentals, souvenirs, etc.
  
   
 [Column]
@@ -5469,33 +5624,37 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=211
   
 [HeaderText]
-Text=FT2A
+Position=7,0,211,40
+Text=During the past 12 months, did you spend money on …?
  
 [Field]
 Name=FT2A
+Position=17,0,32,20
 Item=FT2A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=FT2A
+Text=During the past 12 months, did you spend money on …?
  
 [EndColumn]
   
 [Column]
+Width=160
   
 [HeaderText]
-Text=FT2B
+Position=30,0,160,40
+Text=How much did you spend on …?
  
 [Field]
 Name=FT2B
+Position=0,0,71,20
 Item=FT2B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=FT2B
+Text=How much did you spend on …?
  
 [EndColumn]
   
@@ -5536,42 +5695,104 @@ Position=50,60,75,76
 Text=HC2
  
   
+[Grid]
+Name=HC3TBL000
+Label=HC3Tbl
+Form=23
+Required=Yes
+Type=Item
+TypeName=HC3TBL
+Max=4
+DisplaySize=208,288,855,575
+Orientation=Vertical
+ColumnWidth=0
+StubColumnWidth=0
+HeadingRowHeight=0
+FreeMovement=No
+ 
+[Text]
+Position=0,0,83,40
+Text=HC3.1
+Text=Policy No. 1
+ 
+  
+[Text]
+Position=0,0,83,40
+Text=HC3.2
+Text=Policy No. 2
+ 
+  
+[Text]
+Position=0,0,83,40
+Text=HC3.3
+Text=Policy No. 3
+ 
+  
+[Text]
+Position=0,0,83,40
+Text=HC3.4
+Text=Policy No. 4
+ 
+  
+[Column]
+[EndColumn]
+  
+[Column]
+Width=104
+  
+[HeaderText]
+Position=0,0,99,104
+Text=a.            Was policy n … health insurance policy? (READ OPTIONS
+ 
 [Field]
 Name=HC3A
-Position=106,87,121,107
+Position=42,0,57,20
 Item=HC3A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=23
   
 [Text]
-Position=50,90,84,106
-Text=HC3A
+Text=a.            Was policy n … health insurance policy? (READ OPTIONS
  
+[EndColumn]
   
+[Column]
+Width=72
+  
+[HeaderText]
+Position=6,0,99,72
+Text=b.          Who paid the premium for policy n?
+ 
 [Field]
 Name=HC3B
-Position=106,117,121,137
+Position=42,0,57,20
 Item=HC3B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=23
   
 [Text]
-Position=50,120,84,136
-Text=HC3B
+Text=b.          Who paid the premium for policy n?
  
+[EndColumn]
   
+[Column]
+Width=152
+  
+[HeaderText]
+Position=4,0,99,152
+Text=c.         What was the total value of your premium payments for policy n during the   
+Text=            past 12 months? 
+ 
 [Field]
 Name=HC3C
-Position=106,147,163,167
+Position=0,0,57,20
 Item=HC3C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
-Form=23
   
 [Text]
-Position=50,150,84,166
-Text=HC3C
+Text=c.         What was the total value of your premium payments for policy n during the   
+Text=            past 12 months? 
+ 
+[EndColumn]
+  
+[EndGrid]
  
 [EndGroup]
   
