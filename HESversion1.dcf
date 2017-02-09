@@ -1639,7 +1639,7 @@ ItemType=SubItem
 Label=Public Transportation
 Name=PUBLIC_TRANSPORTATION
 RecordTypeValue='F'
-RecordLen=28
+RecordLen=48
 
 [Item]
 Label=PT1
@@ -1654,10 +1654,19 @@ Value=1;Yes
 Value=2;No
 
 [Item]
+Label=PT2Tbl
+Name=PT2TBL
+Start=24
+Len=5
+DataType=Alpha
+Occurrences=5
+
+[Item]
 Label=PT2A
 Name=PT2A
 Start=24
 Len=1
+ItemType=SubItem
 
 [ValueSet]
 Label=PT2A
@@ -1670,6 +1679,7 @@ Label=PT2B
 Name=PT2B
 Start=25
 Len=4
+ItemType=SubItem
 
 [Record]
 Label=Personal Care
