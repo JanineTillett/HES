@@ -1,0 +1,51 @@
+﻿Application     C:\Users\jtillett\Desktop\HES\HESversion2.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\janinetest
+
+Date            Feb  9, 2017
+Start Time      15:28:18
+End Time        15:34:06
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  91165            1   Unable to 'skip to %s' - target-group is located 
+  99990            1   Operator entered a value out of range            
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     62       1    -   Not a valid month. Please reenter                       -
+     72       1    -   Not a valid year. Please reenter                        -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\jtillett\Desktop\HES\HESversion2.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\janinetest
+
+Date            Feb  9, 2017
+Start Time      15:34:26
+End Time        15:48:25
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1008            3   Invalid subscript: %n(%d) -- %p                  
+  99990            5   Operator entered a value out of range            
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+    432       1    -   Not a valid amount spent. Please reenter                -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
