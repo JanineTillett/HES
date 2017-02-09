@@ -4,8 +4,7 @@ PROC GLOBAL
 PROC HESVERSION1_FF
 
 PROC HESVERSION1_ID
-postproc
-	skip to HC3A;
+
 PROC HC3A
 preproc
 	if HC2 >= curocc()  then

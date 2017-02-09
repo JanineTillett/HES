@@ -264,7 +264,7 @@ PROC CA8
 //Skip to TD Module if CA8 is No (2).
 postproc 
 	if $ = 2 then 
-		skip to CLOTHING_AND_ACCESSORIES_8_FORM;
+		skip to TAILORING_AND_DRESSMAKING_FORM;
 	endif;
 PROC CA8A
 postproc
@@ -423,6 +423,11 @@ postproc
 	if $ = 2 then 
 		skip to FOOTWEAR_FORM;
 	endif;
+PROC TD7A
+postproc
+if $ = 2 then
+	skip to next;
+endif;
 PROC TD7B
 //Determine if value entered is correct i.e. Amount spent is between 1 and 9999.
 postproc
@@ -466,6 +471,12 @@ postproc
 	else
 		errmsg("Not a valid amount spent. Please reenter");
 		reenter FO2C;
+	endif;
+PROC FO3
+//Skip to FO4 if FO3 is No (2).
+postproc 
+	if $ = 2 then 
+		skip to FO4;
 	endif;
 PROC FO3A
 postproc

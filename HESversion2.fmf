@@ -2123,7 +2123,7 @@ Form=9
   
 [Text]
 Position=228,219,838,251
-Text=CCA8.        During the past 12 months, did you buy any accessories such as\n watches, jewellery, purses, or suitcases for any female household member (including yourself)?\n
+Text=CA8.        During the past 12 months, did you buy any accessories such as\n watches, jewellery, purses, or suitcases for any female household member (including yourself)?\n
  
   
 [Grid]
@@ -6826,17 +6826,17 @@ HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Position=78,0,93,24
+Position=92,0,107,24
 Text=1
  
   
 [Text]
-Position=78,0,93,24
+Position=92,0,107,24
 Text=2
  
   
 [Text]
-Position=78,0,93,24
+Position=92,0,107,24
 Text=3
  
   
@@ -6891,7 +6891,7 @@ Text=Income Group
  
 [Field]
 Name=INCOME_GROUP
-Position=70,0,85,20
+Position=70,0,99,20
 Item=INCOME_GROUP,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
   

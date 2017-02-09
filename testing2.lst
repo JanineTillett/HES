@@ -180,3 +180,41 @@ A compilation error file (.ERR) has been created for your application.
 
 CSPRO Executor Normal End
 --------------------------------------------------------------------------------
+Application     C:\Users\jtillett\Desktop\HES\testing.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\testing2
+
+Date            Feb  9, 2017
+Start Time      15:49:20
+End Time        15:50:08
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   2013            1   Record occurrences %s for record %n              
+  99990            3   Operator entered a value out of range            
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\jtillett\Desktop\HES\testing.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\testing2
+
+Date            Feb  9, 2017
+Start Time      15:50:13
+End Time        15:50:22
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   2013            1   Record occurrences %s for record %n              
+  99990            3   Operator entered a value out of range            
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
