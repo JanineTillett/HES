@@ -2260,13 +2260,22 @@ ItemType=SubItem
 Label=Medicine and Medical Supplies
 Name=MEDICINE_AND_MEDICAL_SUPPLIES
 RecordTypeValue='O'
-RecordLen=34
+RecordLen=166
+
+[Item]
+Label=MM1Tbl
+Name=MM1TBL
+Start=23
+Len=12
+DataType=Alpha
+Occurrences=12
 
 [Item]
 Label=MM1A
 Name=MM1A
 Start=23
 Len=1
+ItemType=SubItem
 
 [ValueSet]
 Label=MM1A
@@ -2279,12 +2288,14 @@ Label=MM1B
 Name=MM1B
 Start=24
 Len=5
+ItemType=SubItem
 
 [Item]
 Label=MM1C
 Name=MM1C
 Start=29
 Len=1
+ItemType=SubItem
 
 [ValueSet]
 Label=MM1C
@@ -2297,6 +2308,7 @@ Label=MM1D
 Name=MM1D
 Start=30
 Len=5
+ItemType=SubItem
 
 [Record]
 Label=Life Insurance
@@ -2570,7 +2582,7 @@ Len=6
 Label=Individual Income
 Name=INDIVIDUAL_INCOME
 RecordTypeValue='S'
-RecordLen=130
+RecordLen=133
 
 [Item]
 Label=II1
@@ -2618,7 +2630,7 @@ Len=1
 Label=II5Tbl
 Name=II5TBL
 Start=27
-Len=8
+Len=9
 DataType=Alpha
 Occurrences=3
 
@@ -2628,16 +2640,6 @@ Name=II5A
 Start=27
 Len=1
 ItemType=SubItem
-
-[ValueSet]
-Label=II5A
-Name=II5A_VS1
-Value=1;Self-employed?
-Value=2;A paid government employee?
-Value=3;A quasi government employee?
-Value=4;A private/NGO employee?
-Value=5;An international organization/embassy employee?
-Value=6;An unpaid family worker?
 
 [Item]
 Label=II5B
@@ -2650,13 +2652,13 @@ ItemType=SubItem
 Label=Income Group
 Name=INCOME_GROUP
 Start=34
-Len=1
+Len=2
 ItemType=SubItem
 
 [Item]
 Label=II6Tbl
 Name=II6TBL
-Start=51
+Start=54
 Len=8
 DataType=Alpha
 Occurrences=10
@@ -2664,7 +2666,7 @@ Occurrences=10
 [Item]
 Label=II6A
 Name=II6A
-Start=51
+Start=54
 Len=1
 ItemType=SubItem
 
@@ -2677,6 +2679,6 @@ Value=2;No
 [Item]
 Label=II6B
 Name=II6B
-Start=52
+Start=54
 Len=5
 ItemType=SubItem
