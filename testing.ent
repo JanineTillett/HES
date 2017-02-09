@@ -1,0 +1,15 @@
+﻿[CSPro Application]
+Version=CSPro 6.3
+Label=TESTING
+Name=TESTING
+AppType=DataEntry
+[AppCode]
+File=.\testing.ent.apc
+[Message]
+File=.\testing.ent.mgf
+[Help]
+File=.\testing.ent.qsf
+[Forms]
+File=.\testing.fmf
+[Dictionary Types]
+Dict-Type=.\HESversion1.dcf,Input,.\testing.fmf

@@ -1,0 +1,30 @@
+﻿Application     C:\Users\jtillett\Desktop\HES\HESversion2.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\hestest
+
+Date            Feb  9, 2017
+Start Time      15:17:20
+End Time        15:18:28
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     62       1    -   Not a valid month. Please reenter                       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\jtillett\Desktop\HES\HESversion2.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\hestest
+
+Date            Feb  9, 2017
+Start Time      15:21:59
+End Time        15:23:20
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
