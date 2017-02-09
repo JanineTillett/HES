@@ -831,6 +831,29 @@ postproc
 		errmsg("Not a valid amount spent. Please reenter");
 		reenter FT2B;
 	endif;
+PROC HC1
+//Skip to HN Module if HC1 is No (2).
+postproc 
+	if $ = 2 then 
+		skip to HEALTHCARE_NOT_COVERED_FORM;
+	endif;
+PROC HC2
+//Determine if value entered is correct i.e. Quantity is between 1 and 99.
+postproc
+	if $ in 1:99 then
+		;
+	else
+		errmsg("Not a valid quantity spent. Please reenter");
+		reenter HC2;
+	endif;
+PROC HC3A
+preproc
+	if HC2 >= curocc() then
+		;
+	else 
+		endgroup;
+	endif;
+
 PROC HC3C
 //Determine if value entered is correct i.e. Amount spent is between 1 and 9999.
 postproc
@@ -839,4 +862,317 @@ postproc
 	else
 		errmsg("Not a valid amount spent. Please reenter");
 		reenter HC3C;
+	endif;
+PROC HN1
+//Skip to MM Module if HN1 is No (2).
+postproc 
+	if $ = 2 then 
+		skip to MEDICINE_AND_MEDICAL_SUPPLI_FORM;
+	endif;
+PROC HN2A
+postproc
+if $ = 2 then
+	skip to next;
+endif;
+PROC HN2B
+//Determine if value entered is correct i.e. Amount spent is between 1 and 99999.
+postproc
+	if $ in 1:99999 then
+		;
+	else
+		errmsg("Not a valid amount spent. Please reenter");
+		reenter HN2B;
+	endif;
+PROC MM1A
+//skip to MM1C if MM1A is No(2)
+postproc
+if $ = 2 then
+	skip to MM1C;
+endif;
+PROC MM1B
+//Determine if value entered is correct i.e. Amount spent is between 1 and 99999.
+//skip to MM1D if MM1B is No(2)
+postproc
+	if $ in 1:99999 then
+		skip to MM1D;
+	else
+		errmsg("Not a valid amount spent. Please reenter");
+		reenter MM1B;
+	endif;
+PROC MM1C
+postproc
+if $ = 2 then
+	skip to next;
+endif;
+PROC MM1D
+//Determine if value entered is correct i.e. Amount spent is between 1 and 9999.
+postproc
+	if $ in 1:99999 then
+		;
+	else
+		errmsg("Not a valid amount spent. Please reenter");
+		reenter MM1D;
+	endif;
+PROC LI1
+//Skip to FC Module if LI1 is No (2).
+postproc 
+	if $ = 2 then 
+		skip to FINANCE_CHARGES_AND_CREDIT__FORM;
+	endif;
+PROC LI2
+//Determine if value entered is correct i.e. Quantity is between 1 and 99.
+postproc
+	if $ in 1:99 then
+		;
+	else
+		errmsg("Not a valid quantity. Please reenter");
+		reenter LI2;
+	endif;
+PROC LI3A
+preproc
+	if LI2 >= curocc() then
+		;
+	else 
+		endgroup;
+	endif;
+PROC LI3C
+//Determine if value entered is correct i.e. Value is between 1 and 99999.
+postproc
+	if $ in 1:99999 then
+		;
+	else
+		errmsg("Not a valid value. Please reenter");
+		reenter LI3C;
+	endif;
+PROC LI3D
+//Determine if value entered is correct i.e. Value is between 1 and 9999.
+postproc
+	if $ in 1:9999 then
+		;
+	else
+		errmsg("Not a valid value. Please reenter");
+		reenter LI3D;
+	endif;
+PROC FC1
+//Skip to SI Module if FC1 is No (2).
+postproc 
+	if $ = 2 then 
+		skip to SAVINGS_INVESTMENTS_LOANS_FORM;
+	endif;
+PROC FC2A
+postproc
+if $ = 2 then
+	skip to next;
+endif;
+PROC FC2B
+//Determine if value entered is correct i.e. Amount spent is between 1 and 99999.
+
+postproc
+	if $ in 1:99999 then
+		;
+	else
+		errmsg("Not a valid amount spent. Please reenter");
+		reenter FC2B;
+	endif;
+PROC FC2C
+//Determine if value entered is correct i.e. Total Value is between 1 and 99999.
+
+postproc
+	if $ in 1:99999 then
+		;
+	else
+		errmsg("Not a valid total value. Please reenter");
+		reenter FC2C;
+	endif;
+PROC FC2D
+//Determine if value entered is correct i.e. Amount is between 1 and 99999.
+
+postproc
+	if $ in 1:99999 then
+		;
+	else
+		errmsg("Not a valid amount. Please reenter");
+		reenter FC2D;
+	endif;
+PROC FC2E
+postproc
+if $ = 2 then
+	skip to next;
+endif;
+PROC FC2F
+//Determine if value entered is correct i.e. Value is between 1 and 99999.
+
+postproc
+	if $ in 1:99999 then
+		;
+	else
+		errmsg("Not a valid  value. Please reenter");
+		reenter FC2F;
+	endif;
+PROC FC3A
+postproc
+if $ = 2 then
+	skip to next;
+endif;
+PROC FC3B
+//Determine if value entered is correct i.e. Amount spent is between 1 and 99999.
+
+postproc
+	if $ in 1:99999 then
+		;
+	else
+		errmsg("Not a valid amount spent. Please reenter");
+		reenter FC3B;
+	endif;
+PROC FC3C
+//Determine if value entered is correct i.e. Total Value is between 1 and 99999.
+
+postproc
+	if $ in 1:99999 then
+		;
+	else
+		errmsg("Not a valid total value. Please reenter");
+		reenter FC3C;
+	endif;
+PROC FC3D
+//Determine if value entered is correct i.e. Amontis between 1 and 99999.
+
+postproc
+	if $ in 1:99999 then
+		;
+	else
+		errmsg("Not a valid amount. Please reenter");
+		reenter FC3D;
+	endif;
+PROC FC3E
+postproc
+if $ = 2 then
+	skip to next;
+endif;
+PROC FC3F
+//Determine if value entered is correct i.e. Value is between 1 and 99999.
+
+postproc
+	if $ in 1:99999 then
+		;
+	else
+		errmsg("Not a valid total value. Please reenter");
+		reenter FC3F;
+	endif;
+PROC SI1A
+postproc
+if $ = 2 then
+	skip to next;
+endif;
+PROC SI1B
+//Determine if value entered is correct i.e. Amount spent is between 1 and 99999.
+
+postproc
+	if $ in 1:99999 then
+		;
+	else
+		errmsg("Not a valid amount spent. Please reenter");
+		reenter SI1B;
+	endif;
+PROC SI2
+// Skip to II module if SI2 is No(2)
+postproc
+if $ = 2 then
+	skip to INDIVIDUAL_INCOME_FORM;
+endif;
+PROC SI3
+//Determine if value entered is correct i.e. Value is between 1 and 99999.
+
+postproc
+	if $ in 1:99999 then
+		;
+	else
+		errmsg("Not a valid  value. Please reenter");
+		reenter SI3;
+	endif;
+PROC SI4
+//Determine if value entered is correct i.e. Value is between 1 and 99999.
+
+postproc
+	if $ in 1:99999 then
+		;
+	else
+		errmsg("Not a valid  value. Please reenter");
+		reenter SI4;
+	endif;
+PROC II1
+// Skip to II3 module if II2 isYes(1)
+postproc
+if $ = 1 then
+	skip to II3;
+endif;
+PROC II2
+// Skip to II5.1 module if II2 is No(2)
+postproc
+if $ = 2 then
+	skip to II6TBL000;
+endif;
+PROC II3
+// Skip to II5.1 module if II3 is No(2)
+postproc
+if $ = 2 then
+	skip to II5TBL000;
+endif;
+PROC II4
+//Determine if value entered is correct i.e. Number of Jobs is between 1 and 9.
+
+postproc
+	if $ in 1:9 then
+		;
+	else
+		errmsg("Not a valid number of jobs. Please reenter");
+		reenter II4;
+	endif;
+PROC II5A
+preproc
+	if II4 >= curocc()  then
+		;
+	elseif II4 = notappl then
+		if 1 >= curocc() then
+			;
+		else 
+			endgroup;
+		endif;
+	else 
+		endgroup;
+	endif;
+PROC II5B
+//Determine if value entered is correct i.e. Oncome is between 1 and 999999.
+
+postproc
+	if $ in 1:999999 then
+		;
+	else
+		errmsg("Not a valid  income. Please reenter");
+		reenter II5B;
+	endif;
+PROC INCOME_GROUP
+//Determine if value entered is correct i.e. Income group is between 1 and 99.
+
+postproc
+	if $ in 1:99 then
+		;
+	else
+		errmsg("Not a valid  income group. Please reenter");
+		reenter INCOME_GROUP;
+	endif;
+PROC II6A
+postproc
+if $ = 2 then
+	skip to next;
+endif;
+PROC II6B
+//Determine if value entered is correct i.e. Amount received is between 1 and 99999.
+
+postproc
+	if $ in 1:99999 then
+		;
+	else
+		errmsg("Not a valid amount received. Please reenter");
+		reenter II6B;
 	endif;

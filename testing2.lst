@@ -1,0 +1,182 @@
+﻿Application     C:\Users\jtillett\Desktop\HES\testing.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\testing2
+
+Date            Feb  9, 2017
+Start Time      14:28:30
+End Time        14:28:30
+
+CSPRO Process Summary
+Application     C:\Users\jtillett\Desktop\HES\testing.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\testing2
+
+Date            Feb  9, 2017
+Start Time      14:29:56
+End Time        14:30:38
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1026            1   Id-variables not filled, please reenter          
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\jtillett\Desktop\HES\testing.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\testing2
+
+Date            Feb  9, 2017
+Start Time      14:30:44
+End Time        14:32:44
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1026            1   Id-variables not filled, please reenter          
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\jtillett\Desktop\HES\testing.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\testing2
+
+Date            Feb  9, 2017
+Start Time      14:33:00
+End Time        14:34:50
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1026            1   Id-variables not filled, please reenter          
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\jtillett\Desktop\HES\testing.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\testing2
+
+Date            Feb  9, 2017
+Start Time      14:34:57
+End Time        14:35:50
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            4   Operator entered a value out of range            
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\jtillett\Desktop\HES\testing.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\testing2
+
+Date            Feb  9, 2017
+Start Time      14:59:47
+End Time        15:00:44
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            4   Operator entered a value out of range            
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\jtillett\Desktop\HES\testing.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\testing2
+
+Date            Feb  9, 2017
+Start Time      15:00:50
+End Time        15:01:57
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            1   Operator entered a value out of range            
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\jtillett\Desktop\HES\testing.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\testing2
+
+Date            Feb  9, 2017
+Start Time      15:12:21
+End Time        15:12:43
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            2   Operator entered a value out of range            
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\jtillett\Desktop\HES\testing.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\testing2
+
+Date            Feb  9, 2017
+Start Time      15:13:30
+End Time        15:14:26
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   8303            1   %s should have a subscript - you may get error me
+  99990            2   Operator entered a value out of range            
+
+
+A compilation error file (.ERR) has been created for your application.
+
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\jtillett\Desktop\HES\testing.ent
+Type            ENTRY
+Input Data      C:\Users\jtillett\Desktop\HES\testing2
+
+Date            Feb  9, 2017
+Start Time      15:14:41
+End Time        15:16:28
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   2013            1   Record occurrences %s for record %n              
+   8303            1   %s should have a subscript - you may get error me
+  99990            3   Operator entered a value out of range            
+
+
+A compilation error file (.ERR) has been created for your application.
+
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------

@@ -13,7 +13,7 @@ File=.\HESversion1.dcf
 Name=FORM000
 Label=(Id Items)
 Level=1
-Size=1597,300
+Size=655,648
   
 Item=HESVERSION1_ID
 Item=PERSON_NUMBER
@@ -24,13 +24,23 @@ Item=HOUSEHOLD
 Item=ED_NUMBER
 Item=CTV
   
+Box=182,261,630,623,Etched
+  
+[Text]
+Name=TEXT4
+Position=309,185,427,212
+Text=Cover Page
+Form=1
+Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0018 Baskerville Old Face
+Color=16711808
+ 
 [EndForm]
   
 [Form]
 Name=FORM001
 Label=Individual Background
 Level=1
-Size=1597,300
+Size=767,579
   
 Item=IB1MONTH
 Item=IB1YEAR
@@ -38,6 +48,16 @@ Item=IB2
 Item=IB3
 Item=IB4
   
+Box=113,298,742,554,Etched
+  
+[Text]
+Name=TEXT3
+Position=200,230,554,258
+Text=Individual Background
+Form=2
+Font=-024 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0082 Felix Titling
+Color=16776960
+ 
 [EndForm]
   
 [Form]
@@ -307,7 +327,7 @@ Item=HC3TBL000
 Name=FORM023
 Label=Healthcare Not Covered
 Level=1
-Size=1597,390
+Size=990,693
   
 Item=HN1
 Item=HN2TBL000
@@ -318,12 +338,9 @@ Item=HN2TBL000
 Name=FORM024
 Label=Medicine and Medical Supplies
 Level=1
-Size=1597,300
+Size=1182,802
   
-Item=MM1A
-Item=MM1B
-Item=MM1C
-Item=MM1D
+Item=MM1TBL000
   
 [EndForm]
   
@@ -331,7 +348,7 @@ Item=MM1D
 Name=FORM025
 Label=Life Insurance
 Level=1
-Size=1597,300
+Size=999,734
   
 Item=LI1
 Item=LI2
@@ -343,7 +360,7 @@ Item=LI3TBL000
 Name=FORM026
 Label=Finance Charges and Credit Inventory
 Level=1
-Size=1597,420
+Size=1161,944
   
 Item=FC1
 Item=FC2TBL000
@@ -355,7 +372,7 @@ Item=FC3TBL000
 Name=FORM027
 Label=Savings, Investments & Loans
 Level=1
-Size=1597,420
+Size=920,711
   
 Item=SI1000
 Item=SI2
@@ -368,7 +385,7 @@ Item=SI4
 Name=FORM028
 Label=Individual Income
 Level=1
-Size=1597,600
+Size=793,852
   
 Item=II1
 Item=II2
@@ -393,99 +410,99 @@ Max=1
   
 [Field]
 Name=HESVERSION1_ID
-Position=170,27,227,47
+Position=389,316,446,336
 Item=HESVERSION1_ID,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
 Form=1
   
 [Text]
-Position=50,30,103,46
+Position=269,319,322,335
 Text=Barcode
  
   
 [Field]
 Name=PERSON_NUMBER
-Position=170,57,199,77
+Position=389,346,418,366
 Item=PERSON_NUMBER,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
 Form=1
   
 [Text]
-Position=50,60,148,76
+Position=269,349,367,365
 Text=Person Number
  
   
 [Field]
 Name=DISTRICT
-Position=170,87,185,107
+Position=389,376,404,396
 Item=DISTRICT,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=50,90,93,106
+Position=269,379,312,395
 Text=District
  
   
 [Field]
 Name=URBAN_RURAL
-Position=170,117,185,137
+Position=389,406,404,426
 Item=URBAN_RURAL,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=1
   
 [Text]
-Position=50,120,130,136
+Position=269,409,349,425
 Text=Urban /Rural
  
   
 [Field]
 Name=CLUSTER
-Position=170,147,213,167
+Position=389,436,432,456
 Item=CLUSTER,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
 Form=1
   
 [Text]
-Position=50,150,94,166
+Position=269,439,313,455
 Text=Cluster
  
   
 [Field]
 Name=HOUSEHOLD
-Position=170,177,213,197
+Position=389,466,432,486
 Item=HOUSEHOLD,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
 Form=1
   
 [Text]
-Position=50,180,117,196
+Position=269,469,336,485
 Text=Household
  
   
 [Field]
 Name=ED_NUMBER
-Position=170,207,241,227
+Position=389,496,460,516
 Item=ED_NUMBER,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
 Form=1
   
 [Text]
-Position=50,210,121,226
+Position=269,499,340,515
 Text=ED Number
  
   
 [Field]
 Name=CTV
-Position=170,237,199,257
+Position=389,526,418,546
 Item=CTV,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
 Form=1
   
 [Text]
-Position=50,240,76,256
+Position=269,529,295,545
 Text=CTV
  
 [EndGroup]
@@ -500,64 +517,59 @@ Max=1
   
 [Field]
 Name=IB1MONTH
-Position=131,27,160,47
+Position=455,333,484,353
 Item=IB1MONTH,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,30,109,46
-Text=IB1Month
+Position=177,328,400,344
+Text=IB1. In what month were you born?
  
   
 [Field]
 Name=IB1YEAR
-Position=131,57,188,77
+Position=444,362,501,382
 Item=IB1YEAR,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,60,99,76
-Text=IB1Year
+Position=177,358,388,374
+Text=IB1. In what year were you born?
  
   
 [Field]
 Name=IB2
-Position=131,87,160,107
+Position=491,384,520,404
 Item=IB2,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 Form=2
   
 [Text]
-Position=50,90,70,106
-Text=IB2
+Position=177,388,458,404
+Text=IB2. How old were you at your last birthday?
  
   
 [Field]
 Name=IB3
-Position=131,117,146,137
+Position=476,422,491,442
 Item=IB3,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=50,120,70,136
-Text=IB3
+Position=177,418,409,434
+Text=IB3. Have you ever attended school?
  
   
 [Field]
 Name=IB4
-Position=131,147,160,167
+Position=599,457,628,477
 Item=IB4,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=2
   
 [Text]
-Position=50,150,70,166
-Text=IB4
+Position=177,448,567,464
+Text=IB4. What is the last class, form or level you have completed?
  
 [EndGroup]
   
@@ -4190,7 +4202,7 @@ Text=PC1.21   Toothbrushes
   
 [Text]
 Position=54,0,197,33
-Text=PC1.22   Mouth wash 
+Text=PC1.22   Mouth wash
  
   
 [Text]
@@ -4240,8 +4252,8 @@ Text=PC1.31   Lipsticks
   
 [Text]
 Position=16,0,197,40
-Text=PC1.32   Make-up removal  
-Text=               products
+Text=PC1.32   Make-up removal
+Text=products
  
   
 [Text]
@@ -4316,15 +4328,15 @@ Text=PC1.46   Q-Tip
   
 [Text]
 Position=12,0,197,72
-Text=PC1.47   Sanitary pads or  
-Text=               tampons,  such as 
-Text=               Always, Stayfree, etc.
+Text=PC1.47   Sanitary pads or
+Text=tampons,  such as
+Text=Always, Stayfree, etc.
  
   
 [Text]
 Position=13,0,197,72
-Text=PC1.48   Wet wipes such as baby 
-Text=               Wipes or sanitary wipes 
+Text=PC1.48   Wet wipes such as baby
+Text=Wipes or sanitary wipes
  
   
 [Text]
@@ -4334,8 +4346,8 @@ Text=PC1.49   Spray Starch
   
 [Text]
 Position=4,0,197,40
-Text=PC1.50   Other personal care 
-Text=               products 
+Text=PC1.50   Other personal care
+Text=products
  
   
 [Column]
@@ -4754,7 +4766,7 @@ Text=RC1.38   Curry (sea food)
   
 [Text]
 Position=0,0,163,40
-Text=RC1.39   Sweet and sour chicken 
+Text=RC1.39   Sweet and sour chicken
  
   
 [Text]
@@ -5024,7 +5036,7 @@ Text=PS2.10	      Face and body waxing
   
 [Text]
 Position=0,0,330,40
-Text=PS2.11	      Laundry service including self service 
+Text=PS2.11	      Laundry service including self service
  
   
 [Text]
@@ -5129,19 +5141,19 @@ Text=RE1.2      Concerts, plays or pageants
 [Text]
 Position=14,0,227,72
 Text=RE1.3      Entrance fees or treats for spectator sports such as basketball,
-Text=                football, volleyball
+Text=football, volleyball
  
   
 [Text]
 Position=6,0,227,72
-Text=RE1.4     Equipment and supplies for participating in sports such as cycling, 
-Text=               football, basketball
+Text=RE1.4     Equipment and supplies for participating in sports such as cycling,
+Text=football, basketball
  
   
 [Text]
 Position=3,0,227,88
-Text=RE1.5     Dues, membership or subscription fees for participating in sports 
-Text=               such as cycling, football,  basketball
+Text=RE1.5     Dues, membership or subscription fees for participating in sports
+Text=such as cycling, football,  basketball
  
   
 [Text]
@@ -5176,7 +5188,7 @@ Text=RE1.11     Video games or consoles such as XBOX, WII, PSP
   
 [Text]
 Position=126,0,227,33
-Text=RE1.12    Fairs 
+Text=RE1.12    Fairs
  
   
 [Text]
@@ -5605,8 +5617,8 @@ Text=FT2.9      Tips
   
 [Text]
 Position=0,0,406,56
-Text=FT2.10    Entertainment such as tours, nightclubs, museums, sports 
-Text=                 events, etc.
+Text=FT2.10    Entertainment such as tours, nightclubs, museums, sports
+Text=events, etc.
  
   
 [Text]
@@ -5672,27 +5684,25 @@ Max=1
   
 [Field]
 Name=HC1
-Position=106,27,121,47
+Position=692,135,707,155
 Item=HC1,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=23
   
 [Text]
-Position=50,30,75,46
-Text=HC1
+Position=175,138,649,154
+Text=HC1.  During the past 12 months, did you own any health insurance policy?
  
   
 [Field]
 Name=HC2
-Position=106,57,135,77
+Position=719,172,748,192
 Item=HC2,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 Form=23
   
 [Text]
-Position=50,60,75,76
-Text=HC2
+Position=175,168,699,184
+Text=HC2.  How many health insurance policies did you own during the past 12 months?
  
   
 [Grid]
@@ -5778,8 +5788,8 @@ Width=152
   
 [HeaderText]
 Position=4,0,99,152
-Text=c.         What was the total value of your premium payments for policy n during the   
-Text=            past 12 months? 
+Text=c.         What was the total value of your premium payments for policy n during the
+Text=past 12 months?
  
 [Field]
 Name=HC3C
@@ -5787,8 +5797,8 @@ Position=0,0,57,20
 Item=HC3C,HESVERSION1_DICT
   
 [Text]
-Text=c.         What was the total value of your premium payments for policy n during the   
-Text=            past 12 months? 
+Text=c.         What was the total value of your premium payments for policy n during the
+Text=past 12 months?
  
 [EndColumn]
   
@@ -5806,15 +5816,14 @@ Max=1
   
 [Field]
 Name=HN1
-Position=97,27,112,47
+Position=800,121,815,141
 Item=HN1,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=24
   
 [Text]
-Position=50,30,75,46
-Text=HN1
+Position=204,119,748,151
+Text=HN1.    During the past 12 months, did you spend any money on health care\n not covered by health insurance, either for other household members or for yourself?
  
   
 [Grid]
@@ -5825,86 +5834,105 @@ Required=Yes
 Type=Item
 TypeName=HN2TBL
 Max=19
-DisplaySize=40,60,0,0
+DisplaySize=173,187,965,668
 Orientation=Horizontal
-FieldRowHeight=0
-HeadingRowHeight=0
+FieldRowHeight=35
+HeadingRowHeight=83
 FreeMovement=No
  
 [Text]
-Text=1
+Position=0,0,343,35
+Text=HN2.1       Doctor’s office visit
  
   
 [Text]
-Text=2
+Position=0,0,343,35
+Text=HN2.2       Dentist’s office visit
  
   
 [Text]
-Text=3
+Position=0,0,343,40
+Text=HN2.3       Optician office visit, including eyeglasses
  
   
 [Text]
-Text=4
+Position=0,0,343,35
+Text=HN2.4       Natural childbirth
  
   
 [Text]
-Text=5
+Position=0,0,343,35
+Text=HN2.5       Caesarean section
  
   
 [Text]
-Text=6
+Position=0,0,343,35
+Text=HN2.6       Midwifery
  
   
 [Text]
-Text=7
+Position=0,0,343,35
+Text=HN2.7       Chiropractic service
  
   
 [Text]
-Text=8
+Position=0,0,343,35
+Text=HN2.8       Surgery
  
   
 [Text]
-Text=9
+Position=0,0,343,35
+Text=HN2.9       X-ray
  
   
 [Text]
-Text=10
+Position=0,0,343,35
+Text=HN2.10     Ultrasound
  
   
 [Text]
-Text=11
+Position=0,0,343,35
+Text=HN2.11     CAT Scan
  
   
 [Text]
-Text=12
+Position=0,0,343,35
+Text=HN2.12     Mammograms
  
   
 [Text]
-Text=13
+Position=0,0,343,35
+Text=HN2.13      Anaesthesia
  
   
 [Text]
-Text=14
+Position=0,0,343,35
+Text=HN2.14      Hospitalization Fee
  
   
 [Text]
-Text=15
+Position=0,0,343,35
+Text=HN2.15      Bush doctor or herbalist
  
   
 [Text]
-Text=16
+Position=0,0,343,35
+Text=HN2.16      Lab fees
  
   
 [Text]
-Text=17
+Position=0,0,343,35
+Text=HN2.17      Nursing services
  
   
 [Text]
-Text=18
+Position=0,0,343,40
+Text=HN2.18      Orthopaedic equipment such as wheelchairs, crutches and artificial limbs
  
   
 [Text]
-Text=19
+Position=0,0,343,40
+Text=HN2.19     Any other health care services not covered by health insurance
  
   
 [Column]
@@ -5912,33 +5940,37 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=260
   
 [HeaderText]
-Text=HN2A
+Position=29,43,260,83
+Text=During the past 12 months, did you spend money on …?
  
 [Field]
 Name=HN2A
+Position=19,0,34,20
 Item=HN2A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=HN2A
+Text=During the past 12 months, did you spend money on …?
  
 [EndColumn]
   
 [Column]
+Width=173
   
 [HeaderText]
-Text=HN2B
+Position=1,43,173,83
+Text=How much did you spend on the …?
  
 [Field]
 Name=HN2B
+Position=0,0,71,20
 Item=HN2B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=HN2B
+Text=How much did you spend on the …?
  
 [EndColumn]
   
@@ -5954,54 +5986,155 @@ Form=25
 LogicControl=No
 Max=1
   
+[Grid]
+Name=MM1TBL000
+Label=MM1Tbl
+Form=25
+Required=Yes
+Type=Item
+TypeName=MM1TBL
+Max=12
+DisplaySize=231,168,1157,777
+Orientation=Horizontal
+FieldRowHeight=49
+HeadingRowHeight=0
+FreeMovement=No
+ 
+[Text]
+Position=0,0,292,49
+Text=MM1.1    Pain, fever and headache medicines such as Tylenol or Advil
+ 
+  
+[Text]
+Position=0,0,292,49
+Text=MM1.2    Diarrhoea medicines such as Imodium or Pepto Bismol
+ 
+  
+[Text]
+Position=0,0,292,49
+Text=MM1.3    Gas or indigestion medicines such as Alka Seltzer or Tums
+ 
+  
+[Text]
+Position=0,0,292,49
+Text=MM1.4     Antibiotics such as Ampicillin or Penicillin
+ 
+  
+[Text]
+Position=0,0,292,49
+Text=MM1.5     Flu or old medicines such as Theraflu or Viro-grip
+ 
+  
+[Text]
+Position=0,0,292,49
+Text=MM1.6     Tranquilizers such as Valium
+ 
+  
+[Text]
+Position=0,0,292,49
+Text=MM1.7     Vitamins such as Centrum, Triple S or Seven Seas
+ 
+  
+[Text]
+Position=0,0,292,49
+Text=MM1.8     Antiseptic solutions such as Detol or Savlon
+ 
+  
+[Text]
+Position=0,9,292,49
+Text=MM1.9     First aid supplies such as Band-Aid and rubbing alcohol
+ 
+  
+[Text]
+Position=15,9,292,49
+Text=MM1.10   Contraceptives such as condoms and birth control pills
+ 
+  
+[Text]
+Position=11,9,292,49
+Text=MM1.11   Herbal medicines such as Senna, aloe vera, bitters and barks
+ 
+  
+[Text]
+Position=19,9,292,49
+Text=MM1.12   Any other medicines or medical supplies
+ 
+  
+[Column]
+Width=10
+[EndColumn]
+  
+[Column]
+Width=148
+  
+[HeaderText]
+Position=3,16,148,72
+Text=During the past month, did you spend any money on …?
+ 
 [Field]
 Name=MM1A
-Position=110,27,125,47
+Position=23,0,38,20
 Item=MM1A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=25
   
 [Text]
-Position=50,30,88,46
-Text=MM1A
+Text=During the past month, did you spend any money on …?
  
+[EndColumn]
   
+[Column]
+Width=155
+  
+[HeaderText]
+Position=3,16,155,72
+Text=How much did you spend on the … during the past month?
+ 
 [Field]
 Name=MM1B
-Position=110,57,181,77
+Position=0,0,71,20
 Item=MM1B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
-Form=25
   
 [Text]
-Position=50,60,88,76
-Text=MM1B
+Text=How much did you spend on the … during the past month?
  
+[EndColumn]
   
+[Column]
+Width=150
+  
+[HeaderText]
+Position=24,0,150,72
+Text=During the past 12 months, did you spend any money on…?
+ 
 [Field]
 Name=MM1C
-Position=110,87,125,107
+Position=23,0,38,20
 Item=MM1C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=25
   
 [Text]
-Position=50,90,88,106
-Text=MM1C
+Text=During the past 12 months, did you spend any money on…?
  
+[EndColumn]
   
+[Column]
+Width=167
+  
+[HeaderText]
+Position=11,16,167,72
+Text=How much did you spend on … during the past 12 months?
+ 
 [Field]
 Name=MM1D
-Position=110,117,181,137
+Position=0,0,71,20
 Item=MM1D,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
-Form=25
   
 [Text]
-Position=50,120,88,136
-Text=MM1D
+Text=How much did you spend on … during the past 12 months?
+ 
+[EndColumn]
+  
+[EndGrid]
  
 [EndGroup]
   
@@ -6015,26 +6148,24 @@ Max=1
   
 [Field]
 Name=LI1
-Position=91,27,106,47
+Position=709,275,724,295
 Item=LI1,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 Form=26
   
 [Text]
-Position=50,30,69,46
-Text=LI1
+Position=214,280,647,296
+Text=LI1.   Did you own a life insurance policy during the past 12 months?
  
   
 [Field]
 Name=LI2
-Position=91,57,120,77
+Position=724,308,753,328
 Item=LI2,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 Form=26
   
 [Text]
-Position=50,60,69,76
-Text=LI2
+Position=214,310,712,326
+Text=LI2.  How many life insurance policies did you own during the past 12 months?
  
   
 [Grid]
@@ -6045,91 +6176,109 @@ Required=Yes
 Type=Item
 TypeName=LI3TBL
 Max=4
-DisplaySize=40,90,0,0
-Orientation=Horizontal
-FieldRowHeight=0
+DisplaySize=204,340,974,709
+Orientation=Vertical
+ColumnWidth=134
+StubColumnWidth=213
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Text=1
+Position=55,0,134,40
+Text=LI3.1
+Text=Policy No.1
  
   
 [Text]
-Text=2
+Position=55,0,134,40
+Text=LI3.2
+Text=Policy No.2
  
   
 [Text]
-Text=3
+Position=55,0,134,40
+Text=LI3.3
+Text=Policy No.3
  
   
 [Text]
-Text=4
+Position=62,0,134,40
+Text=LI3.4
+Text=Policy No.
  
   
 [Column]
-Width=10
 [EndColumn]
   
 [Column]
+Width=58
   
 [HeaderText]
-Text=LI3A
+Position=0,0,213,58
+Text=a.       Was policy n a … life insurance policy?
  
 [Field]
 Name=LI3A
+Position=70,0,85,20
 Item=LI3A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=LI3A
+Text=a.       Was policy n a … life insurance policy?
  
 [EndColumn]
   
 [Column]
+Width=43
   
 [HeaderText]
-Text=LI3B
+Position=0,0,213,43
+Text=b.      Was policy n …
  
 [Field]
 Name=LI3B
+Position=70,0,85,20
 Item=LI3B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=LI3B
+Text=b.      Was policy n …
  
 [EndColumn]
   
 [Column]
+Width=88
   
 [HeaderText]
-Text=LI3C
+Position=0,0,213,88
+Text=c.     What was the value of life insurance policy n?
  
 [Field]
 Name=LI3C
+Position=0,0,85,20
 Item=LI3C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=LI3C
+Text=c.     What was the value of life insurance policy n?
  
 [EndColumn]
   
 [Column]
+Width=200
   
 [HeaderText]
-Text=LI3D
+Position=0,0,213,200
+Text=d.     What was the total value of your premium payments?  Please
+Text=include only premiums paid during the past 12 months
  
 [Field]
 Name=LI3D
+Position=28,0,85,20
 Item=LI3D,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=LI3D
+Text=d.     What was the total value of your premium payments?  Please
+Text=include only premiums paid during the past 12 months
  
 [EndColumn]
   
@@ -6147,15 +6296,14 @@ Max=1
   
 [Field]
 Name=FC1
-Position=96,27,111,47
+Position=1084,124,1099,144
 Item=FC1,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=27
   
 [Text]
-Position=50,30,74,46
-Text=FC1
+Position=123,119,1014,151
+Text=FC1.   During the past 12 months did you obtain any loans or incur any debts?  Please include loans which were obtained and paid off\n during the past 12 months and loans obtained on hire purchase of vehicles during the past 12 months.  However, please exclude mortgages.
  
   
 [Grid]
@@ -6166,30 +6314,35 @@ Required=Yes
 Type=Item
 TypeName=FC2TBL
 Max=5
-DisplaySize=40,60,0,0
+DisplaySize=126,194,1127,565
 Orientation=Horizontal
-FieldRowHeight=0
-HeadingRowHeight=0
+FieldRowHeight=28
+HeadingRowHeight=143
 FreeMovement=No
  
 [Text]
-Text=1
+Position=0,0,189,56
+Text=FC2.1       Did you obtain a loan from a commercial bank?
  
   
 [Text]
-Text=2
+Position=0,0,189,88
+Text=FC2.2      Did you obtain a loan from an insurance company?  (Please do not include premium payments.)
  
   
 [Text]
-Text=3
+Position=0,0,189,56
+Text=FC2.3       Did you obtain a loan from a credit union?
  
   
 [Text]
-Text=4
+Position=0,0,189,56
+Text=FC2.4       Did you obtain a loan from a finance company?
  
   
 [Text]
-Text=5
+Position=0,0,189,56
+Text=FC2.5      Did you buy any items on hire-purchase?
  
   
 [Column]
@@ -6197,94 +6350,106 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=78
   
 [HeaderText]
-Text=FC2A
+Position=0,87,78,143
+Text=During the past 12 months …
  
 [Field]
 Name=FC2A
+Position=18,0,33,20
 Item=FC2A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=FC2A
+Text=During the past 12 months …
  
 [EndColumn]
   
 [Column]
+Width=98
   
 [HeaderText]
-Text=FC2B
+Position=0,71,98,143
+Text=What was the original amount of al l… loans?
  
 [Field]
 Name=FC2B
+Position=0,0,85,20
 Item=FC2B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=FC2B
+Text=What was the original amount of al l… loans?
  
 [EndColumn]
   
 [Column]
+Width=168
   
 [HeaderText]
-Text=FC2C
+Position=2,71,168,143
+Text=What is the total value of all payments made on the … loans during the past 12 months?
  
 [Field]
 Name=FC2C
+Position=0,0,85,20
 Item=FC2C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=FC2C
+Text=What is the total value of all payments made on the … loans during the past 12 months?
  
 [EndColumn]
   
 [Column]
+Width=163
   
 [HeaderText]
-Text=FC2D
+Position=9,103,163,143
+Text=What is the amount of the … loan still owing?
  
 [Field]
 Name=FC2D
+Position=0,0,85,20
 Item=FC2D,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=FC2D
+Text=What is the amount of the … loan still owing?
  
 [EndColumn]
   
 [Column]
+Width=156
   
 [HeaderText]
-Text=FC2E
+Position=1,71,156,143
+Text=Did you receive any write-offs of … loans received in the past 12 months?
  
 [Field]
 Name=FC2E
+Position=19,0,34,20
 Item=FC2E,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=FC2E
+Text=Did you receive any write-offs of … loans received in the past 12 months?
  
 [EndColumn]
   
 [Column]
+Width=122
   
 [HeaderText]
-Text=FC2F
+Position=24,87,122,143
+Text=What was the value of the write-off?
  
 [Field]
 Name=FC2F
+Position=0,0,85,20
 Item=FC2F,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=FC2F
+Text=What was the value of the write-off?
  
 [EndColumn]
   
@@ -6299,30 +6464,35 @@ Required=Yes
 Type=Item
 TypeName=FC3TBL
 Max=5
-DisplaySize=40,240,0,0
+DisplaySize=117,587,1136,919
 Orientation=Horizontal
-FieldRowHeight=0
+FieldRowHeight=29
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Text=1
+Position=0,0,180,40
+Text=FC3.1     A charge account for grocery, etc.?
  
   
 [Text]
-Text=2
+Position=0,0,180,29
+Text=FC3.2     	A credit card?
  
   
 [Text]
-Text=3
+Position=0,0,180,40
+Text=FC3.3      Medical or dental bills?
  
   
 [Text]
-Text=4
+Position=0,0,180,56
+Text=FC3.4      Individual that are not household members?
  
   
 [Text]
-Text=5
+Position=0,0,180,29
+Text=FC3.5     Any other loans?
  
   
 [Column]
@@ -6330,94 +6500,106 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=192
   
 [HeaderText]
-Text=FC3A
+Position=0,64,192,120
+Text=During the past 12 months did you have an outstanding debt for …
  
 [Field]
 Name=FC3A
+Position=18,0,33,20
 Item=FC3A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=FC3A
+Text=During the past 12 months did you have an outstanding debt for …
  
 [EndColumn]
   
 [Column]
+Width=148
   
 [HeaderText]
-Text=FC3B
+Position=1,64,148,120
+Text=What was the amount outstanding on the … debt?
  
 [Field]
 Name=FC3B
+Position=0,0,85,20
 Item=FC3B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=FC3B
+Text=What was the amount outstanding on the … debt?
  
 [EndColumn]
   
 [Column]
+Width=190
   
 [HeaderText]
-Text=FC3C
+Position=0,16,190,120
+Text=What is the total value of all payments made on the … in the past 12 months?  Please include lump sum payments made during the past 12 months.
  
 [Field]
 Name=FC3C
+Position=0,0,85,20
 Item=FC3C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=FC3C
+Text=What is the total value of all payments made on the … in the past 12 months?  Please include lump sum payments made during the past 12 months.
  
 [EndColumn]
   
 [Column]
+Width=96
   
 [HeaderText]
-Text=FC3D
+Position=0,48,96,120
+Text=What is the amount of the … debt still owing?
  
 [Field]
 Name=FC3D
+Position=0,0,85,20
 Item=FC3D,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=FC3D
+Text=What is the amount of the … debt still owing?
  
 [EndColumn]
   
 [Column]
+Width=86
   
 [HeaderText]
-Text=FC3E
+Position=0,0,86,120
+Text=Did you receive any write-offs of the … debt received in the past 12 months?
  
 [Field]
 Name=FC3E
+Position=17,0,32,20
 Item=FC3E,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=FC3E
+Text=Did you receive any write-offs of the … debt received in the past 12 months?
  
 [EndColumn]
   
 [Column]
+Width=98
   
 [HeaderText]
-Text=FC3F
+Position=0,64,98,120
+Text=What was the value of the write-off?
  
 [Field]
 Name=FC3F
+Position=0,0,85,20
 Item=FC3F,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=FC3F
+Text=What was the value of the write-off?
  
 [EndColumn]
   
@@ -6441,46 +6623,55 @@ Required=Yes
 Type=Item
 TypeName=SI1
 Max=9
-DisplaySize=40,30,0,0
+DisplaySize=109,137,895,580
 Orientation=Horizontal
-FieldRowHeight=0
+FieldRowHeight=36
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Text=1
+Position=0,0,409,40
+Text=SI1.1      Did you spend any money on stocks and bonds
  
   
 [Text]
-Text=2
+Position=0,0,409,40
+Text=SI1.2      Did you incur any real estate expenses not reported anywhere else
  
   
 [Text]
-Text=3
+Position=0,0,409,40
+Text=SI1.3     Did you spend any money on any other investments
  
   
 [Text]
-Text=4
+Position=0,0,409,40
+Text=SI1.4      Did you make any loans to persons outside the household
  
   
 [Text]
-Text=5
+Position=0,12,409,36
+Text=SI1.5      Was any of your money lost or stolen
  
   
 [Text]
-Text=6
+Position=0,0,409,40
+Text=SI1.6      Did you spend any money on alimony or child maintenance
  
   
 [Text]
-Text=7
+Position=0,12,409,36
+Text=SI1.7      Did you spend any money on court fines
  
   
 [Text]
-Text=8
+Position=0,12,409,36
+Text=SI1.8      Did you suffer any gambling losses
  
   
 [Text]
-Text=9
+Position=0,0,409,40
+Text=SI1.9      Did you spend any money on any other expenses not reported anywhere else
  
   
 [Column]
@@ -6488,33 +6679,37 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=184
   
 [HeaderText]
-Text=SI1A
+Position=8,0,184,40
+Text=During the past 12 months …?
  
 [Field]
 Name=SI1A
+Position=14,0,29,20
 Item=SI1A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=SI1A
+Text=During the past 12 months …?
  
 [EndColumn]
   
 [Column]
+Width=181
   
 [HeaderText]
-Text=SI1B
+Position=9,0,181,40
+Text=How much did you spend on (How much was) …?
  
 [Field]
 Name=SI1B
+Position=0,0,71,20
 Item=SI1B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=SI1B
+Text=How much did you spend on (How much was) …?
  
 [EndColumn]
   
@@ -6523,39 +6718,36 @@ Text=SI1B
   
 [Field]
 Name=SI2
-Position=92,327,107,347
+Position=312,606,327,626
 Item=SI2,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=28
   
 [Text]
-Position=50,330,70,346
-Text=SI2
+Position=270,609,691,625
+Text=SI2.          During the past 12 months, did you acquire any savings?
  
   
 [Field]
 Name=SI3
-Position=92,357,177,377
+Position=312,636,397,656
 Item=SI3,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 Form=28
   
 [Text]
-Position=50,360,70,376
-Text=SI3
+Position=270,639,654,655
+Text=SI3.     What was the total value of your savings at mm/yyyy?
  
   
 [Field]
 Name=SI4
-Position=92,387,177,407
+Position=312,666,397,686
 Item=SI4,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 Form=28
   
 [Text]
-Position=50,390,70,406
-Text=SI4
+Position=270,669,606,685
+Text=SI4.        What is the total value of your savings now?
  
 [EndGroup]
   
@@ -6626,66 +6818,80 @@ Required=Yes
 Type=Item
 TypeName=II5TBL
 Max=3
-DisplaySize=40,150,0,0
-Orientation=Horizontal
-FieldRowHeight=0
+DisplaySize=40,150,768,503
+Orientation=Vertical
+ColumnWidth=0
+StubColumnWidth=15
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
+Position=78,0,93,24
 Text=1
  
   
 [Text]
+Position=78,0,93,24
 Text=2
  
   
 [Text]
+Position=78,0,93,24
 Text=3
  
   
 [Column]
-Width=10
 [EndColumn]
   
 [Column]
+Width=56
   
 [HeaderText]
-Text=II5A
+Position=17,0,98,56
+Text=a.	    For your… job, were you
  
 [Field]
 Name=II5A
+Position=70,0,85,20
 Item=II5A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=II5A
+Text=a.	    For your… job, were you
  
 [EndColumn]
   
 [Column]
+Width=296
   
 [HeaderText]
-Text=II5B
+Position=0,0,98,296
+Text=b.	    What was your total income from your … job during the past 12 months?   This is
+Text=before taxes and deductions.  Please include tips, bonuses, commissions, etc. from
+Text=this job.
  
 [Field]
 Name=II5B
+Position=0,0,85,20
 Item=II5B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=II5B
+Text=b.	    What was your total income from your … job during the past 12 months?   This is
+Text=before taxes and deductions.  Please include tips, bonuses, commissions, etc. from
+Text=this job.
  
 [EndColumn]
   
 [Column]
+Width=28
   
 [HeaderText]
+Position=0,4,98,28
 Text=Income Group
  
 [Field]
 Name=INCOME_GROUP
+Position=70,0,85,20
 Item=INCOME_GROUP,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
   
@@ -6705,49 +6911,59 @@ Required=Yes
 Type=Item
 TypeName=II6TBL
 Max=10
-DisplaySize=40,270,0,0
+DisplaySize=110,523,263,827
 Orientation=Horizontal
 FieldRowHeight=0
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
+Position=0,4,121,28
 Text=1
  
   
 [Text]
+Position=0,4,121,28
 Text=2
  
   
 [Text]
+Position=0,4,121,28
 Text=3
  
   
 [Text]
+Position=0,4,121,28
 Text=4
  
   
 [Text]
+Position=0,4,121,28
 Text=5
  
   
 [Text]
+Position=0,4,121,28
 Text=6
  
   
 [Text]
+Position=0,4,121,28
 Text=7
  
   
 [Text]
+Position=0,4,121,28
 Text=8
  
   
 [Text]
+Position=0,4,121,28
 Text=9
  
   
 [Text]
+Position=0,4,121,28
 Text=10
  
   
@@ -6756,12 +6972,15 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=32
   
 [HeaderText]
+Position=0,0,32,24
 Text=II6A
  
 [Field]
 Name=II6A
+Position=9,0,24,20
 Item=II6A,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -6772,12 +6991,15 @@ Text=II6A
 [EndColumn]
   
 [Column]
+Width=79
   
 [HeaderText]
+Position=47,0,79,24
 Text=II6B
  
 [Field]
 Name=II6B
+Position=0,0,71,20
 Item=II6B,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
   

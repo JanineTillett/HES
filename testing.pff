@@ -6,8 +6,8 @@ AppType=Entry
 Interactive=Ask
 
 [Files]
-Application=.\HESversion2.ent
-InputData=.\hestest
+Application=.\testing.ent
+InputData=.\testing2
 
 
 [Parameters]
