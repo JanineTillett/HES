@@ -42,37 +42,53 @@ Item=IB4
   
 [Form]
 Name=FORM002
-Label=Clothing and Accessories-male household member 14 years and older
+Label=Clothing and Accessories 2
 Level=1
-Size=1597,420
+Size=1540,1040
   
 Item=CA1
 Item=CA2
 Item=CA2TBL000
   
-[EndForm]
+Box=20,115,1515,1015,Etched
   
-[Form]
-Name=FORM003
-Label=Clothing and Accessories-Female household member 14 years and older
-Level=1
-Size=1597,450
-  
-Item=CA4
-Item=CA4TBL000
-Item=INTERVIEWER_S_COMMENTS
-Item=OTHER_COMMENTS
-  
+[Text]
+Name=TEXT1
+Position=359,143,777,175
+Text=CLOTHING AND ACCESSORIES
+Form=3
+Font=-027 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+ 
 [EndForm]
   
 [Form]
 Name=FORM004
 Label=Clothing and Accessories 3
 Level=1
-Size=1597,390
+Size=1333,906
   
 Item=CA3
 Item=CA3TBL000
+  
+Box=66,83,1352,921,Etched
+  
+[Text]
+Name=TEXT2
+Position=369,153,787,185
+Text=CLOTHING AND ACCESSORIES
+Form=4
+Font=-027 0000 0000 0000 0700 0000 0000 0000 0000 0003 0002 0001 0034 Arial
+ 
+[EndForm]
+  
+[Form]
+Name=FORM003
+Label=Clothing and Accessories 4
+Level=1
+Size=1258,910
+  
+Item=CA4
+Item=CA4TBL000
   
 [EndForm]
   
@@ -80,7 +96,7 @@ Item=CA3TBL000
 Name=FORM005
 Label=Clothing and Accessories 5
 Level=1
-Size=1597,390
+Size=1314,922
   
 Item=CA5
 Item=CA5TBL000
@@ -91,7 +107,7 @@ Item=CA5TBL000
 Name=FORM006
 Label=Clothing and Accessories 6
 Level=1
-Size=1597,390
+Size=1143,891
   
 Item=CA6
 Item=CA6TBL000
@@ -102,7 +118,7 @@ Item=CA6TBL000
 Name=FORM007
 Label=Clothing and Accessories 7
 Level=1
-Size=1597,390
+Size=1144,877
   
 Item=CA7
 Item=CA7TBL000
@@ -113,7 +129,7 @@ Item=CA7TBL000
 Name=FORM008
 Label=Clothing and Accessories 8
 Level=1
-Size=1597,390
+Size=1169,759
   
 Item=CA8
 Item=CA8TBL000
@@ -124,7 +140,7 @@ Item=CA8TBL000
 Name=FORM009
 Label=Tailoring and Dressmaking
 Level=1
-Size=1597,1260
+Size=1202,2233
   
 Item=TD1
 Item=TD2
@@ -550,36 +566,34 @@ Text=IB4
   
 [Group]
 Required=Yes
-Name=CLOTHING_ACCESSORIES_FORM
-Label=Clothing and Accessories-male household member 14 years and older
+Name=CLOTHING_FORM_O14MALE
+Label=Clothing and Accessories 2
 Form=3
 LogicControl=No
 Max=1
   
 [Field]
 Name=CA1
-Position=97,27,112,47
+Position=757,208,772,228
 Item=CA1,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=3
   
 [Text]
-Position=50,30,75,46
-Text=CA1
+Position=41,206,632,238
+Text=CA1.     During the past 12 months, did you buy any new or used ready-made clothing \nsuch as outerwear, underwear or headgear for any household member, including yourself?   \n
  
   
 [Field]
 Name=CA2
-Position=97,57,112,77
+Position=762,272,777,292
 Item=CA2,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=3
   
 [Text]
-Position=50,60,75,76
-Text=CA2
+Position=40,270,729,302
+Text=CA2.     During the past 12 months, did you buy any new or used ready-made clothing such as \nouterwear, underwear or headgear for any male household member 14 years and older (including yourself)?\n
  
   
 [Grid]
@@ -590,114 +604,140 @@ Required=Yes
 Type=Item
 TypeName=CA2TBL
 Max=26
-DisplaySize=40,90,0,0
+DisplaySize=43,343,1342,970
 Orientation=Horizontal
-FieldRowHeight=0
+FieldRowHeight=42
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Text=1
+Position=0,0,205,42
+Text=CA2.1	  Complete suits
  
   
 [Text]
-Text=2
+Position=0,0,205,42
+Text=CA2.2  	  Dress pants
  
   
 [Text]
-Text=3
+Position=0,0,205,42
+Text=CA2.3	  Jeans
  
   
 [Text]
-Text=4
+Position=0,0,205,42
+Text=CA2.4	  Other casual pants
  
   
 [Text]
-Text=5
+Position=0,0,205,42
+Text=CA2.5	  Shorts
  
   
 [Text]
-Text=6
+Position=0,0,205,42
+Text=CA2.6	  Sweaters/jackets
  
   
 [Text]
-Text=7
+Position=0,0,205,42
+Text=CA2.7	  Dress shirts
  
   
 [Text]
-Text=8
+Position=0,0,205,42
+Text=CA2.8	  Guayaberas
  
   
 [Text]
-Text=9
+Position=0,0,205,42
+Text=CA2.9	  Polo shirts
  
   
 [Text]
-Text=10
+Position=0,0,205,42
+Text=CA2.10	  T-shirts
  
   
 [Text]
-Text=11
+Position=0,0,205,42
+Text=CA2.11	  Sportswear such as tights or sweatpants
  
   
 [Text]
-Text=12
+Position=0,0,205,42
+Text=CA2.12	  School uniforms
  
   
 [Text]
-Text=13
+Position=0,0,205,42
+Text=CA2.13	  Other uniforms such as work uniforms
  
   
 [Text]
-Text=14
+Position=0,0,205,42
+Text=CA2.14	  Other men's outerwear
  
   
 [Text]
-Text=15
+Position=0,0,205,42
+Text=CA2.15      Briefs
  
   
 [Text]
-Text=16
+Position=0,0,205,42
+Text=CA2.16	  Boxer shorts or boxer briefs
  
   
 [Text]
-Text=17
+Position=0,0,205,42
+Text=CA2.17	  Undershirts
  
   
 [Text]
-Text=18
+Position=0,0,205,42
+Text=CA2.18	  Socks
  
   
 [Text]
-Text=19
+Position=0,0,205,42
+Text=CA2.19	  Other men's underwear
  
   
 [Text]
-Text=20
+Position=0,0,205,42
+Text=CA2.20	  Ties
  
   
 [Text]
-Text=21
+Position=0,0,205,42
+Text=CA2.21	  Belts
  
   
 [Text]
-Text=22
+Position=0,0,205,42
+Text=CA2.22	  Pyjamas
  
   
 [Text]
-Text=23
+Position=0,0,205,42
+Text=CA2.23	  Bathrobes
  
   
 [Text]
-Text=24
+Position=0,0,205,42
+Text=CA2.24	  Raincoats
  
   
 [Text]
-Text=25
+Position=0,0,205,42
+Text=CA2.25	  Hats or caps
  
   
 [Text]
-Text=26
+Position=0,0,205,42
+Text=CA2.26	  Other men’s clothing
  
   
 [Column]
@@ -705,96 +745,379 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=266
   
 [HeaderText]
-Text=CA2A
+Position=1,0,264,56
+Text=During the past 12 months, did you buy any … for any male household member 14 years and older (including yourself)?
+HorizontalAlignment=Center
  
 [Field]
 Name=CA2A
+Position=19,0,34,20
 Item=CA2A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA2A
+Position=1,128,216,200
+Text=During the past 12 months, did you buy any … for any male household member 14 years and older (including yourself)?
+HorizontalAlignment=Center
  
 [EndColumn]
   
 [Column]
+Width=130
   
 [HeaderText]
-Text=CA2B
+Position=7,0,123,56
+Text=How many… did you buy? --- Quantity
+HorizontalAlignment=Center
  
 [Field]
 Name=CA2B
+Position=5,0,34,20
 Item=CA2B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=CA2B
+Position=14,144,130,200
+Text=How many… did you buy? --- Quantity
+HorizontalAlignment=Center
  
 [EndColumn]
   
 [Column]
+Width=126
   
 [HeaderText]
-Text=CA2C
+Position=5,16,121,56
+Text=How many… did you buy? -- Unit
+HorizontalAlignment=Center
  
 [Field]
 Name=CA2C
+Position=19,0,34,20
 Item=CA2C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA2C
+Position=10,160,126,200
+Text=How many… did you buy? -- Unit
+HorizontalAlignment=Center
  
 [EndColumn]
   
 [Column]
+Width=166
   
 [HeaderText]
-Text=CA2D
+Position=36,0,166,56
+Text=How much did you spend on the …?\nBZ($)
  
 [Field]
 Name=CA2D
+Position=0,0,57,20
 Item=CA2D,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=CA2D
+Position=0,0,270,16
+Text=How much did you spend on the …?\nBZ($)
  
 [EndColumn]
   
 [Column]
+Width=189
   
 [HeaderText]
-Text=CA2E
+Position=26,32,163,56
+Text=Was it new or used?
+HorizontalAlignment=Center
  
 [Field]
 Name=CA2E
+Position=18,0,33,20
 Item=CA2E,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA2E
+Position=62,176,195,192
+Text=Was it new or used?
+HorizontalAlignment=Center
  
 [EndColumn]
   
 [Column]
+Width=192
   
 [HeaderText]
-Text=CA2F
+Position=1,16,190,56
+Text=At what type of business did you buy the …?
+HorizontalAlignment=Center
  
 [Field]
 Name=CA2F
+Position=18,0,33,20
 Item=CA2F,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA2F
+Position=3,160,281,176
+Text=At what type of business did you buy the …?
+HorizontalAlignment=Center
+ 
+[EndColumn]
+  
+[EndGrid]
+ 
+[EndGroup]
+  
+[Group]
+Required=Yes
+Name=CLOTHING_AND_ACCESSORIES_3_FORM
+Label=Clothing and Accessories 3
+Form=4
+LogicControl=No
+Max=1
+  
+[Field]
+Name=CA3
+Position=750,232,765,252
+Item=CA3,HESVERSION1_DICT
+DataCaptureType=RadioButton
+Form=4
+  
+[Text]
+Position=88,222,665,254
+Text=CA3.   During the past 12 months, did you buy any new or used ready-made clothing \nsuch as outerwear, underwear or headgear for any male household member 3 to 13 years?\n
+ 
+  
+[Grid]
+Name=CA3TBL000
+Label=CA3Tbl
+Form=4
+Required=Yes
+Type=Item
+TypeName=CA3TBL
+Max=21
+DisplaySize=75,291,1308,881
+Orientation=Horizontal
+FieldRowHeight=43
+HeadingRowHeight=128
+FreeMovement=No
+ 
+[Text]
+Position=0,0,181,56
+Text=CA3.1	  Complete suits
+ 
+  
+[Text]
+Position=0,0,181,43
+Text=CA3.2	  Dress pants
+ 
+  
+[Text]
+Position=0,0,181,43
+Text=CA3.3	  Jeans pants
+ 
+  
+[Text]
+Position=0,0,181,43
+Text=CA3.4	  Other casual pants
+ 
+  
+[Text]
+Position=0,0,181,43
+Text=CA3.5	  Short pants
+ 
+  
+[Text]
+Position=0,0,181,56
+Text=CA3.6	   School uniforms
+ 
+  
+[Text]
+Position=0,0,181,43
+Text=CA3.7	  Dress shirts
+ 
+  
+[Text]
+Position=0,0,181,43
+Text=CA3.8	  T-shirts
+ 
+  
+[Text]
+Position=0,0,181,43
+Text=CA3.9       Guayaberas
+ 
+  
+[Text]
+Position=0,0,181,43
+Text=CA3.10      Polo shirts
+ 
+  
+[Text]
+Position=0,0,181,72
+Text=CA3.11      Sportswear  such as tights or sweatpants
+ 
+  
+[Text]
+Position=0,0,181,43
+Text=CA3.12      Sweaters/jackets
+ 
+  
+[Text]
+Position=0,0,181,56
+Text=CA3.13      Other boys’ outerwear
+ 
+  
+[Text]
+Position=0,0,181,43
+Text=CA3.14	  Briefs
+ 
+  
+[Text]
+Position=0,0,181,43
+Text=CA3.15      Boxers
+ 
+  
+[Text]
+Position=0,0,181,43
+Text=CA3.16	  Undershirts
+ 
+  
+[Text]
+Position=0,19,181,43
+Text=CA3.17	  Socks
+ 
+  
+[Text]
+Position=0,0,181,56
+Text=CA3.18	  Other boys' underwear
+ 
+  
+[Text]
+Position=0,3,181,43
+Text=CA3.19	  Pyjamas
+ 
+  
+[Text]
+Position=0,3,181,43
+Text=CA3.20	  Hats or caps
+ 
+  
+[Text]
+Position=0,3,181,43
+Text=CA3.21	  Other boys’ clothing 
+ 
+  
+[Column]
+Width=10
+[EndColumn]
+  
+[Column]
+Width=227
+  
+[HeaderText]
+Position=0,72,227,128
+Text=During the past 12 months, did you buy any … for any     male household member 3 to13 years?
+ 
+[Field]
+Name=CA3A
+Position=19,0,34,20
+Item=CA3A,HESVERSION1_DICT
+DataCaptureType=RadioButton
+  
+[Text]
+Text=During the past 12 months, did you buy any … for any     male household member 3 to13 years?
+ 
+[EndColumn]
+  
+[Column]
+Width=142
+  
+[HeaderText]
+Position=3,88,142,128
+Text=How many… did you buy? --- Quantity
+ 
+[Field]
+Name=CA3B
+Position=5,0,34,20
+Item=CA3B,HESVERSION1_DICT
+  
+[Text]
+Text=How many… did you buy? --- Quantity
+ 
+[EndColumn]
+  
+[Column]
+Width=138
+  
+[HeaderText]
+Position=22,88,138,128
+Text=How many… did you buy? -- Unit
+ 
+[Field]
+Name=CA3C
+Position=19,0,34,20
+Item=CA3C,HESVERSION1_DICT
+DataCaptureType=RadioButton
+  
+[Text]
+Text=How many… did you buy? -- Unit
+ 
+[EndColumn]
+  
+[Column]
+Width=160
+  
+[HeaderText]
+Position=30,72,160,128
+Text=How much did you spend on the …?
+Text=BZ($)
+ 
+[Field]
+Name=CA3D
+Position=0,0,57,20
+Item=CA3D,HESVERSION1_DICT
+  
+[Text]
+Text=How much did you spend on the …?
+Text=BZ($)
+ 
+[EndColumn]
+  
+[Column]
+Width=153
+  
+[HeaderText]
+Position=16,104,153,128
+Text=Was it new or used?
+ 
+[Field]
+Name=CA3E
+Position=18,0,33,20
+Item=CA3E,HESVERSION1_DICT
+DataCaptureType=RadioButton
+  
+[Text]
+Position=0,0,133,16
+Text=Was it new or used?
+ 
+[EndColumn]
+  
+[Column]
+Width=211
+  
+[HeaderText]
+Position=22,88,211,128
+Text=At what type of business did you buy the …?
+ 
+[Field]
+Name=CA3F
+Position=18,0,33,20
+Item=CA3F,HESVERSION1_DICT
+  
+[Text]
+Text=At what type of business did you buy the …?
  
 [EndColumn]
   
@@ -805,160 +1128,191 @@ Text=CA2F
 [Group]
 Required=Yes
 Name=CLOTHING_ACCESSORIES_FEM_FORM
-Label=Clothing and Accessories-Female household member 14 years and older
-Form=4
+Label=Clothing and Accessories 4
+Form=5
 LogicControl=No
 Max=1
   
 [Field]
 Name=CA4
-Position=224,27,239,47
+Position=1081,161,1096,181
 Item=CA4,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
-Form=4
+Form=5
   
 [Text]
-Position=50,30,75,46
-Text=CA4
+Position=236,152,992,184
+Text=CA4.     During the past 12 months, did you buy any new or used ready-made clothing\n such as outerwear, underwear or headgear for any female household member 14 years and older (including yourself)?\n
  
   
 [Grid]
 Name=CA4TBL000
 Label=CA4Tbl
-Form=4
+Form=5
 Required=Yes
 Type=Item
 TypeName=CA4TBL
 Max=31
-DisplaySize=40,60,0,0
+DisplaySize=160,228,1233,885
 Orientation=Horizontal
-FieldRowHeight=0
-HeadingRowHeight=0
+FieldRowHeight=44
+HeadingRowHeight=121
 FreeMovement=No
  
 [Text]
-Text=1
+Position=12,0,99,44
+Text=CA4.1	  Suits or jackets
  
   
 [Text]
-Text=2
+Position=10,0,99,56
+Text=CA4.2	  Party or formal dresses
  
   
 [Text]
-Text=3
+Position=0,0,99,44
+Text=CA4.3	  Casual dresses
  
   
 [Text]
-Text=4
+Position=23,0,99,44
+Text=CA4.4        Skirts
  
   
 [Text]
-Text=5
+Position=0,0,99,88
+Text=CA4.5	  Casual pants such as jeans pant or cargo pants) 
  
   
 [Text]
-Text=6
+Position=9,0,99,44
+Text=CA4.6	  Dress pants
  
   
 [Text]
-Text=7
+Position=42,0,99,44
+Text=CA4.7	  Blouses
  
   
 [Text]
-Text=8
+Position=14,0,99,44
+Text=CA4.8	  Polo shirts
  
   
 [Text]
-Text=9
+Position=3,0,99,44
+Text=CA4.9	  T-shirts
  
   
 [Text]
-Text=10
+Position=2,0,99,72
+Text=CA4.10	  Sportswear such as tights or sweatpants
  
   
 [Text]
-Text=11
+Position=11,0,99,56
+Text=CA4.11	  Sweaters or jackets
  
   
 [Text]
-Text=12
+Position=6,0,99,72
+Text= CA4.12	  Bathing suits or other swimwear
  
   
 [Text]
-Text=13
+Position=0,0,99,44
+Text=CA4.13	  Shorts
  
   
 [Text]
-Text=14
+Position=35,0,99,56
+Text=CA4.14	   School Uniforms
  
   
 [Text]
-Text=15
+Position=1,0,99,44
+Text=CA4.15	  Other uniforms
  
   
 [Text]
-Text=16
+Position=1,0,99,56
+Text=CA4.16	  Other women’s outerwear
  
   
 [Text]
-Text=17
+Position=40,0,99,44
+Text=CA4.17	  Panties
  
   
 [Text]
-Text=18
+Position=26,0,99,44
+Text= CA4.18	  Brassieres
  
   
 [Text]
-Text=19
+Position=28,0,99,44
+Text=CA4.19     Lingerie
  
   
 [Text]
-Text=20
+Position=9,0,99,44
+Text=CA4.20	  Slips
  
   
 [Text]
-Text=21
+Position=36,0,99,44
+Text= CA4.21	  Girdles
  
   
 [Text]
-Text=22
+Position=4,0,99,44
+Text=CA4.22	  Vests or undershirts
  
   
 [Text]
-Text=23
+Position=0,0,99,44
+Text=CA4.23	  Nylon stockings
  
   
 [Text]
-Text=24
+Position=15,0,99,44
+Text=CA4.24      Short Tights
  
   
 [Text]
-Text=25
+Position=3,0,99,44
+Text=CA4.25	  Socks
  
   
 [Text]
-Text=26
+Position=1,0,99,56
+Text=CA4.26	  Other women’s underwear
  
   
 [Text]
-Text=27
+Position=9,0,99,136
+Text=CA4.27	  Sleepwear such as nightgowns, pyjamas or   
+Text=                    dusters
  
   
 [Text]
-Text=28
+Position=9,0,99,44
+Text=CA4.28	  Hats or caps
  
   
 [Text]
-Text=29
+Position=27,0,99,44
+Text=CA4.29	  Bathrobes
  
   
 [Text]
-Text=30
+Position=29,0,99,44
+Text=CA4.30	  Raincoats
  
   
 [Text]
-Text=31
+Position=1,0,99,56
+Text= CA4.31	  Other women's clothing 
  
   
 [Column]
@@ -966,342 +1320,109 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=245
   
 [HeaderText]
-Text=CA4A
+Position=0,49,245,121
+Text=During the past 12 months, did you buy any … for any female household member 14 years or older (including yourself)?
  
 [Field]
 Name=CA4A
+Position=19,0,34,20
 Item=CA4A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA4A
+Text=During the past 12 months, did you buy any … for any female household member 14 years or older (including yourself)?
  
 [EndColumn]
   
 [Column]
+Width=132
   
 [HeaderText]
-Text=CA4B
+Position=16,65,132,121
+Text=How many… did you buy? -- Quantity
  
 [Field]
 Name=CA4B
+Position=5,0,34,20
 Item=CA4B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=CA4B
+Text=How many… did you buy? -- Quantity
  
 [EndColumn]
   
 [Column]
+Width=111
   
 [HeaderText]
-Text=CA4C
+Position=5,65,111,121
+Text=How many… did you buy? -- Unit
  
 [Field]
 Name=CA4C
+Position=19,0,34,20
 Item=CA4C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA4C
+Text=How many… did you buy? -- Unit
  
 [EndColumn]
   
 [Column]
+Width=134
   
 [HeaderText]
-Text=CA4D
+Position=4,81,134,121
+Text=How much did you spend on the …?
  
 [Field]
 Name=CA4D
+Position=0,0,57,20
 Item=CA4D,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=CA4D
+Text=How much did you spend on the …?
  
 [EndColumn]
   
 [Column]
+Width=158
   
 [HeaderText]
-Text=CA4E
+Position=21,97,158,121
+Text=Was it new or used?
  
 [Field]
 Name=CA4E
+Position=18,0,33,20
 Item=CA4E,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA4E
+Text=Was it new or used?
  
 [EndColumn]
   
 [Column]
+Width=171
   
 [HeaderText]
+Position=130,97,171,121
 Text=CA4F
  
 [Field]
 Name=CA4F
+Position=18,0,33,20
 Item=CA4F,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
 Text=CA4F
- 
-[EndColumn]
-  
-[EndGrid]
- 
-  
-[Field]
-Name=INTERVIEWER_S_COMMENTS
-Position=224,387,1034,407
-Item=INTERVIEWER_S_COMMENTS,HESVERSION1_DICT
-UseUnicodeTextBox=Yes
-FieldLabelType=DictionaryLabel
-Form=4
-  
-[Text]
-Position=50,390,202,406
-Text=Interviewer's Comments
- 
-  
-[Field]
-Name=OTHER_COMMENTS
-Position=224,417,1034,437
-Item=OTHER_COMMENTS,HESVERSION1_DICT
-UseUnicodeTextBox=Yes
-FieldLabelType=DictionaryLabel
-Form=4
-  
-[Text]
-Position=50,420,156,436
-Text=Other Comments
- 
-[EndGroup]
-  
-[Group]
-Required=Yes
-Name=CLOTHING_AND_ACCESSORIES_3_FORM
-Label=Clothing and Accessories 3
-Form=5
-LogicControl=No
-Max=1
-  
-[Field]
-Name=CA3
-Position=97,27,112,47
-Item=CA3,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
-DataCaptureType=RadioButton
-Form=5
-  
-[Text]
-Position=50,30,75,46
-Text=CA3
- 
-  
-[Grid]
-Name=CA3TBL000
-Label=CA3Tbl
-Form=5
-Required=Yes
-Type=Item
-TypeName=CA3TBL
-Max=21
-DisplaySize=40,60,0,0
-Orientation=Horizontal
-FieldRowHeight=0
-HeadingRowHeight=0
-FreeMovement=No
- 
-[Text]
-Text=1
- 
-  
-[Text]
-Text=2
- 
-  
-[Text]
-Text=3
- 
-  
-[Text]
-Text=4
- 
-  
-[Text]
-Text=5
- 
-  
-[Text]
-Text=6
- 
-  
-[Text]
-Text=7
- 
-  
-[Text]
-Text=8
- 
-  
-[Text]
-Text=9
- 
-  
-[Text]
-Text=10
- 
-  
-[Text]
-Text=11
- 
-  
-[Text]
-Text=12
- 
-  
-[Text]
-Text=13
- 
-  
-[Text]
-Text=14
- 
-  
-[Text]
-Text=15
- 
-  
-[Text]
-Text=16
- 
-  
-[Text]
-Text=17
- 
-  
-[Text]
-Text=18
- 
-  
-[Text]
-Text=19
- 
-  
-[Text]
-Text=20
- 
-  
-[Text]
-Text=21
- 
-  
-[Column]
-Width=10
-[EndColumn]
-  
-[Column]
-  
-[HeaderText]
-Text=CA3A
- 
-[Field]
-Name=CA3A
-Item=CA3A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
-DataCaptureType=RadioButton
-  
-[Text]
-Text=CA3A
- 
-[EndColumn]
-  
-[Column]
-  
-[HeaderText]
-Text=CA3B
- 
-[Field]
-Name=CA3B
-Item=CA3B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
-  
-[Text]
-Text=CA3B
- 
-[EndColumn]
-  
-[Column]
-  
-[HeaderText]
-Text=CA3C
- 
-[Field]
-Name=CA3C
-Item=CA3C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
-DataCaptureType=RadioButton
-  
-[Text]
-Text=CA3C
- 
-[EndColumn]
-  
-[Column]
-  
-[HeaderText]
-Text=CA3D
- 
-[Field]
-Name=CA3D
-Item=CA3D,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
-  
-[Text]
-Text=CA3D
- 
-[EndColumn]
-  
-[Column]
-  
-[HeaderText]
-Text=CA3E
- 
-[Field]
-Name=CA3E
-Item=CA3E,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
-DataCaptureType=RadioButton
-  
-[Text]
-Text=CA3E
- 
-[EndColumn]
-  
-[Column]
-  
-[HeaderText]
-Text=CA3F
- 
-[Field]
-Name=CA3F
-Item=CA3F,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
-  
-[Text]
-Text=CA3F
  
 [EndColumn]
   
@@ -1319,15 +1440,14 @@ Max=1
   
 [Field]
 Name=CA5
-Position=97,27,112,47
+Position=1024,188,1039,208
 Item=CA5,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=6
   
 [Text]
-Position=50,30,75,46
-Text=CA5
+Position=237,209,826,241
+Text=CA5.        During the past 12 months, did you buy any new or used ready-made clothing \nsuch as outerwear, underwear or headgear for any female household member 3 to 13 years?\n
  
   
 [Grid]
@@ -1338,102 +1458,127 @@ Required=Yes
 Type=Item
 TypeName=CA5TBL
 Max=23
-DisplaySize=40,60,0,0
+DisplaySize=171,266,1289,897
 Orientation=Horizontal
-FieldRowHeight=0
+FieldRowHeight=40
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Text=1
+Position=3,0,99,40
+Text=CA5.1	 Dresses
  
   
 [Text]
-Text=2
+Position=16,0,99,40
+Text=CA5.2	 Skirts
  
   
 [Text]
-Text=3
+Position=2,0,99,40
+Text=CA5.3	 Blouses
  
   
 [Text]
-Text=4
+Position=0,0,99,120
+Text=CA5.4	  Casual pants such as jeans pants or cargo 
+Text=                  pants 
  
   
 [Text]
-Text=5
+Position=19,0,99,40
+Text=CA5.5      Dress pants
  
   
 [Text]
-Text=6
+Position=13,0,99,40
+Text=CA5.6	 Sport shirts 
  
   
 [Text]
-Text=7
+Position=7,0,99,40
+Text=CA5.7	 T-shirts
  
   
 [Text]
-Text=8
+Position=11,0,99,72
+Text=CA5.8	 Sportswear  as tights or sweatpants
  
   
 [Text]
-Text=9
+Position=27,0,99,40
+Text=CA5.9       Leggings
  
   
 [Text]
-Text=10
+Position=4,0,99,40
+Text=CA5.10	 Shorts
  
   
 [Text]
-Text=11
+Position=1,0,99,40
+Text=CA5.11	 School uniforms
  
   
 [Text]
-Text=12
+Position=5,0,99,56
+Text=CA5.12	 Other girls’ outerwear
  
   
 [Text]
-Text=13
+Position=44,0,99,40
+Text=CA5.13	 Panties
  
   
 [Text]
-Text=14
+Position=26,0,99,40
+Text=CA5.14	 Brassieres
  
   
 [Text]
-Text=15
+Position=13,0,99,40
+Text=CA5.15	 Slips
  
   
 [Text]
-Text=16
+Position=44,0,99,40
+Text=CA5.16	 Girdles
  
   
 [Text]
-Text=17
+Position=4,0,99,40
+Text=CA5.17	 Vests or undershirts
  
   
 [Text]
-Text=18
+Position=30,0,99,40
+Text=CA5.18	 Stockings
  
   
 [Text]
-Text=19
+Position=7,0,99,40
+Text=CA5.19	 Socks
  
   
 [Text]
-Text=20
+Position=18,0,99,56
+Text= CA5.20      Other girl's underwear
  
   
 [Text]
-Text=21
+Position=10,0,99,136
+Text=CA5.21	 Sleepwear  such as nightgowns, pyjamas or 
+Text=                  dusters
  
   
 [Text]
-Text=22
+Position=0,0,99,40
+Text=CA5.22	 Hats or caps
  
   
 [Text]
-Text=23
+Position=16,0,99,56
+Text=CA5.23	 Any other girls' clothing 
  
   
 [Column]
@@ -1441,96 +1586,108 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=248
   
 [HeaderText]
-Text=CA5A
+Position=3,0,248,56
+Text=During the past 12 months, did you buy any … for any female household member 3 to13 years?
  
 [Field]
 Name=CA5A
+Position=19,0,34,20
 Item=CA5A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA5A
+Text=During the past 12 months, did you buy any … for any female household member 3 to13 years?
  
 [EndColumn]
   
 [Column]
+Width=159
   
 [HeaderText]
-Text=CA5B
+Position=16,16,159,56
+Text=How many… did you buy? -- Quantity
  
 [Field]
 Name=CA5B
+Position=5,0,34,20
 Item=CA5B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=CA5B
+Text=How many… did you buy? -- Quantity
  
 [EndColumn]
   
 [Column]
+Width=123
   
 [HeaderText]
-Text=CA5C
+Position=7,16,123,56
+Text=How many… did you buy? -- Unit
  
 [Field]
 Name=CA5C
+Position=19,0,34,20
 Item=CA5C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA5C
+Text=How many… did you buy? -- Unit
  
 [EndColumn]
   
 [Column]
+Width=128
   
 [HeaderText]
-Text=CA5D
+Position=2,16,128,56
+Text=How much did you spend on the …?
  
 [Field]
 Name=CA5D
+Position=0,0,57,20
 Item=CA5D,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=CA5D
+Text=How much did you spend on the …?
  
 [EndColumn]
   
 [Column]
+Width=142
   
 [HeaderText]
-Text=CA5E
+Position=5,32,142,56
+Text=Was it new or used?
  
 [Field]
 Name=CA5E
+Position=18,0,33,20
 Item=CA5E,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA5E
+Text=Was it new or used?
  
 [EndColumn]
   
 [Column]
+Width=196
   
 [HeaderText]
-Text=CA5F
+Position=7,16,196,56
+Text=At what type of business did you buy the …?
  
 [Field]
 Name=CA5F
+Position=18,0,33,20
 Item=CA5F,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA5F
+Text=At what type of business did you buy the …?
  
 [EndColumn]
   
@@ -1548,15 +1705,14 @@ Max=1
   
 [Field]
 Name=CA6
-Position=97,27,112,47
+Position=812,200,827,220
 Item=CA6,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=7
   
 [Text]
-Position=50,30,75,46
-Text=CA6
+Position=159,190,735,222
+Text=CA6.       During the past 12 months, did you buy any new or used ready-made clothing \nsuch as outerwear, underwear or headgear for any household member 2 years and under?\n
  
   
 [Grid]
@@ -1567,54 +1723,65 @@ Required=Yes
 Type=Item
 TypeName=CA6TBL
 Max=11
-DisplaySize=40,60,0,0
+DisplaySize=96,262,1118,866
 Orientation=Horizontal
-FieldRowHeight=0
+FieldRowHeight=44
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Text=1
+Position=32,0,96,44
+Text=CA6.1	     Dresses
  
   
 [Text]
-Text=2
+Position=8,0,96,56
+Text= CA6.2          Suits or playsuits
  
   
 [Text]
-Text=3
+Position=12,0,96,44
+Text=CA6.3          Shorts
  
   
 [Text]
-Text=4
+Position=8,0,96,44
+Text=CA6.4           Pants
  
   
 [Text]
-Text=5
+Position=12,0,96,44
+Text=CA6.5          Shirts
  
   
 [Text]
-Text=6
+Position=12,0,96,44
+Text=CA6.6          Underwear
  
   
 [Text]
-Text=7
+Position=12,4,96,44
+Text=CA6.7          Onesies
  
   
 [Text]
-Text=8
+Position=15,0,96,56
+Text=CA6.8	    Disposable diapers
  
   
 [Text]
-Text=9
+Position=0,4,96,44
+Text=CA6.9	    Vests or undershirts
  
   
 [Text]
-Text=10
+Position=13,4,96,44
+Text=CA6.10        Socks
  
   
 [Text]
-Text=11
+Position=9,0,96,56
+Text=CA6.11	    Other infant clothing
  
   
 [Column]
@@ -1622,96 +1789,108 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=218
   
 [HeaderText]
-Text=CA6A
+Position=6,0,218,72
+Text=During the past 12 months, did you buy any … for any household member 2 years and under?
  
 [Field]
 Name=CA6A
+Position=19,0,34,20
 Item=CA6A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA6A
+Text=During the past 12 months, did you buy any … for any household member 2 years and under?
  
 [EndColumn]
   
 [Column]
+Width=94
   
 [HeaderText]
-Text=CA6B
+Position=0,16,94,72
+Text=How many… did you buy? ---Quantity
  
 [Field]
 Name=CA6B
+Position=5,0,34,20
 Item=CA6B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=CA6B
+Text=How many… did you buy? ---Quantity
  
 [EndColumn]
   
 [Column]
+Width=94
   
 [HeaderText]
-Text=CA6C
+Position=0,16,94,72
+Text=How many… did you buy? -- Unit
  
 [Field]
 Name=CA6C
+Position=19,0,34,20
 Item=CA6C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA6C
+Text=How many… did you buy? -- Unit
  
 [EndColumn]
   
 [Column]
+Width=143
   
 [HeaderText]
-Text=CA6D
+Position=13,32,143,72
+Text=How much did you spend on the …? 
  
 [Field]
 Name=CA6D
+Position=0,0,57,20
 Item=CA6D,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=CA6D
+Text=How much did you spend on the …? 
  
 [EndColumn]
   
 [Column]
+Width=165
   
 [HeaderText]
-Text=CA6E
+Position=28,48,165,72
+Text=Was it new or used?
  
 [Field]
 Name=CA6E
+Position=18,0,33,20
 Item=CA6E,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA6E
+Text=Was it new or used?
  
 [EndColumn]
   
 [Column]
+Width=184
   
 [HeaderText]
-Text=CA6F
+Position=19,32,184,72
+Text=At what type of business did you buy the …?
  
 [Field]
 Name=CA6F
+Position=18,0,33,20
 Item=CA6F,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA6F
+Text=At what type of business did you buy the …?
  
 [EndColumn]
   
@@ -1729,15 +1908,14 @@ Max=1
   
 [Field]
 Name=CA7
-Position=97,27,112,47
+Position=860,166,875,186
 Item=CA7,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=8
   
 [Text]
-Position=50,30,75,46
-Text=CA7
+Position=187,157,763,189
+Text=CA7.       During the past 12 months, did you buy any accessories such as watches,\n jewellery, wallets, belts or suitcases for any male household member (including yourself)?\n
  
   
 [Grid]
@@ -1748,50 +1926,61 @@ Required=Yes
 Type=Item
 TypeName=CA7TBL
 Max=10
-DisplaySize=40,60,0,0
+DisplaySize=108,267,1119,852
 Orientation=Horizontal
-FieldRowHeight=0
+FieldRowHeight=38
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Text=1
+Position=0,0,169,38
+Text=CA7.1	     Watches
  
   
 [Text]
-Text=2
+Position=0,0,169,88
+Text=CA7.2           Jewellery, whether gold, silver, or 
+Text=                       precious stones
  
   
 [Text]
-Text=3
+Position=0,0,169,40
+Text=CA7.3           Costume jewellery
  
   
 [Text]
-Text=4
+Position=0,0,169,38
+Text=CA7.4           Wallets
  
   
 [Text]
-Text=5
+Position=0,0,169,38
+Text= CA7.5	      Umbrellas
  
   
 [Text]
-Text=6
+Position=0,0,169,40
+Text=CA7.6            Briefcases or suitcases
  
   
 [Text]
-Text=7
+Position=0,0,169,38
+Text=CA7.7	      Sunshades
  
   
 [Text]
-Text=8
+Position=0,0,169,40
+Text=CA7.8	       Boys or men’s belts
  
   
 [Text]
-Text=9
+Position=0,0,169,40
+Text=CA7.9	       Bags or school bags
  
   
 [Text]
-Text=10
+Position=0,0,169,40
+Text=CA7.10	       Other accessories 
  
   
 [Column]
@@ -1799,96 +1988,108 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=183
   
 [HeaderText]
-Text=CA7A
+Position=3,0,183,56
+Text=During the past 12 months, did you buy any … for any male household member?
  
 [Field]
 Name=CA7A
+Position=19,0,34,20
 Item=CA7A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA7A
+Text=During the past 12 months, did you buy any … for any male household member?
  
 [EndColumn]
   
 [Column]
+Width=132
   
 [HeaderText]
-Text=CA7B
+Position=16,0,132,56
+Text=How many… did you buy? -- Quantity
  
 [Field]
 Name=CA7B
+Position=5,0,34,20
 Item=CA7B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=CA7B
+Text=How many… did you buy? -- Quantity
  
 [EndColumn]
   
 [Column]
+Width=133
   
 [HeaderText]
-Text=CA7C
+Position=17,16,133,56
+Text=How many… did you buy? -- Unit
  
 [Field]
 Name=CA7C
+Position=19,0,34,20
 Item=CA7C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA7C
+Text=How many… did you buy? -- Unit
  
 [EndColumn]
   
 [Column]
+Width=111
   
 [HeaderText]
-Text=CA7D
+Position=8,0,111,56
+Text=How much did you spend on the …?
  
 [Field]
 Name=CA7D
+Position=0,0,57,20
 Item=CA7D,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=CA7D
+Text=How much did you spend on the …?
  
 [EndColumn]
   
 [Column]
+Width=99
   
 [HeaderText]
-Text=CA7E
+Position=0,16,99,56
+Text=Was it new or used?
  
 [Field]
 Name=CA7E
+Position=18,0,33,20
 Item=CA7E,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA7E
+Text=Was it new or used?
  
 [EndColumn]
   
 [Column]
+Width=180
   
 [HeaderText]
-Text=CA7F
+Position=15,16,180,56
+Text=At what type of business did you buy the …?
  
 [Field]
 Name=CA7F
+Position=18,0,33,20
 Item=CA7F,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA7F
+Text=At what type of business did you buy the …?
  
 [EndColumn]
   
@@ -1906,15 +2107,14 @@ Max=1
   
 [Field]
 Name=CA8
-Position=97,27,112,47
+Position=904,226,919,246
 Item=CA8,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=9
   
 [Text]
-Position=50,30,75,46
-Text=CA8
+Position=228,219,838,251
+Text=CCA8.        During the past 12 months, did you buy any accessories such as\n watches, jewellery, purses, or suitcases for any female household member (including yourself)?\n
  
   
 [Grid]
@@ -1925,50 +2125,60 @@ Required=Yes
 Type=Item
 TypeName=CA8TBL
 Max=10
-DisplaySize=40,60,0,0
+DisplaySize=156,278,1144,734
 Orientation=Horizontal
-FieldRowHeight=0
+FieldRowHeight=29
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Text=1
+Position=0,0,154,29
+Text= CA8.1            Watches
  
   
 [Text]
-Text=2
+Position=0,0,154,56
+Text=CA8.2	      Jewellery, whether gold, silver, or precious stones
  
   
 [Text]
-Text=3
+Position=0,0,154,40
+Text=CA8.3            Costume jewellery
  
   
 [Text]
-Text=4
+Position=0,0,154,40
+Text=CA8.4           Wallets, handbags or purses
  
   
 [Text]
-Text=5
+Position=0,0,154,29
+Text=CA8.5           Umbrellas
  
   
 [Text]
-Text=6
+Position=0,0,154,40
+Text=CA8.6           Sunshades
  
   
 [Text]
-Text=7
+Position=0,0,154,40
+Text=CA8.7           Briefcases or suitcases
  
   
 [Text]
-Text=8
+Position=0,0,154,40
+Text=CA8.8           Bags or school bags
  
   
 [Text]
-Text=9
+Position=0,0,154,40
+Text=CA8.9           Girls or ladies’ belts
  
   
 [Text]
-Text=10
+Position=0,0,154,40
+Text=CA8.10         Other accessories 
  
   
 [Column]
@@ -1976,96 +2186,108 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=229
   
 [HeaderText]
-Text=CA8A
+Position=2,0,229,56
+Text=During the past 12 months, did you buy any … for any female household member?
  
 [Field]
 Name=CA8A
+Position=19,0,34,20
 Item=CA8A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA8A
+Text=During the past 12 months, did you buy any … for any female household member?
  
 [EndColumn]
   
 [Column]
+Width=97
   
 [HeaderText]
-Text=CA8B
+Position=3,0,97,56
+Text=How many… did you buy? -- Quantity
  
 [Field]
 Name=CA8B
+Position=5,0,34,20
 Item=CA8B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=CA8B
+Text=How many… did you buy? -- Quantity
  
 [EndColumn]
   
 [Column]
+Width=94
   
 [HeaderText]
-Text=CA8C
+Position=0,0,94,56
+Text=How many… did you buy? -- Unit
  
 [Field]
 Name=CA8C
+Position=19,0,34,20
 Item=CA8C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA8C
+Text=How many… did you buy? -- Unit
  
 [EndColumn]
   
 [Column]
+Width=129
   
 [HeaderText]
-Text=CA8D
+Position=3,16,129,56
+Text=How much did you spend on the …?
  
 [Field]
 Name=CA8D
+Position=0,0,57,20
 Item=CA8D,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=CA8D
+Text=How much did you spend on the …?
  
 [EndColumn]
   
 [Column]
+Width=127
   
 [HeaderText]
-Text=CA8E
+Position=28,16,127,56
+Text=Was it new or used?
  
 [Field]
 Name=CA8E
+Position=18,0,33,20
 Item=CA8E,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA8E
+Text=Was it new or used?
  
 [EndColumn]
   
 [Column]
+Width=151
   
 [HeaderText]
-Text=CA8F
+Position=7,0,151,56
+Text=At what type of business did you buy the …?
  
 [Field]
 Name=CA8F
+Position=18,0,33,20
 Item=CA8F,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=CA8F
+Text=At what type of business did you buy the …?
  
 [EndColumn]
   
@@ -2083,28 +2305,26 @@ Max=1
   
 [Field]
 Name=TD1
-Position=96,27,111,47
+Position=868,173,883,193
 Item=TD1,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=10
   
 [Text]
-Position=50,30,74,46
-Text=TD1
+Position=56,174,815,190
+Text=TD1.      During the past 12 months, did you buy any clothing materials for any household member, including yourself?   
  
   
 [Field]
 Name=TD2
-Position=96,57,111,77
+Position=871,205,886,225
 Item=TD2,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=10
   
 [Text]
-Position=50,60,74,76
-Text=TD2
+Position=56,204,855,220
+Text=TD2.      During the past 12 months, did you buy any clothing materials for any male household member (including yourself)?   
  
   
 [Grid]
@@ -2115,26 +2335,30 @@ Required=Yes
 Type=Item
 TypeName=TD2TBL
 Max=4
-DisplaySize=40,90,0,0
+DisplaySize=51,266,1111,580
 Orientation=Horizontal
-FieldRowHeight=0
-HeadingRowHeight=0
+FieldRowHeight=56
+HeadingRowHeight=81
 FreeMovement=No
  
 [Text]
-Text=1
+Position=0,0,152,56
+Text= TD2.1    Suit or pants material
  
   
 [Text]
-Text=2
+Position=0,0,152,56
+Text=TD2.2    Shirt material
  
   
 [Text]
-Text=3
+Position=0,0,152,56
+Text=TD2.3    School uniform material 
  
   
 [Text]
-Text=4
+Position=0,0,152,56
+Text=TD2.4    Other male clothing material
  
   
 [Column]
@@ -2142,64 +2366,74 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=353
   
 [HeaderText]
-Text=TD2A
+Position=3,41,353,81
+Text=During the past 12 months, did you buy any … for any male household member?
  
 [Field]
 Name=TD2A
+Position=18,0,33,20
 Item=TD2A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=TD2A
+Text=During the past 12 months, did you buy any … for any male household member?
  
 [EndColumn]
   
 [Column]
+Width=145
   
 [HeaderText]
-Text=TD2B
+Position=2,41,145,81
+Text=How much … did you buy?
  
 [Field]
 Name=TD2B
+Position=4,0,33,20
 Item=TD2B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=TD2B
+Text=How much … did you buy?
  
 [EndColumn]
   
 [Column]
+Width=197
   
 [HeaderText]
-Text=TD2C
+Position=5,9,197,81
+Text=How much did you spend on the …?
+Text=BZ($)
  
 [Field]
 Name=TD2C
+Position=0,0,57,20
 Item=TD2C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=TD2C
+Text=How much did you spend on the …?
+Text=BZ($)
  
 [EndColumn]
   
 [Column]
+Width=202
   
 [HeaderText]
-Text=TD2D
+Position=13,41,202,81
+Text=At what type of business did you buy the …?
  
 [Field]
 Name=TD2D
+Position=18,0,33,20
 Item=TD2D,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=TD2D
+Text=At what type of business did you buy the …?
  
 [EndColumn]
   
@@ -2208,15 +2442,14 @@ Text=TD2D
   
 [Field]
 Name=TD3
-Position=96,237,111,257
+Position=904,620,919,640
 Item=TD3,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=10
   
 [Text]
-Position=50,240,74,256
-Text=TD3
+Position=58,626,869,642
+Text=TD3.      During the past 12 months, did you buy any clothing materials for any female household member (including yourself)?   
  
   
 [Grid]
@@ -2227,26 +2460,30 @@ Required=Yes
 Type=Item
 TypeName=TD3TBL
 Max=4
-DisplaySize=40,270,0,0
+DisplaySize=55,691,1124,957
 Orientation=Horizontal
-FieldRowHeight=0
-HeadingRowHeight=0
+FieldRowHeight=45
+HeadingRowHeight=66
 FreeMovement=No
  
 [Text]
-Text=1
+Position=0,0,151,45
+Text=TD3.1         Dress, skirt or blouse material
  
   
 [Text]
-Text=2
+Position=0,0,151,45
+Text=TD3.2         School uniform material
  
   
 [Text]
-Text=3
+Position=0,0,151,45
+Text=TD3.3         Work uniform material
  
   
 [Text]
-Text=4
+Position=0,0,151,56
+Text= TD3.4         Other female clothing material
  
   
 [Column]
@@ -2254,64 +2491,74 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=293
   
 [HeaderText]
-Text=TD3A
+Position=8,26,293,66
+Text=During the past 12 months, did you buy any … for any male household member?
  
 [Field]
 Name=TD3A
+Position=18,0,33,20
 Item=TD3A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=TD3A
+Text=During the past 12 months, did you buy any … for any male household member?
  
 [EndColumn]
   
 [Column]
+Width=129
   
 [HeaderText]
-Text=TD3B
+Position=9,26,129,66
+Text=How much … did you buy?
  
 [Field]
 Name=TD3B
+Position=4,0,33,20
 Item=TD3B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=TD3B
+Text=How much … did you buy?
  
 [EndColumn]
   
 [Column]
+Width=246
   
 [HeaderText]
-Text=TD3C
+Position=9,26,246,66
+Text=How much did you spend on the …?
+Text=BZ($)
  
 [Field]
 Name=TD3C
+Position=0,0,57,20
 Item=TD3C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=TD3C
+Text=How much did you spend on the …?
+Text=BZ($)
  
 [EndColumn]
   
 [Column]
+Width=230
   
 [HeaderText]
-Text=TD3D
+Position=14,26,230,66
+Text=At what type of business did you buy the …?
  
 [Field]
 Name=TD3D
+Position=18,0,33,20
 Item=TD3D,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=TD3D
+Text=At what type of business did you buy the …?
  
 [EndColumn]
   
@@ -2320,28 +2567,26 @@ Text=TD3D
   
 [Field]
 Name=TD4
-Position=96,417,111,437
+Position=971,996,986,1016
 Item=TD4,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=10
   
 [Text]
-Position=50,420,74,436
-Text=TD4
+Position=55,1000,920,1016
+Text=TD4.     During the past 12 months, did you spend any money on tailoring or dressmaking for any household member, including yourself?
  
   
 [Field]
 Name=TD5
-Position=96,447,111,467
+Position=971,1040,986,1060
 Item=TD5,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=10
   
 [Text]
-Position=50,450,74,466
-Text=TD5
+Position=53,1040,865,1056
+Text=TD5.      During the past 12 months, did you spend any money on tailoring for any male household member, (including yourself)?
  
   
 [Grid]
@@ -2352,46 +2597,55 @@ Required=Yes
 Type=Item
 TypeName=TD5TBL
 Max=9
-DisplaySize=40,480,0,0
+DisplaySize=33,1080,1177,1424
 Orientation=Horizontal
-FieldRowHeight=0
+FieldRowHeight=28
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Text=1
+Position=103,0,239,28
+Text=TD5.1	Complete suits
  
   
 [Text]
-Text=2
+Position=149,0,239,28
+Text=TD5.2	Jackets
  
   
 [Text]
-Text=3
+Position=161,0,239,28
+Text=TD5.3	Pants
  
   
 [Text]
-Text=4
+Position=160,0,239,28
+Text=TD5.4	Shirts
  
   
 [Text]
-Text=5
+Position=93,0,239,28
+Text=TD5.5	School uniforms
  
   
 [Text]
-Text=6
+Position=100,0,239,28
+Text=TD5.6	Work uniforms 
  
   
 [Text]
-Text=7
+Position=0,0,239,40
+Text=TD5.7	Other uniforms such as scouts, cadet, sports, etc.
  
   
 [Text]
-Text=8
+Position=107,0,239,28
+Text= TD5.8      Costumes
  
   
 [Text]
-Text=9
+Position=78,4,239,28
+Text=TD5.9      Other clothing 
  
   
 [Column]
@@ -2399,64 +2653,74 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=141
   
 [HeaderText]
-Text=TD5A
+Position=0,0,141,120
+Text=During the past 12 months, did you pay to make any … for any male
+Text= household member (including yourself)?
  
 [Field]
 Name=TD5A
+Position=18,0,33,20
 Item=TD5A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=TD5A
+Text=During the past 12 months, did you pay to make any … for any male
+Text= household member (including yourself)?
  
 [EndColumn]
   
 [Column]
+Width=422
   
 [HeaderText]
-Text=TD5B
+Position=131,96,422,120
+Text=How many… did you have made? -- Quantity
  
 [Field]
 Name=TD5B
+Position=4,0,33,20
 Item=TD5B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=TD5B
+Text=How many… did you have made? -- Quantity
  
 [EndColumn]
   
 [Column]
+Width=166
   
 [HeaderText]
-Text=TD5C
+Position=23,80,166,120
+Text=How many… did you have made? --Unit
  
 [Field]
 Name=TD5C
+Position=18,0,33,20
 Item=TD5C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=TD5C
+Text=How many… did you have made? --Unit
  
 [EndColumn]
   
 [Column]
+Width=161
   
 [HeaderText]
-Text=TD5D
+Position=4,80,161,120
+Text=How much did you pay to make the …?
  
 [Field]
 Name=TD5D
+Position=0,0,57,20
 Item=TD5D,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=TD5D
+Text=How much did you pay to make the …?
  
 [EndColumn]
   
@@ -2465,15 +2729,14 @@ Text=TD5D
   
 [Field]
 Name=TD6
-Position=96,777,111,797
+Position=1016,1467,1031,1487
 Item=TD6,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=10
   
 [Text]
-Position=50,780,74,796
-Text=TD6
+Position=54,1465,975,1481
+Text=TD6.      During the past 12 months, did you spend any money on tailoring or dressmaking for any female household member (including yourself)?
  
   
 [Grid]
@@ -2484,54 +2747,65 @@ Required=Yes
 Type=Item
 TypeName=TD6TBL
 Max=11
-DisplaySize=40,810,0,0
+DisplaySize=32,1509,1161,1956
 Orientation=Horizontal
 FieldRowHeight=0
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
-Text=1
+Position=26,0,99,56
+Text=TD6.1     Complete suits
  
   
 [Text]
-Text=2
+Position=36,0,99,40
+Text=TD6.2     Jackets
  
   
 [Text]
-Text=3
+Position=1,4,99,28
+Text=TD6.3     Pants
  
   
 [Text]
-Text=4
+Position=0,4,99,28
+Text=TD6.4  	Dresses
  
   
 [Text]
-Text=5
+Position=1,4,99,28
+Text=TD6.5     Skirts
  
   
 [Text]
-Text=6
+Position=36,0,99,40
+Text=TD6.6     Blouses
  
   
 [Text]
-Text=7
+Position=8,0,99,40
+Text=TD6.7	School Uniforms 
  
   
 [Text]
-Text=8
+Position=19,0,99,40
+Text=TD6.8	Work uniforms  
  
   
 [Text]
-Text=9
+Position=3,0,99,88
+Text=  TD6.9	Other uniforms such as scouts, cadet, sports  etc
  
   
 [Text]
-Text=10
+Position=30,0,99,40
+Text=TD6.10   Costumes
  
   
 [Text]
-Text=11
+Position=11,0,99,56
+Text=TD6.11	Other female clothing 
  
   
 [Column]
@@ -2539,64 +2813,72 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=91
   
 [HeaderText]
-Text=TD6A
+Position=0,0,91,184
+Text=During the past 12 months, did you pay to make any … for any female household member (including yourself)?
  
 [Field]
 Name=TD6A
+Position=18,0,33,20
 Item=TD6A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=TD6A
+Text=During the past 12 months, did you pay to make any … for any female household member (including yourself)?
  
 [EndColumn]
   
 [Column]
+Width=94
   
 [HeaderText]
-Text=TD6B
+Position=0,112,94,184
+Text=How many… did you have made? -- Quantity
  
 [Field]
 Name=TD6B
+Position=4,0,33,20
 Item=TD6B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=TD6B
+Text=How many… did you have made? -- Quantity
  
 [EndColumn]
   
 [Column]
+Width=94
   
 [HeaderText]
-Text=TD6C
+Position=0,128,94,184
+Text=How many… did you have made? --Unit
  
 [Field]
 Name=TD6C
+Position=18,0,33,20
 Item=TD6C,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=TD6C
+Text=How many… did you have made? --Unit
  
 [EndColumn]
   
 [Column]
+Width=99
   
 [HeaderText]
-Text=TD6D
+Position=0,128,99,184
+Text=How much did you pay to make the …?
  
 [Field]
 Name=TD6D
+Position=0,0,57,20
 Item=TD6D,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=TD6D
+Text=How much did you pay to make the …?
  
 [EndColumn]
   
@@ -2605,15 +2887,14 @@ Text=TD6D
   
 [Field]
 Name=TD7
-Position=96,1137,111,1157
+Position=1067,2019,1082,2039
 Item=TD7,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
 Form=10
   
 [Text]
-Position=50,1140,74,1156
-Text=TD7
+Position=49,2020,987,2036
+Text=TD7      During the past 12 months, did you did you pay to make repairs or alterations to any clothing for any household member, including yourself?
  
   
 [Grid]
@@ -2624,18 +2905,20 @@ Required=Yes
 Type=Item
 TypeName=TD7TBL
 Max=2
-DisplaySize=40,1170,0,0
+DisplaySize=31,2052,1114,2208
 Orientation=Horizontal
 FieldRowHeight=0
-HeadingRowHeight=0
+HeadingRowHeight=73
 FreeMovement=No
  
 [Text]
-Text=1
+Position=13,4,146,28
+Text=TD7.1	Male clothing 
  
   
 [Text]
-Text=2
+Position=0,4,146,28
+Text=TD7.2	Female clothing
  
   
 [Column]
@@ -2643,33 +2926,39 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=440
   
 [HeaderText]
-Text=TD7A
+Position=59,17,440,73
+Text=During the past 12 months, did you pay to make repairs or alterations to any … for any household member (including yourself)?
  
 [Field]
 Name=TD7A
+Position=18,0,33,20
 Item=TD7A,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
   
 [Text]
-Text=TD7A
+Text=During the past 12 months, did you pay to make repairs or alterations to any … for any household member (including yourself)?
  
 [EndColumn]
   
 [Column]
+Width=385
   
 [HeaderText]
-Text=TD7B
+Position=9,17,385,73
+Text=How much did you pay to make the repairs or alterations?
+Text=BZ($)
  
 [Field]
 Name=TD7B
+Position=0,0,43,20
 Item=TD7B,HESVERSION1_DICT
-FieldLabelType=DictionaryLabel
   
 [Text]
-Text=TD7B
+Text=How much did you pay to make the repairs or alterations?
+Text=BZ($)
  
 [EndColumn]
   
@@ -3024,33 +3313,39 @@ Required=Yes
 Type=Item
 TypeName=FO4TBL
 Max=6
-DisplaySize=40,60,0,0
+DisplaySize=40,60,287,252
 Orientation=Horizontal
 FieldRowHeight=0
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
+Position=0,4,15,28
 Text=1
  
   
 [Text]
+Position=0,4,15,28
 Text=2
  
   
 [Text]
+Position=0,4,15,28
 Text=3
  
   
 [Text]
+Position=0,4,15,28
 Text=4
  
   
 [Text]
+Position=0,4,15,28
 Text=5
  
   
 [Text]
+Position=0,4,15,28
 Text=6
  
   
@@ -3059,12 +3354,15 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=42
   
 [HeaderText]
+Position=0,0,42,24
 Text=FO4A
  
 [Field]
 Name=FO4A
+Position=19,0,34,20
 Item=FO4A,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -3075,12 +3373,15 @@ Text=FO4A
 [EndColumn]
   
 [Column]
+Width=42
   
 [HeaderText]
+Position=0,0,42,24
 Text=FO4B
  
 [Field]
 Name=FO4B
+Position=5,0,34,20
 Item=FO4B,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
   
@@ -3090,12 +3391,15 @@ Text=FO4B
 [EndColumn]
   
 [Column]
+Width=65
   
 [HeaderText]
+Position=23,0,65,24
 Text=FO4C
  
 [Field]
 Name=FO4C
+Position=0,0,57,20
 Item=FO4C,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
   
@@ -3105,12 +3409,15 @@ Text=FO4C
 [EndColumn]
   
 [Column]
+Width=42
   
 [HeaderText]
+Position=0,0,42,24
 Text=FO4D
  
 [Field]
 Name=FO4D
+Position=19,0,34,20
 Item=FO4D,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -3121,12 +3428,15 @@ Text=FO4D
 [EndColumn]
   
 [Column]
+Width=41
   
 [HeaderText]
+Position=0,0,41,24
 Text=FO4E
  
 [Field]
 Name=FO4E
+Position=18,0,33,20
 Item=FO4E,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -3160,17 +3470,19 @@ Required=Yes
 Type=Item
 TypeName=FO5TBL
 Max=2
-DisplaySize=40,300,0,0
+DisplaySize=40,300,148,380
 Orientation=Horizontal
 FieldRowHeight=0
 HeadingRowHeight=0
 FreeMovement=No
  
 [Text]
+Position=0,4,15,28
 Text=1
  
   
 [Text]
+Position=0,4,15,28
 Text=2
  
   
@@ -3179,12 +3491,15 @@ Width=10
 [EndColumn]
   
 [Column]
+Width=42
   
 [HeaderText]
+Position=0,0,42,24
 Text=FO5A
  
 [Field]
 Name=FO5A
+Position=19,0,34,20
 Item=FO5A,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=RadioButton
@@ -3195,12 +3510,15 @@ Text=FO5A
 [EndColumn]
   
 [Column]
+Width=51
   
 [HeaderText]
+Position=9,0,51,24
 Text=FO5B
  
 [Field]
 Name=FO5B
+Position=0,0,43,20
 Item=FO5B,HESVERSION1_DICT
 FieldLabelType=DictionaryLabel
   
