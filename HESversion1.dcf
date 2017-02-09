@@ -2145,7 +2145,7 @@ ItemType=SubItem
 Label=Healthcare
 Name=HEALTHCARE
 RecordTypeValue='M'
-RecordLen=31
+RecordLen=49
 
 [Item]
 Label=HC1
@@ -2166,10 +2166,19 @@ Start=24
 Len=2
 
 [Item]
+Label=HC3Tbl
+Name=HC3TBL
+Start=26
+Len=6
+DataType=Alpha
+Occurrences=4
+
+[Item]
 Label=HC3A
 Name=HC3A
 Start=26
 Len=1
+ItemType=SubItem
 
 [ValueSet]
 Label=HC3A
@@ -2184,6 +2193,7 @@ Label=HC3B
 Name=HC3B
 Start=27
 Len=1
+ItemType=SubItem
 
 [ValueSet]
 Label=HC3B
@@ -2198,6 +2208,7 @@ Label=HC3C
 Name=HC3C
 Start=28
 Len=4
+ItemType=SubItem
 
 [Record]
 Label=Healthcare Not Covered
