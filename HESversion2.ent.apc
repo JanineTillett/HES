@@ -432,3 +432,198 @@ postproc
 		errmsg("Not a valid amount spent. Please reenter");
 		reenter TD7B;
 	endif;
+PROC FO1
+//Skip to FO5 if FO1 is No (2).
+postproc 
+	if $ = 2 then 
+		skip to FO5;
+	endif;
+PROC FO2
+//Skip to FO3 if FO2 is No (2).
+postproc 
+	if $ = 2 then 
+		skip to FO3;
+	endif;
+PROC FO2A
+postproc
+if $ = 2 then
+	skip to next;
+endif;
+PROC FO2B
+//Determine if value entered is correct i.e. Quantity is between 1 and 99.
+postproc
+	if $ in 1:99 then
+	;
+	else
+		errmsg("Not a valid quantity. Please reenter");
+		reenter FO2B;
+	endif;
+PROC FO2C
+//Determine if value entered is correct i.e. Amount spent is between 1 and 9999.
+postproc
+	if $ in 1:9999 then
+	;
+	else
+		errmsg("Not a valid amount spent. Please reenter");
+		reenter FO2C;
+	endif;
+PROC FO3A
+postproc
+if $ = 2 then
+	skip to next;
+endif;
+PROC FO3B
+//Determine if value entered is correct i.e. Quantity is between 1 and 99.
+postproc
+	if $ in 1:99 then
+	;
+	else
+		errmsg("Not a valid quantity. Please reenter");
+		reenter FO3B;
+	endif;
+PROC FO3C
+//Determine if value entered is correct i.e. Amount spent is between 1 and 9999.
+postproc
+	if $ in 1:9999 then
+	;
+	else
+		errmsg("Not a valid amount spent. Please reenter");
+		reenter FO3C;
+	endif;
+PROC FO4
+//Skip to FO5 if FO4 is No (2).
+postproc 
+	if $ = 2 then 
+		skip to FO5;
+	endif;
+PROC FO4A
+postproc
+if $ = 2 then
+	skip to next;
+endif;
+PROC FO4B
+//Determine if value entered is correct i.e. Quantity is between 1 and 99.
+postproc
+	if $ in 1:99 then
+	;
+	else
+		errmsg("Not a valid quantity. Please reenter");
+		reenter FO4B;
+	endif;
+PROC FO4C
+//Determine if value entered is correct i.e. Amount spent is between 1 and 9999.
+postproc
+	if $ in 1:9999 then
+	;
+	else
+		errmsg("Not a valid amount spent. Please reenter");
+		reenter FO4C;
+	endif;
+PROC FO5
+//Skip to FO5 if FO4 is No (2).
+postproc 
+	if $ = 2 then 
+		skip to TRANSPORTATION_OPERATIONS_FORM;
+	endif;
+PROC FO5A
+postproc
+if $ = 2 then
+	skip to next;
+endif;
+PROC FO5B
+//Determine if value entered is correct i.e. Amount spent is between 1 and 9999.
+postproc
+	if $ in 1:999 then
+	;
+	else
+		errmsg("Not a valid amount spent. Please reenter");
+		reenter FO5B;
+	endif;
+PROC TO1A
+postproc
+if $ = 2 then
+	skip to next;
+endif;
+PROC TO1B
+//Determine if value entered is correct i.e. Amount spent is between 1 and 9999.
+postproc
+	if $ in 1:9999 then
+	;
+	else
+		errmsg("Not a valid amount spent. Please reenter");
+		reenter TO1B;
+	endif;
+PROC TO2A
+postproc
+if $ = 2 then
+	skip to next;
+endif;
+PROC TO2B
+//Determine if value entered is correct i.e. Amount spent is between 1 and 9999.
+postproc
+	if $ in 1:9999 then
+	;
+	else
+		errmsg("Not a valid amount spent. Please reenter");
+		reenter TO2B;
+	endif;
+PROC TS1
+//Skip to TP Module if TS1 is No (2).
+postproc 
+	if $ = 2 then 
+		skip to TRANSPORTATION_PARTS_AND_SU_FORM;
+	endif;
+PROC TS2A
+postproc
+if $ = 2 then
+	skip to next;
+endif;
+PROC TS2B
+//Determine if value entered is correct i.e. Amount spent is between 1 and 9999.
+postproc
+	if $ in 1:9999 then
+	;
+	else
+		errmsg("Not a valid amount spent. Please reenter");
+		reenter TS2B;
+	endif;
+PROC TP1
+//Skip to PT Module if TP1 is No (2).
+postproc 
+	if $ = 2 then 
+		skip to PUBLIC_TRANSPORTATION_FORM;
+	endif;
+PROC TP2A
+postproc
+if $ = 2 then
+	skip to next;
+endif;
+PROC TP2B
+//Determine if value entered is correct i.e. Amount spent is between 1 and 9999.
+postproc
+	if $ in 1:9999 then
+	;
+	else
+		errmsg("Not a valid amount spent. Please reenter");
+		reenter TP2B;
+	endif;
+PROC PT1
+//Skip to PC Module if PT1 is No (2).
+postproc 
+	if $ = 2 then 
+		skip to PERSONAL_CARE_FORM;
+	endif;
+PROC PT2A
+postproc
+if $ = 2 then
+	skip to next;
+endif;
+PROC PT2B
+//Determine if value entered is correct i.e. Amount spent is between 1 and 9999.
+postproc
+	if $ in 1:9999 then
+	;
+	else
+		errmsg("Not a valid amount spent. Please reenter");
+		reenter PT2B;
+	endif;
