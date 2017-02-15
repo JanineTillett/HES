@@ -1,46 +1,27 @@
-﻿Application     C:\Users\jtillett\AppData\Local\Temp\CSExpRun1112.bch
+﻿Application     C:\Users\jtillett\AppData\Local\Temp\CSExpRun11676.bch
 Type            BATCH
-Input Data      C:\Users\jtillett\Desktop\HES\testing2.log
+Input Data      C:\Users\jtillett\Desktop\HES123\Christian.idx
 <File Name  >   CSPRO_EXPORT_FILE_VAR_F=
 
-Date            Feb  9, 2017
-Start Time      15:53:37
-End Time        15:53:37
+Date            Feb 10, 2017
+Start Time      14:06:28
+End Time        14:06:28
 
 CSPRO Process Summary
           +-----------------------------------------------------+
-          |      10 Records Read ( 100% of input file)          |
+          |      56 Records Read ( 100% of input file)          |
           |       0 Ignored (       0 unknown,        0 erased) |
-          |      10 Messages (       0 U,       9 W,       1 E) |
+          |       0 Messages (       0 U,       0 W,       0 E) |
           +---------+--------------+--------------+-------------+
           |  Level  |  Input Case  |  Bad Struct  |  Level Post |
           +---------+--------------+--------------+-------------+
-          |     1   |          1   |          1   |          0  |
+          |     1   |          2   |          0   |          2  |
           +---------+--------------+--------------+-------------+                                                     
                                                                                 
                                                                                 
                                                                                 
 
 Process Messages
-
-*** Case [DD,                  ] has 10 messages (1 E / 9 W / 0U)       
-    W 10006 Too many occurrences for Record or Group FOOTWEAR (Case: 'DD, ') 
-    W 10006 Too many occurrences for Record or Group FOOTWEAR (Case: 'DD, ') 
-    W 10006 Too many occurrences for Record or Group FOOTWEAR (Case: 'DD, ') 
-    W 10006 Too many occurrences for Record or Group FOOTWEAR (Case: 'DD, ') 
-    W 10006 Too many occurrences for Record or Group FOOTWEAR (Case: 'DD, ') 
-    W 10006 Too many occurrences for Record or Group FOOTWEAR (Case: 'DD, ') 
-    W 10006 Too many occurrences for Record or Group FOOTWEAR (Case: 'DD, ') 
-    W 10006 Too many occurrences for Record or Group FOOTWEAR (Case: 'DD, ') 
-    W 10006 Too many occurrences for Record or Group FOOTWEAR (Case: 'DD, ') 
-    E 10008 Required Record or Group INDIVIDUAL_BACKGROUND not found
-
-System messages:
-
- Number    Frequency   Message text
- ------    ---------   ------------
-  10006            9   Too many occurrences for Record or Group %n (Case
-  10008            1   Required Record or Group %n not found            
 
 CSPRO Executor Normal End
 --------------------------------------------------------------------------------
