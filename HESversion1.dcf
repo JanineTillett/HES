@@ -143,7 +143,7 @@ Value=15;Master's or higher
 Label=Clothing and Accessories 2
 Name=CLOTHING_ACCESSORIES
 RecordTypeValue='3'
-RecordLen=274
+RecordLen=284
 
 [Item]
 Label=CA1
@@ -468,9 +468,79 @@ Start=66
 Len=2
 
 [Item]
+Label=CA2.5C
+Name=CA2_5C
+Start=68
+Len=1
+
+[ValueSet]
+Label=CA2.5C
+Name=CA2_5C_VS1
+Value=1;Units
+Value=2;Pairs
+Value=3;Packs
+Value=4;Sets
+Value=5;Other
+
+[Item]
+Label=CA2.5D
+Name=CA2_5D
+Start=69
+Len=4
+
+[Item]
+Label=CA2.5E
+Name=CA2_5E
+Start=73
+Len=1
+
+[ValueSet]
+Label=CA2.5E
+Name=CA2_5E_VS1
+Value=1;New
+Value=2;Used
+Value=3;Both
+
+[Item]
+Label=CA2.5F
+Name=CA2_5F
+Start=74
+Len=1
+
+[ValueSet]
+Label=CA2.5F
+Name=CA2_5F_VS1
+Value=1;Boutique
+Value=2;Department store
+Value=3;Supermarket
+Value=4;Market/stall
+Value=5;Mobile Vendor/Cart
+Value=6;Abroad
+Value=7;Other
+Value=9;DK/NS
+
+[Item]
+Label=CA2.6A
+Name=CA2_6A
+Start=75
+Len=1
+
+[ValueSet]
+Label=CA2.6A
+Name=CA2_6A_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=CA2.6B
+Name=CA2_6B
+Start=76
+Len=2
+
+[Item]
 Label=CA2.6C
 Name=CA2_6C
-Start=68
+Start=78
 Len=1
 
 [ValueSet]
@@ -485,13 +555,13 @@ Value=5;Other
 [Item]
 Label=CA2.6D
 Name=CA2_6D
-Start=69
+Start=79
 Len=4
 
 [Item]
 Label=CA2.6E
 Name=CA2_6E
-Start=73
+Start=83
 Len=1
 
 [ValueSet]
@@ -504,7 +574,7 @@ Value=3;Both
 [Item]
 Label=CA2.6F
 Name=CA2_6F
-Start=74
+Start=84
 Len=1
 
 [ValueSet]
@@ -522,7 +592,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.7A
 Name=CA2_7A
-Start=75
+Start=85
 Len=1
 
 [ValueSet]
@@ -534,13 +604,13 @@ Value=2;No
 [Item]
 Label=CA2.7B
 Name=CA2_7B
-Start=76
+Start=86
 Len=2
 
 [Item]
 Label=CA2.7C
 Name=CA2_7C
-Start=78
+Start=88
 Len=1
 
 [ValueSet]
@@ -555,13 +625,13 @@ Value=5;Other
 [Item]
 Label=CA2.7D
 Name=CA2_7D
-Start=79
+Start=89
 Len=4
 
 [Item]
 Label=CA2.7E
 Name=CA2_7E
-Start=83
+Start=93
 Len=1
 
 [ValueSet]
@@ -574,7 +644,7 @@ Value=3;Both
 [Item]
 Label=CA2.7F
 Name=CA2_7F
-Start=84
+Start=94
 Len=1
 
 [ValueSet]
@@ -592,7 +662,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.8A
 Name=CA2_8A
-Start=85
+Start=95
 Len=1
 
 [ValueSet]
@@ -604,13 +674,13 @@ Value=2;No
 [Item]
 Label=CA2.8B
 Name=CA2_8B
-Start=86
+Start=96
 Len=2
 
 [Item]
 Label=CA2.8C
 Name=CA2_8C
-Start=88
+Start=98
 Len=1
 
 [ValueSet]
@@ -625,13 +695,13 @@ Value=5;Other
 [Item]
 Label=CA2.8D
 Name=CA2_8D
-Start=89
+Start=99
 Len=4
 
 [Item]
 Label=CA2.8E
 Name=CA2_8E
-Start=93
+Start=103
 Len=1
 
 [ValueSet]
@@ -644,7 +714,7 @@ Value=3;Both
 [Item]
 Label=CA2.8F
 Name=CA2_8F
-Start=94
+Start=104
 Len=1
 
 [ValueSet]
@@ -662,7 +732,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.9A
 Name=CA2_9A
-Start=95
+Start=105
 Len=1
 
 [ValueSet]
@@ -674,13 +744,13 @@ Value=2;No
 [Item]
 Label=CA2.9B
 Name=CA2_9B
-Start=96
+Start=106
 Len=2
 
 [Item]
 Label=CA2.9C
 Name=CA2_9C
-Start=98
+Start=108
 Len=1
 
 [ValueSet]
@@ -695,13 +765,13 @@ Value=5;Other
 [Item]
 Label=CA2.9D
 Name=CA2_9D
-Start=99
+Start=109
 Len=4
 
 [Item]
 Label=CA2.9E
 Name=CA2_9E
-Start=103
+Start=113
 Len=1
 
 [ValueSet]
@@ -714,7 +784,7 @@ Value=3;Both
 [Item]
 Label=CA2.9F
 Name=CA2_9F
-Start=104
+Start=114
 Len=1
 
 [ValueSet]
@@ -732,7 +802,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.10A
 Name=CA2_10A
-Start=105
+Start=115
 Len=1
 
 [ValueSet]
@@ -744,13 +814,13 @@ Value=2;No
 [Item]
 Label=CA2.10B
 Name=CA2_10B
-Start=106
+Start=116
 Len=2
 
 [Item]
 Label=CA2.10C
 Name=CA2_10C
-Start=108
+Start=118
 Len=1
 
 [ValueSet]
@@ -765,13 +835,13 @@ Value=5;Other
 [Item]
 Label=CA2.10D
 Name=CA2_10D
-Start=109
+Start=119
 Len=4
 
 [Item]
 Label=CA2.10E
 Name=CA2_10E
-Start=113
+Start=123
 Len=1
 
 [ValueSet]
@@ -784,7 +854,7 @@ Value=3;Both
 [Item]
 Label=CA2.10F
 Name=CA2_10F
-Start=114
+Start=124
 Len=1
 
 [ValueSet]
@@ -802,7 +872,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.11A
 Name=CA2_11A
-Start=115
+Start=125
 Len=1
 
 [ValueSet]
@@ -814,13 +884,13 @@ Value=2;No
 [Item]
 Label=CA2.11B
 Name=CA2_11B
-Start=116
+Start=126
 Len=2
 
 [Item]
 Label=CA2.11C
 Name=CA2_11C
-Start=118
+Start=128
 Len=1
 
 [ValueSet]
@@ -835,13 +905,13 @@ Value=5;Other
 [Item]
 Label=CA2.11D
 Name=CA2_11D
-Start=119
+Start=129
 Len=4
 
 [Item]
 Label=CA2.11E
 Name=CA2_11E
-Start=123
+Start=133
 Len=1
 
 [ValueSet]
@@ -854,7 +924,7 @@ Value=3;Both
 [Item]
 Label=CA2.11F
 Name=CA2_11F
-Start=124
+Start=134
 Len=1
 
 [ValueSet]
@@ -872,7 +942,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.12A
 Name=CA2_12A
-Start=125
+Start=135
 Len=1
 
 [ValueSet]
@@ -884,13 +954,13 @@ Value=2;No
 [Item]
 Label=CA2.12B
 Name=CA2_12B
-Start=126
+Start=136
 Len=2
 
 [Item]
 Label=CA2.12C
 Name=CA2_12C
-Start=128
+Start=138
 Len=1
 
 [ValueSet]
@@ -905,13 +975,13 @@ Value=5;Other
 [Item]
 Label=CA2.12D
 Name=CA2_12D
-Start=129
+Start=139
 Len=4
 
 [Item]
 Label=CA2.12E
 Name=CA2_12E
-Start=133
+Start=143
 Len=1
 
 [ValueSet]
@@ -924,7 +994,7 @@ Value=3;Both
 [Item]
 Label=CA2.12F
 Name=CA2_12F
-Start=134
+Start=144
 Len=1
 
 [ValueSet]
@@ -942,7 +1012,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.13A
 Name=CA2_13A
-Start=135
+Start=145
 Len=1
 
 [ValueSet]
@@ -954,13 +1024,13 @@ Value=2;No
 [Item]
 Label=CA2.13B
 Name=CA2_13B
-Start=136
+Start=146
 Len=2
 
 [Item]
 Label=CA2.13C
 Name=CA2_13C
-Start=138
+Start=148
 Len=1
 
 [ValueSet]
@@ -975,13 +1045,13 @@ Value=5;Other
 [Item]
 Label=CA2.13D
 Name=CA2_13D
-Start=139
+Start=149
 Len=4
 
 [Item]
 Label=CA2.13E
 Name=CA2_13E
-Start=143
+Start=153
 Len=1
 
 [ValueSet]
@@ -994,7 +1064,7 @@ Value=3;Both
 [Item]
 Label=CA2.13F
 Name=CA2_13F
-Start=144
+Start=154
 Len=1
 
 [ValueSet]
@@ -1012,7 +1082,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.14A
 Name=CA2_14A
-Start=145
+Start=155
 Len=1
 
 [ValueSet]
@@ -1024,13 +1094,13 @@ Value=2;No
 [Item]
 Label=CA2.14B
 Name=CA2_14B
-Start=146
+Start=156
 Len=2
 
 [Item]
 Label=CA2.14C
 Name=CA2_14C
-Start=148
+Start=158
 Len=1
 
 [ValueSet]
@@ -1045,13 +1115,13 @@ Value=5;Other
 [Item]
 Label=CA2.14D
 Name=CA2_14D
-Start=149
+Start=159
 Len=4
 
 [Item]
 Label=CA2.14E
 Name=CA2_14E
-Start=153
+Start=163
 Len=1
 
 [ValueSet]
@@ -1064,7 +1134,7 @@ Value=3;Both
 [Item]
 Label=CA2.14F
 Name=CA2_14F
-Start=154
+Start=164
 Len=1
 
 [ValueSet]
@@ -1082,7 +1152,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.15A
 Name=CA2_15A
-Start=155
+Start=165
 Len=1
 
 [ValueSet]
@@ -1094,13 +1164,13 @@ Value=2;No
 [Item]
 Label=CA2.15B
 Name=CA2_15B
-Start=156
+Start=166
 Len=2
 
 [Item]
 Label=CA2.15C
 Name=CA2_15C
-Start=158
+Start=168
 Len=1
 
 [ValueSet]
@@ -1115,13 +1185,13 @@ Value=5;Other
 [Item]
 Label=CA2.15D
 Name=CA2_15D
-Start=159
+Start=169
 Len=4
 
 [Item]
 Label=CA2.15E
 Name=CA2_15E
-Start=163
+Start=173
 Len=1
 
 [ValueSet]
@@ -1134,7 +1204,7 @@ Value=3;Both
 [Item]
 Label=CA2.15F
 Name=CA2_15F
-Start=164
+Start=174
 Len=1
 
 [ValueSet]
@@ -1152,7 +1222,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.16A
 Name=CA2_16A
-Start=165
+Start=175
 Len=1
 
 [ValueSet]
@@ -1164,13 +1234,13 @@ Value=2;No
 [Item]
 Label=CA2.16B
 Name=CA2_16B
-Start=166
+Start=176
 Len=2
 
 [Item]
 Label=CA2.16C
 Name=CA2_16C
-Start=168
+Start=178
 Len=1
 
 [ValueSet]
@@ -1185,13 +1255,13 @@ Value=5;Other
 [Item]
 Label=CA2.16D
 Name=CA2_16D
-Start=169
+Start=179
 Len=4
 
 [Item]
 Label=CA2.16E
 Name=CA2_16E
-Start=173
+Start=183
 Len=1
 
 [ValueSet]
@@ -1204,7 +1274,7 @@ Value=3;Both
 [Item]
 Label=CA2.16F
 Name=CA2_16F
-Start=174
+Start=184
 Len=1
 
 [ValueSet]
@@ -1222,7 +1292,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.17A
 Name=CA2_17A
-Start=175
+Start=185
 Len=1
 
 [ValueSet]
@@ -1234,13 +1304,13 @@ Value=2;No
 [Item]
 Label=CA2.17B
 Name=CA2_17B
-Start=176
+Start=186
 Len=2
 
 [Item]
 Label=CA2.17C
 Name=CA2_17C
-Start=178
+Start=188
 Len=1
 
 [ValueSet]
@@ -1255,13 +1325,13 @@ Value=5;Other
 [Item]
 Label=CA2.17D
 Name=CA2_17D
-Start=179
+Start=189
 Len=4
 
 [Item]
 Label=CA2.17E
 Name=CA2_17E
-Start=183
+Start=193
 Len=1
 
 [ValueSet]
@@ -1274,7 +1344,7 @@ Value=3;Both
 [Item]
 Label=CA2.17F
 Name=CA2_17F
-Start=184
+Start=194
 Len=1
 
 [ValueSet]
@@ -1292,7 +1362,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.18A
 Name=CA2_18A
-Start=185
+Start=195
 Len=1
 
 [ValueSet]
@@ -1304,13 +1374,13 @@ Value=2;No
 [Item]
 Label=CA2.18B
 Name=CA2_18B
-Start=186
+Start=196
 Len=2
 
 [Item]
 Label=CA2.18C
 Name=CA2_18C
-Start=188
+Start=198
 Len=1
 
 [ValueSet]
@@ -1325,13 +1395,13 @@ Value=5;Other
 [Item]
 Label=CA2.18D
 Name=CA2_18D
-Start=189
+Start=199
 Len=4
 
 [Item]
 Label=CA2.18E
 Name=CA2_18E
-Start=193
+Start=203
 Len=1
 
 [ValueSet]
@@ -1344,7 +1414,7 @@ Value=3;Both
 [Item]
 Label=CA2.18F
 Name=CA2_18F
-Start=194
+Start=204
 Len=1
 
 [ValueSet]
@@ -1362,7 +1432,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.19A
 Name=CA2_19A
-Start=195
+Start=205
 Len=1
 
 [ValueSet]
@@ -1374,13 +1444,13 @@ Value=2;No
 [Item]
 Label=CA2.19B
 Name=CA2_19B
-Start=196
+Start=206
 Len=2
 
 [Item]
 Label=CA2.19C
 Name=CA2_19C
-Start=198
+Start=208
 Len=1
 
 [ValueSet]
@@ -1395,13 +1465,13 @@ Value=5;Other
 [Item]
 Label=CA2.19D
 Name=CA2_19D
-Start=199
+Start=209
 Len=4
 
 [Item]
 Label=CA2.19E
 Name=CA2_19E
-Start=203
+Start=213
 Len=1
 
 [ValueSet]
@@ -1414,7 +1484,7 @@ Value=3;Both
 [Item]
 Label=CA2.19F
 Name=CA2_19F
-Start=204
+Start=214
 Len=1
 
 [ValueSet]
@@ -1432,7 +1502,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.20A
 Name=CA2_20A
-Start=205
+Start=215
 Len=1
 
 [ValueSet]
@@ -1444,13 +1514,13 @@ Value=2;No
 [Item]
 Label=CA2.20B
 Name=CA2_20B
-Start=206
+Start=216
 Len=2
 
 [Item]
 Label=CA2.20C
 Name=CA2_20C
-Start=208
+Start=218
 Len=1
 
 [ValueSet]
@@ -1465,13 +1535,13 @@ Value=5;Other
 [Item]
 Label=CA2.20D
 Name=CA2_20D
-Start=209
+Start=219
 Len=4
 
 [Item]
 Label=CA2.20E
 Name=CA2_20E
-Start=213
+Start=223
 Len=1
 
 [ValueSet]
@@ -1484,7 +1554,7 @@ Value=3;Both
 [Item]
 Label=CA2.20F
 Name=CA2_20F
-Start=214
+Start=224
 Len=1
 
 [ValueSet]
@@ -1502,7 +1572,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.21A
 Name=CA2_21A
-Start=215
+Start=225
 Len=1
 
 [ValueSet]
@@ -1514,13 +1584,13 @@ Value=2;No
 [Item]
 Label=CA2.21B
 Name=CA2_21B
-Start=216
+Start=226
 Len=2
 
 [Item]
 Label=CA2.21C
 Name=CA2_21C
-Start=218
+Start=228
 Len=1
 
 [ValueSet]
@@ -1535,13 +1605,13 @@ Value=5;Other
 [Item]
 Label=CA2.21D
 Name=CA2_21D
-Start=219
+Start=229
 Len=4
 
 [Item]
 Label=CA2.21E
 Name=CA2_21E
-Start=223
+Start=233
 Len=1
 
 [ValueSet]
@@ -1554,7 +1624,7 @@ Value=3;Both
 [Item]
 Label=CA2.21F
 Name=CA2_21F
-Start=224
+Start=234
 Len=1
 
 [ValueSet]
@@ -1572,7 +1642,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.22A
 Name=CA2_22A
-Start=225
+Start=235
 Len=1
 
 [ValueSet]
@@ -1584,13 +1654,13 @@ Value=2;No
 [Item]
 Label=CA2.22B
 Name=CA2_22B
-Start=226
+Start=236
 Len=2
 
 [Item]
 Label=CA2.22C
 Name=CA2_22C
-Start=228
+Start=238
 Len=1
 
 [ValueSet]
@@ -1605,13 +1675,13 @@ Value=5;Other
 [Item]
 Label=CA2.22D
 Name=CA2_22D
-Start=229
+Start=239
 Len=4
 
 [Item]
 Label=CA2.22E
 Name=CA2_22E
-Start=233
+Start=243
 Len=1
 
 [ValueSet]
@@ -1624,7 +1694,7 @@ Value=3;Both
 [Item]
 Label=CA2.22F
 Name=CA2_22F
-Start=234
+Start=244
 Len=1
 
 [ValueSet]
@@ -1642,7 +1712,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.23A
 Name=CA2_23A
-Start=235
+Start=245
 Len=1
 
 [ValueSet]
@@ -1654,13 +1724,13 @@ Value=2;No
 [Item]
 Label=CA2.23B
 Name=CA2_23B
-Start=236
+Start=246
 Len=2
 
 [Item]
 Label=CA2.23C
 Name=CA2_23C
-Start=238
+Start=248
 Len=1
 
 [ValueSet]
@@ -1675,13 +1745,13 @@ Value=5;Other
 [Item]
 Label=CA2.23D
 Name=CA2_23D
-Start=239
+Start=249
 Len=4
 
 [Item]
 Label=CA2.23E
 Name=CA2_23E
-Start=243
+Start=253
 Len=1
 
 [ValueSet]
@@ -1694,7 +1764,7 @@ Value=3;Both
 [Item]
 Label=CA2.23F
 Name=CA2_23F
-Start=244
+Start=254
 Len=1
 
 [ValueSet]
@@ -1712,7 +1782,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.24A
 Name=CA2_24A
-Start=245
+Start=255
 Len=1
 
 [ValueSet]
@@ -1724,13 +1794,13 @@ Value=2;No
 [Item]
 Label=CA2.24B
 Name=CA2_24B
-Start=246
+Start=256
 Len=2
 
 [Item]
 Label=CA2.24C
 Name=CA2_24C
-Start=248
+Start=258
 Len=1
 
 [ValueSet]
@@ -1745,13 +1815,13 @@ Value=5;Other
 [Item]
 Label=CA2.24D
 Name=CA2_24D
-Start=249
+Start=259
 Len=4
 
 [Item]
 Label=CA2.24E
 Name=CA2_24E
-Start=253
+Start=263
 Len=1
 
 [ValueSet]
@@ -1764,7 +1834,7 @@ Value=3;Both
 [Item]
 Label=CA2.24F
 Name=CA2_24F
-Start=254
+Start=264
 Len=1
 
 [ValueSet]
@@ -1782,7 +1852,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.25A
 Name=CA2_25A
-Start=255
+Start=265
 Len=1
 
 [ValueSet]
@@ -1794,13 +1864,13 @@ Value=2;No
 [Item]
 Label=CA2.25B
 Name=CA2_25B
-Start=256
+Start=266
 Len=2
 
 [Item]
 Label=CA2.25C
 Name=CA2_25C
-Start=258
+Start=268
 Len=1
 
 [ValueSet]
@@ -1815,13 +1885,13 @@ Value=5;Other
 [Item]
 Label=CA2.25D
 Name=CA2_25D
-Start=259
+Start=269
 Len=4
 
 [Item]
 Label=CA2.25E
 Name=CA2_25E
-Start=263
+Start=273
 Len=1
 
 [ValueSet]
@@ -1834,7 +1904,7 @@ Value=3;Both
 [Item]
 Label=CA2.25F
 Name=CA2_25F
-Start=264
+Start=274
 Len=1
 
 [ValueSet]
@@ -1852,7 +1922,7 @@ Value=9;DK/NS
 [Item]
 Label=CA2.26A
 Name=CA2_26A
-Start=265
+Start=275
 Len=1
 
 [ValueSet]
@@ -1864,13 +1934,13 @@ Value=2;No
 [Item]
 Label=CA2.26B
 Name=CA2_26B
-Start=266
+Start=276
 Len=2
 
 [Item]
 Label=CA2.26C
 Name=CA2_26C
-Start=268
+Start=278
 Len=1
 
 [ValueSet]
@@ -1885,13 +1955,13 @@ Value=5;Other
 [Item]
 Label=CA2.26D
 Name=CA2_26D
-Start=269
+Start=279
 Len=4
 
 [Item]
 Label=CA2.26E
 Name=CA2_26E
-Start=273
+Start=283
 Len=1
 
 [ValueSet]
@@ -1904,7 +1974,7 @@ Value=3;Both
 [Item]
 Label=CA2.26F
 Name=CA2_26F
-Start=274
+Start=284
 Len=1
 
 [ValueSet]
@@ -7227,7 +7297,7 @@ Value=9;DK/NS
 Label=Clothing and Accessories 6
 Name=CLOTHING_AND_ACCESSORIES_6
 RecordTypeValue='6'
-RecordLen=123
+RecordLen=133
 
 [Item]
 Label=CA6
@@ -7534,15 +7604,85 @@ Value=1;Yes
 Value=2;No
 
 [Item]
+Label=CA6.5B
+Name=CA6_5B
+Start=65
+Len=2
+
+[Item]
+Label=CA6.5C
+Name=CA6_5C
+Start=67
+Len=1
+
+[ValueSet]
+Label=CA6.5C
+Name=CA6_5C_VS1
+Value=1;Units
+Value=2;Pairs
+Value=3;Packs
+Value=4;Sets
+Value=5;Other
+
+[Item]
+Label=CA6.5D
+Name=CA6_5D
+Start=68
+Len=4
+
+[Item]
+Label=CA6.5E
+Name=CA6_5E
+Start=72
+Len=1
+
+[ValueSet]
+Label=CA6.5E
+Name=CA6_5E_VS1
+Value=1;New
+Value=2;Used
+Value=3;Both
+
+[Item]
+Label=CA6.5F
+Name=CA6_5F
+Start=73
+Len=1
+
+[ValueSet]
+Label=CA6.5F
+Name=CA6_5F_VS1
+Value=1;Boutique
+Value=2;Department store
+Value=3;Supermarket
+Value=4;Market/stall
+Value=5;Mobile Vendor/Cart
+Value=6;Abroad
+Value=7;Other
+Value=9;DK/NS
+
+[Item]
+Label=CA6.6A
+Name=CA6_6A
+Start=74
+Len=1
+
+[ValueSet]
+Label=CA6.6A
+Name=CA6_6A_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
 Label=CA6.6B
 Name=CA6_6B
-Start=65
+Start=75
 Len=2
 
 [Item]
 Label=CA6.6C
 Name=CA6_6C
-Start=67
+Start=77
 Len=1
 
 [ValueSet]
@@ -7557,13 +7697,13 @@ Value=5;Other
 [Item]
 Label=CA6.6D
 Name=CA6_6D
-Start=68
+Start=78
 Len=4
 
 [Item]
 Label=CA6.6E
 Name=CA6_6E
-Start=72
+Start=82
 Len=1
 
 [ValueSet]
@@ -7576,7 +7716,7 @@ Value=3;Both
 [Item]
 Label=CA6.6F
 Name=CA6_6F
-Start=73
+Start=83
 Len=1
 
 [ValueSet]
@@ -7594,7 +7734,7 @@ Value=9;DK/NS
 [Item]
 Label=CA6.7A
 Name=CA6_7A
-Start=74
+Start=84
 Len=1
 
 [ValueSet]
@@ -7606,13 +7746,13 @@ Value=2;No
 [Item]
 Label=CA6.7B
 Name=CA6_7B
-Start=75
+Start=85
 Len=2
 
 [Item]
 Label=CA6.7C
 Name=CA6_7C
-Start=77
+Start=87
 Len=1
 
 [ValueSet]
@@ -7627,13 +7767,13 @@ Value=5;Other
 [Item]
 Label=CA6.7D
 Name=CA6_7D
-Start=78
+Start=88
 Len=4
 
 [Item]
 Label=CA6.7E
 Name=CA6_7E
-Start=82
+Start=92
 Len=1
 
 [ValueSet]
@@ -7646,7 +7786,7 @@ Value=3;Both
 [Item]
 Label=CA6.7F
 Name=CA6_7F
-Start=83
+Start=93
 Len=1
 
 [ValueSet]
@@ -7664,7 +7804,7 @@ Value=9;DK/NS
 [Item]
 Label=CA6.8A
 Name=CA6_8A
-Start=84
+Start=94
 Len=1
 
 [ValueSet]
@@ -7676,13 +7816,13 @@ Value=2;No
 [Item]
 Label=CA6.8B
 Name=CA6_8B
-Start=85
+Start=95
 Len=2
 
 [Item]
 Label=CA6.8C
 Name=CA6_8C
-Start=87
+Start=97
 Len=1
 
 [ValueSet]
@@ -7697,13 +7837,13 @@ Value=5;Other
 [Item]
 Label=CA6.8D
 Name=CA6_8D
-Start=88
+Start=98
 Len=4
 
 [Item]
 Label=CA6.8E
 Name=CA6_8E
-Start=92
+Start=102
 Len=1
 
 [ValueSet]
@@ -7716,7 +7856,7 @@ Value=3;Both
 [Item]
 Label=CA6.8F
 Name=CA6_8F
-Start=93
+Start=103
 Len=1
 
 [ValueSet]
@@ -7734,7 +7874,7 @@ Value=9;DK/NS
 [Item]
 Label=CA6.9A
 Name=CA6_9A
-Start=94
+Start=104
 Len=1
 
 [ValueSet]
@@ -7746,13 +7886,13 @@ Value=2;No
 [Item]
 Label=CA6.9B
 Name=CA6_9B
-Start=95
+Start=105
 Len=2
 
 [Item]
 Label=CA6.9C
 Name=CA6_9C
-Start=97
+Start=107
 Len=1
 
 [ValueSet]
@@ -7767,13 +7907,13 @@ Value=5;Other
 [Item]
 Label=CA6.9D
 Name=CA6_9D
-Start=98
+Start=108
 Len=4
 
 [Item]
 Label=CA6.9E
 Name=CA6_9E
-Start=102
+Start=112
 Len=1
 
 [ValueSet]
@@ -7786,7 +7926,7 @@ Value=3;Both
 [Item]
 Label=CA6.9F
 Name=CA6_9F
-Start=103
+Start=113
 Len=1
 
 [ValueSet]
@@ -7804,7 +7944,7 @@ Value=9;DK/NS
 [Item]
 Label=CA6.10A
 Name=CA6_10A
-Start=104
+Start=114
 Len=1
 
 [ValueSet]
@@ -7816,13 +7956,13 @@ Value=2;No
 [Item]
 Label=CA6.10B
 Name=CA6_10B
-Start=105
+Start=115
 Len=2
 
 [Item]
 Label=CA6.10C
 Name=CA6_10C
-Start=107
+Start=117
 Len=1
 
 [ValueSet]
@@ -7837,13 +7977,13 @@ Value=5;Other
 [Item]
 Label=CA6.10D
 Name=CA6_10D
-Start=108
+Start=118
 Len=4
 
 [Item]
 Label=CA6.10E
 Name=CA6_10E
-Start=112
+Start=122
 Len=1
 
 [ValueSet]
@@ -7856,7 +7996,7 @@ Value=3;Both
 [Item]
 Label=CA6.10F
 Name=CA6_10F
-Start=113
+Start=123
 Len=1
 
 [ValueSet]
@@ -7874,7 +8014,7 @@ Value=9;DK/NS
 [Item]
 Label=CA6.11A
 Name=CA6_11A
-Start=114
+Start=124
 Len=1
 
 [ValueSet]
@@ -7886,13 +8026,13 @@ Value=2;No
 [Item]
 Label=CA6.11B
 Name=CA6_11B
-Start=115
+Start=125
 Len=2
 
 [Item]
 Label=CA6.11C
 Name=CA6_11C
-Start=117
+Start=127
 Len=1
 
 [ValueSet]
@@ -7907,13 +8047,13 @@ Value=5;Other
 [Item]
 Label=CA6.11D
 Name=CA6_11D
-Start=118
+Start=128
 Len=4
 
 [Item]
 Label=CA6.11E
 Name=CA6_11E
-Start=122
+Start=132
 Len=1
 
 [ValueSet]
@@ -7926,7 +8066,7 @@ Value=3;Both
 [Item]
 Label=CA6.11F
 Name=CA6_11F
-Start=123
+Start=133
 Len=1
 
 [ValueSet]
