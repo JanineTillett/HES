@@ -217,3 +217,91 @@ CSPRO Process Summary
 
 CSPRO Executor Normal End
 --------------------------------------------------------------------------------
+Application     C:\Users\dcal\Documents\GitHub\HES\HESversion2.ent
+Type            ENTRY
+Input Data      C:\Users\dcal\Documents\GitHub\HES\test
+
+Date            Mar  2, 2017
+Start Time      11:23:39
+End Time        11:27:45
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            2   Operator entered a value out of range            
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\dcal\Documents\GitHub\HES\HESversion2.ent
+Type            ENTRY
+Input Data      C:\Users\dcal\Documents\GitHub\HES\test
+
+Date            Mar  3, 2017
+Start Time      09:11:15
+End Time        09:24:22
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  91166            2   Unable to 'skip to %s' - target-item is located b
+  99990            1   Operator entered a value out of range            
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     12       1    -   Not a valid Person Number. Please reenter               -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\dcal\Documents\GitHub\HES\HESversion2.ent
+Type            ENTRY
+Input Data      C:\Users\dcal\Documents\GitHub\HES\test
+
+Date            Mar  3, 2017
+Start Time      09:48:32
+End Time        09:55:41
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  91166            2   Unable to 'skip to %s' - target-item is located b
+  99990            2   Operator entered a value out of range            
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     12       1    -   Not a valid Person Number. Please reenter               -
+    889       2    -   Not a valid number of policies. Please reenter          -
+    914       1    -   Not a valid amount spent. Please reenter                -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\dcal\Documents\GitHub\HES\HESversion2.ent
+Type            ENTRY
+Input Data      C:\Users\dcal\Documents\GitHub\HES\test
+
+Date            Mar  3, 2017
+Start Time      09:55:56
+End Time        10:02:57
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+     62       1    -   Not a valid month. Please reenter                       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
